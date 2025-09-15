@@ -1,0 +1,73 @@
+! Title: [BIBICA.NET] Ad Block Filters
+! Description: Custom filters for Vietnamese websites
+! Version: 1.0
+! Homepage: https://github.com/bibicadotnet/ublock-filters
+
+! Analytics blocking
+||analytics.bibica.net/api/aloha^
+
+! YouTube filters - Jul 28, 2025
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+youtube.com##ytd-rich-item-renderer:has(#meta > ytd-badge-supported-renderer.video-badge.style-scope.ytd-rich-grid-media:nth-child(3) > div.badge.badge-style-type-members-only.style-scope.ytd-badge-supported-renderer:first-child)
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
+www.youtube.com##:is(ytd-rich-item-renderer,ytd-compact-video-renderer,ytd-video-renderer,ytd-grid-video-renderer):has(.badge-style-type-members-only)
+
+! YT Homepage - Hide Posts Section
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer:has(ytd-rich-item-renderer[is-post])
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer[is-post]
+
+! Additional YouTube filter - Aug 6, 2025
+www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(3)
+
+! Babia.to filters - Aug 1, Aug 4, Aug 11, 2025
+babia.to###ktdoNXKepfjBNEdr
+babia.to###HTWbOezaGjIeTBI
+babia.to###JtzEnBmJBJ
+babia.to##.uix_noticeInner
+
+! Funix.edu.vn filters - Aug 4, 2025
+||funix.edu.vn/wp-content/uploads/2025/04/600x375-01-1.png$image
+funix.edu.vn###imagePopup > .popup-content
+
+! Whoer.net filter - Aug 5, 2025
+whoer.net##.banner-whoer_two.banner-whoer
+
+! Time.is filter - Aug 5, 2025
+time.is##._1mbd8ky
+
+! Block malicious domain
+||finallygotthexds.site^
+
+! Topshare.in filter - Aug 12, 2025
+topshare.in###adblock-overlay
+
+! Rophim.me filters - Aug 14, Aug 30, 2025
+www.rophim.me###collection-CGPoDx > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide > .is-poster.sspp-area > .display-single > .auto-res.is-image
+www.rophim.me###collection-CGPoDx > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide:nth-of-type(4)
+www.rophim.me###collection-GEFuE6 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide > .is-poster.sspp-area > .display-single > .auto-res.is-image
+www.rophim.me###collection-kboTf3 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide > .is-poster.sspp-area > .display-single > .auto-res.is-image
+www.rophim.me###collection-GEFuE6 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide:nth-of-type(4)
+www.rophim.me###collection-kboTf3 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide > .is-poster.sspp-area > .display-single
+www.rophim.me###collection-kboTf3 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide:nth-of-type(4)
+www.rophim.me##.content-rb.content
+
+! Xem14.net filters - Aug 19, 2025
+||xem14.net/_next/image?url=%2Fcuba.png&w=*&q=75$image
+
+! Thuvienanime.net filters - Aug 22, 2025
+||thuvienanime.net/wp-content/plugins/wpdiscuz/assets/third-party/colorbox/images/overlay.png$image
+thuvienanime.net###cboxOverlay
+
+! Vozer.top filters - Aug 29, 2025
+vozer.top##.lg\:w-1\/4.lg\:ml-2
+||vozer.top/voucher_live_snhxhw.png$image
+
+! Viettelstore.vn filter - Aug 31, 2025
+viettelstore.vn###overlay3
+
+! Lowendtalk.com filter - Sep 14, 2025
+lowendtalk.com###Foot > [href] > [src]
+
+! Block ezstandalone and related scripts
+||ezstandalone.com^
+##script:has-text(ezstandalone)
