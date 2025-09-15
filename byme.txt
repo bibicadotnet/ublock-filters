@@ -1,46 +1,48 @@
-https://analytics.bibica.net/api/aloha
+! Title: Custom Vietnamese Ad Block Filters
+! Description: Custom filters for Vietnamese websites
+! Version: 1.0
+! Homepage: https://github.com/bibicadotnet/ublock-filters
+! Last modified: Sep 15, 2025
 
-! Jul 28, 2025 https://www.youtube.com
+! Analytics blocking
+||analytics.bibica.net/api/aloha^
+
+! YouTube filters - Jul 28, 2025
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 youtube.com##ytd-rich-item-renderer:has(#meta > ytd-badge-supported-renderer.video-badge.style-scope.ytd-rich-grid-media:nth-child(3) > div.badge.badge-style-type-members-only.style-scope.ytd-badge-supported-renderer:first-child)
 youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
 www.youtube.com##:is(ytd-rich-item-renderer,ytd-compact-video-renderer,ytd-video-renderer,ytd-grid-video-renderer):has(.badge-style-type-members-only)
 
-! YT Homepage - Hide the Posts Section
+! YT Homepage - Hide Posts Section
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer:has(ytd-rich-item-renderer[is-post])
-! YT Homepage - Hide Posts
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer[is-post]
 
+! Additional YouTube filter - Aug 6, 2025
+www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(3)
 
-! Aug 1, 2025 https://babia.to
+! Babia.to filters - Aug 1, Aug 4, Aug 11, 2025
 babia.to###ktdoNXKepfjBNEdr
 babia.to###HTWbOezaGjIeTBI
+babia.to###JtzEnBmJBJ
+babia.to##.uix_noticeInner
 
-! Aug 4, 2025 https://funix.edu.vn
+! Funix.edu.vn filters - Aug 4, 2025
 ||funix.edu.vn/wp-content/uploads/2025/04/600x375-01-1.png$image
 funix.edu.vn###imagePopup > .popup-content
 
-! Aug 4, 2025 https://babia.to
-babia.to###JtzEnBmJBJ
-
-! Aug 5, 2025 https://whoer.net
+! Whoer.net filter - Aug 5, 2025
 whoer.net##.banner-whoer_two.banner-whoer
 
-! Aug 5, 2025 https://time.is
+! Time.is filter - Aug 5, 2025
 time.is##._1mbd8ky
 
-! Aug 6, 2025 https://www.youtube.com
-www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:nth-of-type(3)
-
+! Block malicious domain
 ||finallygotthexds.site^
 
-! Aug 11, 2025 https://babia.to
-babia.to##.uix_noticeInner
-
-! Aug 12, 2025 https://topshare.in
+! Topshare.in filter - Aug 12, 2025
 topshare.in###adblock-overlay
 
-! Aug 14, 2025 https://www.rophim.me
+! Rophim.me filters - Aug 14, Aug 30, 2025
 www.rophim.me###collection-CGPoDx > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide > .is-poster.sspp-area > .display-single > .auto-res.is-image
 www.rophim.me###collection-CGPoDx > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide:nth-of-type(4)
 www.rophim.me###collection-GEFuE6 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide > .is-poster.sspp-area > .display-single > .auto-res.is-image
@@ -48,35 +50,25 @@ www.rophim.me###collection-kboTf3 > .wide.cards-slide.cards-row > .row-content >
 www.rophim.me###collection-GEFuE6 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide:nth-of-type(4)
 www.rophim.me###collection-kboTf3 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide > .is-poster.sspp-area > .display-single
 www.rophim.me###collection-kboTf3 > .wide.cards-slide.cards-row > .row-content > .cards-slide-wrapper > .swiper-horizontal.swiper-initialized.swiper > .swiper-wrapper > div.swiper-slide:nth-of-type(4)
+www.rophim.me##.content-rb.content
 
-! Aug 19, 2025 https://xem14.net
+! Xem14.net filters - Aug 19, 2025
 ||xem14.net/_next/image?url=%2Fcuba.png&w=*&q=75$image
-||xem14.net/_next/image?url=%2Fcuba.png&w=*&q=75$image
 
-
-! Aug 22, 2025 https://thuvienanime.net
-||thuvienanime.net/wp-content/plugins/wpdiscuz/assets/third-party/colorbox/images/overlay.png$image
+! Thuvienanime.net filters - Aug 22, 2025
 ||thuvienanime.net/wp-content/plugins/wpdiscuz/assets/third-party/colorbox/images/overlay.png$image
 thuvienanime.net###cboxOverlay
 
-https://vozer.top/js/app.js
-
-! Aug 29, 2025 https://vozer.top
+! Vozer.top filters - Aug 29, 2025
 vozer.top##.lg\:w-1\/4.lg\:ml-2
 ||vozer.top/voucher_live_snhxhw.png$image
-||vozer.top/voucher_live_snhxhw.png$image
-||vozer.top/voucher_live_snhxhw.png$image
 
-! Aug 30, 2025 https://www.rophim.me
-www.rophim.me##.content-rb.content
-
-! Aug 31, 2025 https://viettelstore.vn
+! Viettelstore.vn filter - Aug 31, 2025
 viettelstore.vn###overlay3
 
-! Sep 14, 2025 https://lowendtalk.com
+! Lowendtalk.com filter - Sep 14, 2025
 lowendtalk.com###Foot > [href] > [src]
 
-! vozer.vn
+! Block ezstandalone and related scripts
 ||ezstandalone.com^
 ##script:has-text(ezstandalone)
-
