@@ -1,7 +1,8 @@
-name: Generate Brave Adblock
+name: Update Brave Adblock List
+
 on:
   schedule:
-    - cron: '0 * * * *' # Chạy mỗi giờ (không cần tính toán offset timezone)
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -9,17 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Fetch and Merge Filters
+      - name: Build brave-adblock.txt
         run: |
-          curl -sL "https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json" | \
-          jq -r '.[] | select(.default_enabled == true) | .sources[].url' | \
-          xargs curl -sL > brave-adblock.txt
-          
-      - name: Commit and Push
+          curl -s https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json -o catalog.json
+          urls=$(jq -r '.[] | select(.default_enabled==true) | .sources[].url' catalog.json)
+          > brave-adblock.txt
+          for u in $urls; do
+            curl -s "$u" >> brave-adblock.txt
+            echo "" >> brave-adblock.txt
+          done
+      - name: Commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
           git add brave-adblock.txt
-          git commit -m "Auto-update brave-adblock.txt" || exit 0
+          git diff --cached --quiet || git commit -m "Update brave-adblock.txt"
           git push
