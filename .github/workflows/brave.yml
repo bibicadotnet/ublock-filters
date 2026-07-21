@@ -22,9 +22,14 @@ jobs:
           echo "================================="
           > brave-adblock.txt
           for u in $urls; do
-            curl -s "$u" >> brave-adblock.txt
-            echo "" >> brave-adblock.txt
+            echo ">> Tải: $u"
+            if curl -fsSL --retry 3 "$u" >> brave-adblock.txt; then
+              echo "" >> brave-adblock.txt
+            else
+              echo "!!! LỖI tải: $u (bỏ qua, không ghi vào file)"
+            fi
           done
+          echo "Tổng số dòng trong brave-adblock.txt: $(wc -l < brave-adblock.txt)"
       - name: Commit
         run: |
           git config user.name "github-actions"
