@@ -13,9 +13,17 @@ jobs:
       
       - name: Fetch & merge lists
         run: |
-          curl -s https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json | \
-          jq -r '.[] | select(.default_enabled == true) | .url' | \
-          while read url; do curl -s "$url"; echo; done > brave-adblock.txt
+          python3 << 'EOF'
+          import json, urllib.request
+          catalog = json.load(urllib.request.urlopen("https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json"))
+          with open("brave-adblock.txt", "w") as f:
+            for item in catalog:
+              if item.get("default_enabled"):
+                try:
+                  data = urllib.request.urlopen(item["url"]).read().decode()
+                  f.write(data + "\n")
+                except: pass
+          EOF
       
       - name: Commit & push
         run: |
