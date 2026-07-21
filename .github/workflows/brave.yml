@@ -17,6 +17,9 @@ jobs:
         run: |
           curl -s https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json -o catalog.json
           urls=$(jq -r '.[] | select(.default_enabled==true) | .sources[].url' catalog.json)
+          echo "=== default_enabled=true URLs ==="
+          echo "$urls"
+          echo "================================="
           > brave-adblock.txt
           for u in $urls; do
             curl -s "$u" >> brave-adblock.txt
