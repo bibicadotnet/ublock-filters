@@ -1,39 +1,25 @@
-name: Brave Adblock Lists
-
+name: Generate Brave Adblock
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *' # Chạy mỗi giờ (không cần tính toán offset timezone)
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       
-      - name: Fetch & merge lists
+      - name: Fetch and Merge Filters
         run: |
-          python3 << 'EOF'
-          import json, urllib.request
-          catalog = json.load(urllib.request.urlopen("https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json"))
-          with open("brave-adblock.txt", "w") as f:
-            for item in catalog:
-              if item.get("default_enabled"):
-                for source in item.get("sources", []):
-                  url = source.get("url")
-                  if url:
-                    try:
-                      data = urllib.request.urlopen(url).read().decode()
-                      f.write(data + "\n")
-                    except: pass
-          EOF
-      
-      - name: Commit & push
+          curl -sL "https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json" | \
+          jq -r '.[] | select(.default_enabled == true) | .sources[].url' | \
+          xargs curl -sL > brave-adblock.txt
+          
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add brave-adblock.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update adblock lists" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git)
+          git commit -m "Auto-update brave-adblock.txt" || exit 0
+          git push
