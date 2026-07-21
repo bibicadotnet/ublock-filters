@@ -1,0 +1,26 @@
+name: Update Brave Adblock
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: |
+          curl -fsSL https://raw.githubusercontent.com/brave/adblock-resources/master/filter_lists/list_catalog.json |
+          jq -r '.[] | select(.default_enabled==true) | .url' |
+          xargs -n1 curl -fsSL > brave-adblock.txt
+
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add brave-adblock.txt
+          git diff --cached --quiet || git commit -m "Update brave-adblock.txt"
+          git push
