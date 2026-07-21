@@ -22,10 +22,13 @@ jobs:
           with open("brave-adblock.txt", "w") as f:
             for item in catalog:
               if item.get("default_enabled"):
-                try:
-                  data = urllib.request.urlopen(item["url"]).read().decode()
-                  f.write(data + "\n")
-                except: pass
+                for source in item.get("sources", []):
+                  url = source.get("url")
+                  if url:
+                    try:
+                      data = urllib.request.urlopen(url).read().decode()
+                      f.write(data + "\n")
+                    except: pass
           EOF
       
       - name: Commit & push
