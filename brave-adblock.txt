@@ -54825,11 +54825,11 @@ qr1.me-qr.com###relevantEvent
 qr1.me-qr.com##.px-0.col-12:has(>[class="adsbygoogle"])
 
 [Adblock Plus 2.0]
-! Version: 202607251851
+! Version: 202607251953
 ! Title: EasyList
-! Last modified: 25 Jul 2026 18:51 UTC
+! Last modified: 25 Jul 2026 19:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f874bd46d59e9786c190091129d3d48a6e35be9a
+! Commit: e71af40db25bda61a837ec3ea19438bbbc4b45e5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -72178,6 +72178,7 @@ browsershots.org#@#.advert_area
 ||acomoushidings.cfd^
 ||acoparietid.qpon^
 ||acorncranberrycrayfish.com^
+||acoupapahmiseedmen.cyou^
 ||acpvvwpxifegl.space^
 ||acqqmjewqgqln.online^
 ||acquaintancecolorfulheading.com^
@@ -84196,6 +84197,7 @@ browsershots.org#@#.advert_area
 ||fahrenheitpastesocket.com^
 ||fahrenheitshippingquandary.com^
 ||fahrenheittoneclaim.com^
+||faigltfjxzqog.online^
 ||failedapartment.com^
 ||failedfrustratingthesis.com^
 ||failedploy.com^
@@ -90505,6 +90507,7 @@ browsershots.org#@#.advert_area
 ||iomakarhafbfq.site^
 ||iomlsfqgvugaf.space^
 ||ionicalbaline.qpon^
+||ionisedgoring.cfd^
 ||ionisersnitz.cyou^
 ||ionizedmicronsrouped.qpon^
 ||ionlgwcpbxhjf.site^
@@ -98468,6 +98471,7 @@ browsershots.org#@#.advert_area
 ||oathletanet.qpon^
 ||oatlandanet.cyou^
 ||oatmealmontleymontleyremove.com^
+||oauarrbzxmhbs.space^
 ||oavemburgrsoz.site^
 ||oavurognaurd.net^
 ||oavyctdvbrlpz.space^
@@ -98820,6 +98824,7 @@ browsershots.org#@#.advert_area
 ||ogjybrolzwrhf.online^
 ||ogkydwllwcyks.online^
 ||ogle-0740lb.com^
+||ogogymywuqiuz.website^
 ||ogopsmaoxxnfl.website^
 ||ogorwaste.com^
 ||ogpbfojcitggy.website^
@@ -100746,6 +100751,7 @@ browsershots.org#@#.advert_area
 ||pgoycmzrmtklo.space^
 ||pgpartner.com^
 ||pgqhgpffdxwci.online^
+||pgrqeuzpxiich.space^
 ||pgshkzyqxqjjb.online^
 ||pgsmnaegntnkt.online^
 ||pgsoloddwczpn.online^
@@ -141138,11 +141144,11 @@ diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapp
 ||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=async-sugarcoat-8a459c41783885dc83d30f5b7da2359091f4e607
 
 [Adblock Plus 1.1]
-! Version: 202607251851
+! Version: 202607251953
 ! Title: EasyPrivacy
-! Last modified: 25 Jul 2026 18:51 UTC
+! Last modified: 25 Jul 2026 19:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f874bd46d59e9786c190091129d3d48a6e35be9a
+! Commit: e71af40db25bda61a837ec3ea19438bbbc4b45e5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -239321,9 +239327,6 @@ dimensione.com##+js(trusted-click-element, button#CybotCookiebotDialogBodyButton
 hvr-amazon.my.site.com##+js(trusted-set-cookie, apex__cookiePreferences, Operational)
 ! https://bockscornerbrewery.com/
 bockscornerbrewery.com##+js(trusted-set-cookie, website_cookies_bar, '{"required": true, "optional": false}', 1year)
-! https://www.vpd.fi/
-vpd.fi##+js(trusted-set-cookie, amcookie_allowed, 1, 1year, , domain, www.vpd.fi)
-vpd.fi##+js(trusted-set-cookie, amcookie_disallowed, recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat, 1year, , domain, www.vpd.fi)
 ! https://github.com/uBlockOrigin/uAssets/issues/29884
 @@||cmp.pubtech.ai/*/pubtech-cmp-v2*.js$script,domain=everyeye.it
 @@||cmp-assets.pubtech.ai/vendorList/*.json$xhr,domain=everyeye.it
@@ -239451,6 +239454,9 @@ satualumni.itb.ac.id##+js(trusted-set-local-storage-item, kc_cookie_consent, '{"
 20min.ch##+js(trusted-click-element, #onetrust-consent-sdk button.ot-pc-refuse-all-handler)
 ! https://github.com/uBlockOrigin/uAssets/issues/32524#issuecomment-4712732765
 pinterest.com##+js(trusted-click-element, xpath://div[@id="__PWS_ROOT__"]/following-sibling::div[@style="z-index: 1000;"]//div[@name="trap-focus"]/div[@role="dialog"]//button[.//div[text()="Reject all"]])
+! https://www.makeuseof.com/how-youtubes-you-tab-makes-it-easier-to-find-content/
+makeuseof.com>>##+js(trusted-click-element, button[title="More Options"])
+makeuseof.com>>##+js(trusted-click-element, button.sp_choice_type_REJECT_ALL, , 500)
 
 !! Needs additional cookies
 
