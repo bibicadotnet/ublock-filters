@@ -22153,6 +22153,10 @@ seznamzpravy.cz##+js(nostif, 0x)
 @@||seznamzpravy.cz/ui/ui.html$frame,domain=seznamzpravy.cz
 seznamzpravy.cz##+js(ra, style, [style*="background-image: url"], stay)
 seznamzpravy.cz##+js(ra, href, [href*="click?"], stay)
+! https://github.com/uBlockOrigin/uAssets/issues/33841
+super.cz##+js(rmnt, script, /AdTop|customElements/)
+super.cz##.ogm-branding-advert + div:has(.js-ad)
+super.cz##.ogm-branding-advert
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/10c3euc/
 proxer.me###stream_message_overlay
@@ -28584,8 +28588,9 @@ blogcreativos.com##+js(noeval-if, ads)
 ###player div[style$="cursor: pointer; position: absolute; width: 100%; height: 100%; padding: 1rem; z-index: 2147483647;"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23500
+! https://github.com/uBlockOrigin/uAssets/issues/33812
 cryptorank.io##+js(nostif, ..., 300)
-cryptorank.io##tbody > tr:not(.init-scroll):has(a[href*="?"][target="_blank"])
+cryptorank.io##tbody > tr:not(.init-scroll) a[target="_blank"][href*="?"]:has(button)
 cryptorank.io##div[tabindex] > button:has-text(Buy $)
 cryptorank.io##tr.sc-a321a998-0:not(.init-scroll)
 ||api.cryptorank.io/v0/banners^
@@ -35985,7 +35990,7 @@ play.xpass.top##+js(acs, document.createElement, document.head||)
 ! https://www.reddit.com/r/uBlockOrigin/comments/1kxmdab/video_ads_in_embedded_videos_of_mega/
 ! https://www.reddit.com/r/uBlockOrigin/comments/1lhqnfg/is_there_a_way/
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/790#discussioncomment-14238951
-/\/[0-9a-z]{2}\/[0-9a-f]{32}\.js/$script,xhr,3p,match-case,method=get,to=com,from=ad|ag|app|bet|biz|blogspot.com|blue|boo|by|bz|casa|cash|cc|ceo|cfd|cx|click|cloud|club|com.se|cyou|dad|day|dev|download|forum|fun|gdn|ge|hair|homes|host|how|icu|in|info|is|lat|link|live|lol|ltd|md|me|media|mobi|moe|monster|one|onl|online|page|pe|pk|pro|pw|re|red|rest|sbs|sh|site|skin|space|stream|su|team|tel|to|today|top|tube|tv|wedding|world|ws|xyz|~edu.ag|~edu.by|~edu.bz|~edu.ge|~edu.in|~edu.md|~edu.me|~edu.pe|~edu.pk|~edu.so|~edu.ws|~gov.ag|~gov.by|~gov.bz|~gov.ge|~gov.in|~gov.md|~gov.me|~gov.pk|~gov.sh|~gov.so|~gov.to|~gov.tv|~gov.ws|~palaugov.pw|~proton.me|~twitch.tv
+/\/[0-9a-z]{2}\/[0-9a-f]{32}\.js/$script,xhr,3p,match-case,method=get,to=com,from=ad|ag|app|bet|biz|blogspot.com|blue|boo|by|bz|care|casa|cash|cc|ceo|cfd|cx|click|cloud|club|com.se|cyou|dad|day|dev|download|forum|fun|gdn|ge|hair|homes|host|how|icu|in|info|is|lat|link|live|lol|ltd|md|me|media|mobi|moe|monster|one|onl|online|page|pe|pk|pro|pw|re|red|rest|sbs|sh|site|skin|space|stream|su|team|tel|to|today|top|tube|tv|wedding|world|ws|xyz|~edu.ag|~edu.by|~edu.bz|~edu.ge|~edu.in|~edu.md|~edu.me|~edu.pe|~edu.pk|~edu.so|~edu.ws|~gov.ag|~gov.by|~gov.bz|~gov.ge|~gov.in|~gov.md|~gov.me|~gov.pk|~gov.sh|~gov.so|~gov.to|~gov.tv|~gov.ws|~palaugov.pw|~proton.me|~twitch.tv
 ! Don't use wildcard, unsupported in MV3
 /\/[0-9a-z]{2}\/[0-9a-f]{32}\.js/$script,xhr,3p,match-case,method=get,to=com,from=123av.com|141jav.com|186.2.175.5|1piecemanga.com|4chanarchives.com|69shux.co|85po.com|aguea.net|animepelix.net|animerco.org|anizle.org|apkadmin.com|arakpop.net|asiaflix.net|bigwarp.art|blogspot.com|bookfrom.net|brobokep.org|cartoony.net|cdn9mc.com|clicknupload.cfd|comohoy.com|d-pdf.com|datavaults.co|desiupload.co|downsub.com|europixhd-official.com|filmnudes.com|filmpornoitaliano.org|flacdownloader.com|fmovies24-to.com|fsportshd.net|fztvseries.ng|hdpornflix.com|hentai2read.com|hianime.nz|hubdrive.space|indi-share.com|ironhentai.com|isekaitube.com|japaneseholes.com|javboys.com|javbraze.com|javhdporn.net|jgvdata.com|jpopsingles.eu|kisshentaiz.com|koreaboo.net|koshalworld.com|latinluchas.com|loadedfiles.org|loiflix.shop|madouqu.com|manhwa68.com|media.cm|megadiscografiascompletas.com|movielysium.net|monoschino2.com|moviemaniak.com|movies7.us|myxxgirl.com|nekopoi.care|niganpro.com|niraw.com|njav.com|novizer.com|nsfwgify.com|notunmovie.net|official.coomer.com.co|omegascans.org|onejav.com|onepiece-manga-online.net|pagalfree.com|pagalnew.com|pagalworld.us|pelimeli.com|pelis182.net|photocalltv.org|pixvid.org|player.subespanolvip.com|playmogo.com|plugincrack.com|pokopow.com|poophd.pm|popcornmovies.org|pornhoarder.net|pornincest.net|raw.senmanga.com|relampagomovies.com|seriesgod.com|sexiezpix.com|skidrowcodex.net|splay.id|spotidownloader.com|streampoi.com|surrit.store|sxyprn.com|tapepops.com|thecakeboutiquect.com|thefantazy.com|thepiratebay.org|tokyomotion.net|torbobit.net|torrentgalaxy-official.com|torrentjogos.com.br|towheree.com|uniquestream.net|vidboys.com|vidsonic.net|viduyy.com|xfantazy.com|xmegadrive.com
 ! vidguard
@@ -35997,8 +36002,10 @@ play.xpass.top##+js(acs, document.createElement, document.head||)
 !#endif
 ! https://github.com/uBlockOrigin/uAssets/issues/32194
 ! https://github.com/uBlockOrigin/uAssets/issues/33518
-.js|$script,3p,to=~cc|~com|~net|~org|~tw,from=chartgo.com|chessgames.com|safood.tw
-/itv0eg3.js|$script,3p,to=~com|~net|~org
+/^https:\/\/[a-z]{5,}-[a-z]{5,}\.space\/[a-z0-9]{6,8}\.js$/$script,3p,to=space,replace=/^function a0_0x.+//
+.js|$script,3p,to=~cc|~com|~net|~org|~tw,from=chartgo.com|chessgames.com|safood.tw|sqlservertutorial.net
+/8b3ytkn.js|$script,3p,to=~com|~net|~org
+||glade-static.space^
 ||willow-assets.space^
 ||ad-blocker-*.workers.dev^
 ||stat-res.workers.dev^
@@ -54817,11 +54824,11 @@ qr1.me-qr.com###relevantEvent
 qr1.me-qr.com##.px-0.col-12:has(>[class="adsbygoogle"])
 
 [Adblock Plus 2.0]
-! Version: 202607251253
+! Version: 202607251446
 ! Title: EasyList
-! Last modified: 25 Jul 2026 12:53 UTC
+! Last modified: 25 Jul 2026 14:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8a7c931648a199a55666209dada04d6ca86a83cc
+! Commit: 863a7797fd03633189743ea8562f030d6b45ee88
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -76213,6 +76220,7 @@ browsershots.org#@#.advert_area
 ||bohcgusfdrmyt.site^
 ||bohunkslitotes.cfd^
 ||boilingroof.pro^
+||boisekundry.cfd^
 ||boistdeserve.qpon^
 ||bojel.com^
 ||bokarddockets.qpon^
@@ -80124,6 +80132,7 @@ browsershots.org#@#.advert_area
 ||dalethnecking.qpon^
 ||dallavel.com^
 ||dalrmayksroqa.online^
+||dalteenductus.cyou^
 ||damaged-transition.com^
 ||damagedbehaved.com^
 ||damagedbroad.pro^
@@ -81977,6 +81986,7 @@ browsershots.org#@#.advert_area
 ||dsvzpe.com^
 ||dswagqnjedlcq.site^
 ||dswckxxivdrjj.website^
+||dswdwe.com^
 ||dswegk.com^
 ||dswepngsrbhza.space^
 ||dswfhx.com^
@@ -84359,6 +84369,7 @@ browsershots.org#@#.advert_area
 ||fc2-ppv.xyz^
 ||fc2plus.site^
 ||fc89e6593f.com^
+||fcagczsipsy.com^
 ||fcbelch.shop^
 ||fcbismucjmtds.space^
 ||fcbnrvfhrouqx.website^
@@ -84561,6 +84572,7 @@ browsershots.org#@#.advert_area
 ||fetchlately.com^
 ||fetchtosensitive.com^
 ||fetclarity.qpon^
+||fetichfizzer.qpon^
 ||fettersbatties.qpon^
 ||fetusphytome.cfd^
 ||feuageepitoke.com^
@@ -85264,6 +85276,7 @@ browsershots.org#@#.advert_area
 ||fondstudy.com^
 ||fondusdvornik.cfd^
 ||foniuhuuwwnhm.tech^
+||fonlytaboredundraw.cfd^
 ||fontdeterminer.com^
 ||foodfulpikakes.cyou^
 ||foodieblogroll.com^
@@ -91581,6 +91594,7 @@ browsershots.org#@#.advert_area
 ||jomonovicide.qpon^
 ||jomphoelubekg.site^
 ||jonconky.qpon^
+||jonnockkeglers.qpon^
 ||joograika.xyz^
 ||joohugreene.net^
 ||jooinzvayqbih.rocks^
@@ -91620,6 +91634,7 @@ browsershots.org#@#.advert_area
 ||jovialcadence.com^
 ||jowkhamal.cyou^
 ||jowlishdiviner.com^
+||jowlssolicit.cfd^
 ||jowlyreicingostemia.qpon^
 ||jowqcaxfctoob.online^
 ||jowrcnynuylaw.site^
@@ -93550,6 +93565,7 @@ browsershots.org#@#.advert_area
 ||leadsimilar.com^
 ||leadsleap.net^
 ||leadzu.com^
+||leafenkokako.qpon^
 ||leaferyclk.cyou^
 ||leafletstoesimplicity.com^
 ||leagueinfantry.com^
@@ -98422,6 +98438,7 @@ browsershots.org#@#.advert_area
 ||oaphoace.net^
 ||oardilin.com^
 ||oariallimed.qpon^
+||oarweedtaigas.cfd^
 ||oateutqihwrdyl.com^
 ||oathannually.com^
 ||oathayretint.cyou^
@@ -103603,6 +103620,7 @@ browsershots.org#@#.advert_area
 ||raisonsunfine.qpon^
 ||raisqahsubhte.space^
 ||raiukhjsqjzxt.online^
+||rajbribee.cyou^
 ||rajeezwhksdfl.site^
 ||rajgpmrlvpdde.space^
 ||rajmisstepspartle.qpon^
@@ -104385,6 +104403,7 @@ browsershots.org#@#.advert_area
 ||retaliateseized.com^
 ||retaliatespiritual.com^
 ||retapedamidase.com^
+||retarddisposedespot.com^
 ||retarget2core.com^
 ||retargetcore.com^
 ||retargeter.com^
@@ -105391,6 +105410,7 @@ browsershots.org#@#.advert_area
 ||runyrgidqcoeo.store^
 ||ruohpuqvaggas.website^
 ||ruopfddopajte.online^
+||rupertguards.cfd^
 ||rupqypzqknhay.site^
 ||rural-report.pro^
 ||rurbancuppen.com^
@@ -105548,6 +105568,7 @@ browsershots.org#@#.advert_area
 ||rzohhqscytltx.online^
 ||rzojvqmbqhigv.website^
 ||rzpzdlmfkizyv.store^
+||rzqgdpeverpdt.space^
 ||rzqrjwhiiowug.online^
 ||rzsqfxjdrtdsc.online^
 ||rzsyenebnyvgs.website^
@@ -105949,6 +105970,7 @@ browsershots.org#@#.advert_area
 ||scholarlyinteraction.pro^
 ||scholarshipexplosivepopular.com^
 ||scholarsslate.com^
+||schorlyaxites.qpon^
 ||schouwloto.com^
 ||sciencetipree.cfd^
 ||scientific-doubt.com^
@@ -106879,6 +106901,7 @@ browsershots.org#@#.advert_area
 ||sinnerhealthypoured.com^
 ||sinologtrumph.shop^
 ||sinproductors.org^
+||sintudruses.cyou^
 ||sinwhezjcvvch.online^
 ||siondanged.cfd^
 ||siouxunhosejoyride.cyou^
@@ -107048,6 +107071,7 @@ browsershots.org#@#.advert_area
 ||skyuglefuns.com^
 ||skyugleshodden.qpon^
 ||skzdntgxoseva.online^
+||slabkenyans.cyou^
 ||slabshookwasted.com^
 ||slackastonishing.com^
 ||slackenkor.cyou^
@@ -110657,6 +110681,7 @@ browsershots.org#@#.advert_area
 ||trtxdgieawlao.space^
 ||truanet.com^
 ||truantsbihalvemullahs.cyou^
+||trucklairage.cfd^
 ||trucklowest.com^
 ||trudgerexcused.com^
 ||trudigo.com^
@@ -110841,6 +110866,7 @@ browsershots.org#@#.advert_area
 ||tukrd.com^
 ||tuktszcckzgei.site^
 ||tulchinseizor.cfd^
+||tulovukelwhvp.space^
 ||tulsmcvbuzvsk.website^
 ||tumblebit.com^
 ||tumbleddear.com^
@@ -111183,6 +111209,7 @@ browsershots.org#@#.advert_area
 ||uaiyuaosnibki.website^
 ||uajgfkbpypbsa.site^
 ||uajzbrkidbvfb.online^
+||uakaricavesowner.cfd^
 ||uakbviletrmyf.site^
 ||uaktjvdbrstrg.online^
 ||ualcwoyuwyvhz.site^
@@ -112104,6 +112131,7 @@ browsershots.org#@#.advert_area
 ||uqc8ffgbh5q4ow5wiet4f2yio19x9f7okkzw.cfd^
 ||uqdcqbgvudao.com^
 ||uqezxdyfwcqgn.website^
+||uqhdqzqudrmun.online^
 ||uqiivevlefytg.space^
 ||uqijlljfxmfbi.website^
 ||uqjtqvzdujsjh.online^
@@ -113554,6 +113582,7 @@ browsershots.org#@#.advert_area
 ||vv8h9vyjgnst.com^
 ||vvaervdbcntvs.online^
 ||vvcszpzpuceps.space^
+||vvdfdurfqpxub.space^
 ||vvfndxeumlfbn.com^
 ||vvjacrtsivivq.online^
 ||vvkholowfoeku.website^
@@ -115175,6 +115204,7 @@ browsershots.org#@#.advert_area
 ||wummanhoney.cfd^
 ||wumufama.com^
 ||wunworsets.shop^
+||wuojawubssssn.site^
 ||wuporg.com^
 ||wuqlgnyasteaf.site^
 ||wurjudo.cfd^
@@ -115212,6 +115242,7 @@ browsershots.org#@#.advert_area
 ||wvsiiidldxozb.online^
 ||wvtsnyncckesw.site^
 ||wvudufoalzcks.space^
+||wvvbiwrmcyapr.online^
 ||wvvmqsasndeup.space^
 ||wvvoousaenpzv.space^
 ||wvvzcepbqxkcc.site^
@@ -115286,6 +115317,7 @@ browsershots.org#@#.advert_area
 ||wyebbkxinxgud.website^
 ||wyemijjnbkrol.space^
 ||wyeosamxhgqwt.world^
+||wyeruworciyyl.online^
 ||wygcjzjkryxfv.site^
 ||wyglyvaso.com^
 ||wyhifdpatl.com^
@@ -115507,6 +115539,7 @@ browsershots.org#@#.advert_area
 ||xewujztulrqer.website^
 ||xexkerkgrfyaf.site^
 ||xfalmawladvew.site^
+||xfaxaudhfnxrt.website^
 ||xfbdnfyafbmq.com^
 ||xfbicybiizmgt.online^
 ||xfbjiyqezmwew.space^
@@ -115733,6 +115766,7 @@ browsershots.org#@#.advert_area
 ||xmlap.com^
 ||xmlgrab.com^
 ||xmlking.com^
+||xmlkjhiamrcbh.online^
 ||xmllover.com^
 ||xmlpostback.com^
 ||xmlppcbuzz.com^
@@ -141059,11 +141093,11 @@ diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapp
 ||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=async-sugarcoat-8a459c41783885dc83d30f5b7da2359091f4e607
 
 [Adblock Plus 1.1]
-! Version: 202607251302
+! Version: 202607251446
 ! Title: EasyPrivacy
-! Last modified: 25 Jul 2026 13:02 UTC
+! Last modified: 25 Jul 2026 14:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3743d2a79c669a642f1f9dce42ba7f754b1fbbaa
+! Commit: 863a7797fd03633189743ea8562f030d6b45ee88
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -238737,8 +238771,8 @@ groupeapocom.com###website_cookies_bar
 businessinsider.com##.related-posts
 ! https://github.com/uBlockOrigin/uAssets/issues/16581#issuecomment-4650988602
 /wrapperMessagingWithoutDetection.js$domain=autosport.com
-! https://github.com/uBlockOrigin/uAssets/issues/32524#issuecomment-4712732765
-pinterest.com##+js(trusted-click-element, xpath://div[@id="__PWS_ROOT__"]/following-sibling::div[@style="z-index: 1000;"]//div[@name="trap-focus"]/div[@role="dialog"]//button[.//div[text()="Reject all"]])
+! https://github.com/uBlockOrigin/uAssets/issues/33803
+||sindicateuropol.ro/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
 ! https://github.com/uBlockOrigin/uAssets/issues/33734
 /wp-content/plugins/privacy-policy-popup/*
 yeshinvoice.co.il##.cookie
@@ -239364,6 +239398,11 @@ tfw.wales##+js(trusted-set-cookie, cookiesjsr, '{"base":false,"functional":false
 docs.netbird.io##+js(trusted-click-element, xpath://div[@id="__next"]/div[@class="Toastify"]/following-sibling::div[1]//button[text()="Required only cookies"])
 ! https://satualumni.itb.ac.id
 satualumni.itb.ac.id##+js(trusted-set-local-storage-item, kc_cookie_consent, '{"analytics":false,"functional":false,"marketing":false,"ai":false,"necessary":true,"consentedAt":"$currentISODate$","version":"1.1"}')
+! https://github.com/uBlockOrigin/uAssets/issues/22837 - Functionality + Social
+! https://github.com/uBlockOrigin/uAssets/pull/33829
+20min.ch##+js(trusted-click-element, #onetrust-consent-sdk button.ot-pc-refuse-all-handler)
+! https://github.com/uBlockOrigin/uAssets/issues/32524#issuecomment-4712732765
+pinterest.com##+js(trusted-click-element, xpath://div[@id="__PWS_ROOT__"]/following-sibling::div[@style="z-index: 1000;"]//div[@name="trap-focus"]/div[@role="dialog"]//button[.//div[text()="Reject all"]])
 
 !! Needs additional cookies
 
@@ -240048,11 +240087,6 @@ sogeti.com##+js(trusted-set-cookie, ConsentCookie, 'required:1,functional:1,anal
 
 ! https://www.transferxl.com/ - Functional
 transferxl.com##+js(trusted-set-cookie, txl_consent_status, functional, , , domain, transferxl.com)
-
-! https://github.com/uBlockOrigin/uAssets/issues/22837 - Functionality + Social
-20min.ch##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1%2CV2STACK42%3A0, , , domain, 20min.ch)
-20min.ch##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
-20min.ch##+js(trusted-set-cookie, eupubconsent-v2, CQn0VdgQn0VdgAcABBDECoFgAAAAAEPgAAQ4L4JB_C7dbWFD-DZ3aLokeYwP99hBIsQhAAaAAmAFTBOQ4IQCw0EYBASAFCACGAIAo3RBIAJkEABEAUCAIIgFIQBEAAwQoBAKAABAgAERAgBACAgCCIAAUQAIAAANAkUAmAiAKYKEWEAgwIAACACBAAABAACAAQMACEAwBBAAAQIAQKBAgwJAuAKBAAEAARgAAAAAAAAAIAAAQAAAoACAACgABCAAEAAAAAAAAAAAAQAAAAAAAAACBAIAAAAAAEAEF5AATBQqIICiIBAgEBACBAAIKwgAgEAQAAJAAQAAJggIcAIAKKCJAAAAAAAAAAAAQYAAgAAEAAQiACAAAEAIEAAQAAYAEAAEAAAgAAAAoQAAAAQBAEAAIIAAAAACAKAAQIQAEAAALCAAIAAAFABAAEAAAABAAAAACAAQAAAAABAAQAAgQAEAXAFAAAAAAAAACAAAAAAAEAAgAAAAEAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAgEAAAAAACACCAAgBNAA.YAAACHwAAAAA.IL4JB_C7dbWFH-DZ3aLokeYwf99hBIsQhAAaAAmAFTBOQ4IQC00EaBASAFCACGAIAo3RBIAJsEAhEAUCAIIgVIQBkAAwQoBAKAABAgAERQgBACAgCCIAAUQAIAAANA0UAmQiAKYKEWEAgwIAAKACBAIABAACAAQMAGEAwBBAAASIAwKBAgwJAuAKBAAEAARgAEAAAAAAAIABAQAAAoACAACgABCAAEAAAAAAAAIAAAQAAAAAAAAACBAIAAAAAAEAEAAA)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/22871 - Accept all
 ! Didomi.setUserAgreeToAll()
