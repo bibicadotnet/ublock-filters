@@ -39394,10 +39394,11 @@ shahied4u.me##+js(rmnt, script, /googlesyndication|adblock|keydown|popundersPerI
 player.pl##+js(no-fetch-if, /gaid=, war:noop-vast2.xml)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29426
-jelonka.com##+js(rmnt, script, div.offsetHeight)
 @@||jelonka.com^$ghide
 jelonka.com##.adsbygoogle
 jelonka.com##.kontener-reklam
+||jelonka.com/static/jelonka/js/news-ad-access-gate.js
+jelonka.com##.ad-area
 @@||static5.hsg.com.pl/icons/*/icon.png^$image
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29760
@@ -54824,11 +54825,11 @@ qr1.me-qr.com###relevantEvent
 qr1.me-qr.com##.px-0.col-12:has(>[class="adsbygoogle"])
 
 [Adblock Plus 2.0]
-! Version: 202607251446
+! Version: 202607251536
 ! Title: EasyList
-! Last modified: 25 Jul 2026 14:46 UTC
+! Last modified: 25 Jul 2026 15:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 863a7797fd03633189743ea8562f030d6b45ee88
+! Commit: 10f20166fe165990cc42fdf977bfec81ff0de0a2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -73436,6 +73437,7 @@ browsershots.org#@#.advert_area
 ||altruisticemergency.com^
 ||altynamoan.com^
 ||altynnfxkfaal.space^
+||aludelchineedobroes.cfd^
 ||alumenbasural.qpon^
 ||aluminsajenjo.shop^
 ||aluminumoutageprovince.com^
@@ -77669,6 +77671,7 @@ browsershots.org#@#.advert_area
 ||ccfvhquaynxcp.space^
 ||ccgateway.net^
 ||ccgbernpkbwid.com^
+||cchuovsztwnez.online^
 ||cchvgvgnqxrjr.space^
 ||ccidedogerppw.space^
 ||cciqjddkvgljm.site^
@@ -88396,6 +88399,7 @@ browsershots.org#@#.advert_area
 ||hgfosqroovvpw.website^
 ||hgfphskjefadz.space^
 ||hghit.com^
+||hghuegejrukmo.site^
 ||hgisekhkuhrlo.online^
 ||hgivfbpd.com^
 ||hgjbjizxqnqit.site^
@@ -88617,6 +88621,7 @@ browsershots.org#@#.advert_area
 ||hkkmgopcjmozv.site^
 ||hkkxsnav.com^
 ||hknztzqlkjzhc.space^
+||hko7xcemkfzl4uwo.rest^
 ||hkpjnieraypcn.site^
 ||hkpwrpfqmkllb.online^
 ||hkq1b3v4wiwzo9zi77.cfd^
@@ -93363,6 +93368,7 @@ browsershots.org#@#.advert_area
 ||lapsingwroth.shop^
 ||laptopchoose.com^
 ||laptopprivacyado.com^
+||laqnfoulvnakr.online^
 ||larajtfzeb.in^
 ||larariawaned.cfd^
 ||larariawirdholiday.qpon^
@@ -99471,6 +99477,7 @@ browsershots.org#@#.advert_area
 ||osamara.com^
 ||osaminesculped.com^
 ||osarmapa.net^
+||osavdykqoiysh.site^
 ||oscseiyqeaafd.website^
 ||osdkublrgnidm.website^
 ||osdqzaas.in^
@@ -104537,6 +104544,7 @@ browsershots.org#@#.advert_area
 ||rftxmwcivenzn.space^
 ||rfuglkuve.com^
 ||rfwmfadnncajl.site^
+||rfy9tfr8ucpnlvphcq.cfd^
 ||rfzjyoayftjgb.website^
 ||rfzoyddauaeay.space^
 ||rgarcorsbqfss.online^
@@ -141093,11 +141101,11 @@ diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapp
 ||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=async-sugarcoat-8a459c41783885dc83d30f5b7da2359091f4e607
 
 [Adblock Plus 1.1]
-! Version: 202607251446
+! Version: 202607251536
 ! Title: EasyPrivacy
-! Last modified: 25 Jul 2026 14:46 UTC
+! Last modified: 25 Jul 2026 15:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 863a7797fd03633189743ea8562f030d6b45ee88
+! Commit: 10f20166fe165990cc42fdf977bfec81ff0de0a2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -200666,6 +200674,9 @@ civitai.com##+js(no-fetch-if, faro.civitai.com)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/33809
 ||1shortlink.com/api/v1/full-pages?api_key=*&url=$urlskip=?url -base64,doc
+
+! https://github.com/uBlockOrigin/uAssets/issues/29426
+||jelonka.com/reklamy/track/impressions/
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
