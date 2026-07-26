@@ -54831,11 +54831,11 @@ qr1.me-qr.com###relevantEvent
 qr1.me-qr.com##.px-0.col-12:has(>[class="adsbygoogle"])
 
 [Adblock Plus 2.0]
-! Version: 202607261856
+! Version: 202607262038
 ! Title: EasyList
-! Last modified: 26 Jul 2026 18:56 UTC
+! Last modified: 26 Jul 2026 20:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ba80b1271d1f5ee2839ea105846604575d6b1175
+! Commit: 1e41ee3a9792fd7119aed8b5367989a562a6ea57
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -80847,6 +80847,7 @@ browsershots.org#@#.advert_area
 ||dfkkffjulbnec.space^
 ||dfndwfcwp.com^
 ||dfqbktlcmmcca.space^
+||dfrboadnvtecq.site^
 ||dfrgxsiydjbfj.space^
 ||dfrhgivzjpkil.site^
 ||dfuijqrojtvcb.site^
@@ -82073,6 +82074,7 @@ browsershots.org#@#.advert_area
 ||dswfhx.com^
 ||dswgyl.com^
 ||dswhem.com^
+||dswklo.com^
 ||dswlpq.com^
 ||dswmrn.com^
 ||dswocr.com^
@@ -86988,6 +86990,7 @@ browsershots.org#@#.advert_area
 ||glum-mortgage.com^
 ||glumesfracted.cyou^
 ||glummersubdiebemud.cyou^
+||glumoussallooclokies.cyou^
 ||glumrevenue.com^
 ||glusidforwake.qpon^
 ||glutenmuttsensuous.com^
@@ -88534,6 +88537,7 @@ browsershots.org#@#.advert_area
 ||hgzqyoxssozyp.space^
 ||hh788.com^
 ||hhbetevelthyg.site^
+||hhbwhgtciqe.com^
 ||hhbypdoecp.com^
 ||hhdfwrsoaohsf.space^
 ||hheilezujujcw.online^
@@ -89611,6 +89615,7 @@ browsershots.org#@#.advert_area
 ||ibseniccamery.qpon^
 ||ibsenicopalish.cfd^
 ||ibsxnvottfiou.space^
+||ibughqxanhtuy.online^
 ||ibulvwytsbrmf.site^
 ||ibvaohvdhgypx.com^
 ||ibvrruekneixz.site^
@@ -89754,6 +89759,7 @@ browsershots.org#@#.advert_area
 ||ifdnzact.com^
 ||iffiestpolacca.qpon^
 ||ifhfsjtnrsrje.online^
+||ifhnzeobvtakt.online^
 ||ifigent.com^
 ||ifikexfkaskbn.online^
 ||iflfnermnmnhj.space^
@@ -91924,6 +91930,7 @@ browsershots.org#@#.advert_area
 ||jshvwhcznwigo.site^
 ||jsieyfvosbgp.com^
 ||jskmkerjjwxjpp.com^
+||jslktwwhwwadi.space^
 ||jsmcrptjmp.com^
 ||jsmcrpu.com^
 ||jsmcrt.com^
@@ -93600,6 +93607,7 @@ browsershots.org#@#.advert_area
 ||laxativethem.com^
 ||laxismbirdmen.cfd^
 ||laxrwbbgg.com^
+||laxsqiibtpijk.site^
 ||laycosmicstill.com^
 ||layer-ad.org^
 ||layerrepeatedlychancy.com^
@@ -93774,6 +93782,7 @@ browsershots.org#@#.advert_area
 ||leftieseyeshot.qpon^
 ||leftmany.pro^
 ||lefttongue.com^
+||legacyclerkbuffin.cyou^
 ||legalizeshort.com^
 ||legallydune.com^
 ||legendssagely.qpon^
@@ -99005,6 +99014,7 @@ browsershots.org#@#.advert_area
 ||ogwsktwhfwlky.space^
 ||ogxjhjniomwkr.site^
 ||ogypquywenfmq.site^
+||ogyxrcdyatgus.online^
 ||ogz4n3ke.xyz^
 ||ogzopanhilgem.online^
 ||ohabyhzhqzinz.space^
@@ -103448,6 +103458,7 @@ browsershots.org#@#.advert_area
 ||quagglegangwaybursty.cyou^
 ||quahogsatinet.cfd^
 ||quaintbitter.com^
+||quaintcounty.pro^
 ||quaizoa.xyz^
 ||quakedevastatedprinter.com^
 ||quakingapathetic.com^
@@ -142068,11 +142079,11 @@ diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapp
 ||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=async-sugarcoat-8a459c41783885dc83d30f5b7da2359091f4e607
 
 [Adblock Plus 1.1]
-! Version: 202607261856
+! Version: 202607262038
 ! Title: EasyPrivacy
-! Last modified: 26 Jul 2026 18:56 UTC
+! Last modified: 26 Jul 2026 20:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ba80b1271d1f5ee2839ea105846604575d6b1175
+! Commit: 1e41ee3a9792fd7119aed8b5367989a562a6ea57
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -201645,6 +201656,11 @@ civitai.com##+js(no-fetch-if, faro.civitai.com)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29426
 ||jelonka.com/reklamy/track/impressions/
+
+! To remove Echobox tracking fragment. Sample urls originate from Facebook.
+! https://www.iltalehti.fi/kotimaa/a/d9ae9745-f6a9-4dc7-a4e1-7a5f48810c6b#Echobox=1785050954
+! https://www.hs.fi/urheilu/art-2000012164973.html#Echobox=1785085081
+$uritransform=/#Echobox=[\d]{10}$//,to=iltalehti.fi|hs.fi
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
