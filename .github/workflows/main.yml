@@ -29,6 +29,13 @@ jobs:
               echo "!!! LỖI tải: $u (bỏ qua, không ghi vào file)"
             fi
           done
+          
+          # Làm sạch các dòng bắt đầu bằng !
+          sed -i '/^!/d' brave-adblock.txt
+          
+          # Thêm Title vào trên cùng
+          echo "! Title: Brave Adblock filters" | cat - brave-adblock.txt > temp.txt && mv temp.txt brave-adblock.txt
+          
           echo "Tổng số dòng trong brave-adblock.txt: $(wc -l < brave-adblock.txt)"
       - name: Commit
         run: |
