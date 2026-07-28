@@ -1,4 +1,7 @@
-! Title: Brave Adblock filters
+! Title: Brave Shields Adblock filters
+! Description: Compiled from the 31 default filters of Brave Shields.
+! Version: 1.0
+! Homepage: https://filters.bibica.net/brave-adblock.txt
 
 *_ad_$media,domain=youtube.com,3p
 tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
@@ -26332,6 +26335,8 @@ nosubapp.com##+js(nostif, detectAdBlock)
 
 mlsbd.co##+js(acs, document.addEventListener, window.open)
 mlsbd.co##+js(nowoif)
+
+||supabase.co^$domain=eloshapes.com
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -67109,6 +67114,7 @@ browsershots.org#@#.advert_area
 ||dseel9.com^
 ||dsefow.com^
 ||dseiqr.com^
+||dseisg.com^
 ||dsejee.com^
 ||dsejzd.com^
 ||dsekhf.com^
@@ -67864,6 +67870,7 @@ browsershots.org#@#.advert_area
 ||ectstxtrrdqtl.website^
 ||ecurierubia.cfd^
 ||ecvvvkancbxjt.online^
+||ecwsbtzlpzwnb.space^
 ||ecxufxavldnpd.site^
 ||ecxxpjohjadckcp.com^
 ||ecyklqrkcz.com^
@@ -76096,6 +76103,7 @@ browsershots.org#@#.advert_area
 ||isolatedcompliments.com^
 ||isolatedovercomepasted.com^
 ||isolation2warehouses.net^
+||isolinepenrackpopweed.cfd^
 ||isolomaslaveys.shop^
 ||isomeryhexaxon.shop^
 ||isonomyobscuracrocein.qpon^
@@ -76524,6 +76532,7 @@ browsershots.org#@#.advert_area
 ||jbdbxwwuxhwfa.online^
 ||jbdwcucmcuowz.website^
 ||jbh3l8lumblnh4byp3m.cfd^
+||jbhazzuihykzr.website^
 ||jbielmzklgwax.online^
 ||jbiokwloncerp.club^
 ||jbjijtvfpksdc.site^
@@ -82026,6 +82035,7 @@ browsershots.org#@#.advert_area
 ||mrkaiufqsytov.space^
 ||mrktmtrcs.net^
 ||mrlangwkahuoh.space^
+||mrlpxvvykqssx.online^
 ||mrlscr.com^
 ||mrmnd.com^
 ||mrnrsyjynzity.space^
@@ -83905,6 +83915,7 @@ browsershots.org#@#.advert_area
 ||nzvdxjtticjnj.space^
 ||nzwomoxfjcosy.store^
 ||nzyppdoppxpwb.website^
+||nzystdvvmuidg.com^
 ||nzzrcycaemnfh.online^
 ||o-oo.ooo^
 ||o18.click^
@@ -88100,6 +88111,7 @@ browsershots.org#@#.advert_area
 ||pwrgamerz.com^
 ||pwrgrowthapi.com^
 ||pwrkrbvbsgici.space^
+||pwsglyalsemgj.space^
 ||pwtcsinrsozat.space^
 ||pwukzbianawbi.online^
 ||pwwopmrisjfnu.store^
@@ -91894,6 +91906,7 @@ browsershots.org#@#.advert_area
 ||semnaelyonese.cfd^
 ||semplesapolune.com^
 ||semqraso.net^
+||semsempeoples.qpon^
 ||semsenatossadiamide.cfd^
 ||semywtuvmzujq.space^
 ||senahuchnom.qpon^
@@ -94713,6 +94726,7 @@ browsershots.org#@#.advert_area
 ||t84c3srgclc9.com^
 ||t85itha3nitde.com^
 ||t8b8zfme8zkk7xqjyv.cfd^
+||t93179898pq8u2ynyvwluc.cfd^
 ||t95xfj43ol1162lcb3qzv75t6xkcgxew21.cfd^
 ||t9q8bo5unem8to5.cfd^
 ||ta3nfsordd.com^
@@ -97404,6 +97418,7 @@ browsershots.org#@#.advert_area
 ||undosupporterpyjamas.com^
 ||undoubtedlyovercoat.com^
 ||undrawnibo.cfd^
+||undrawsjebatfarfel.qpon^
 ||undrysao.shop^
 ||undugnervily.cyou^
 ||uneagerfurfoozcomales.cyou^
@@ -98428,6 +98443,7 @@ browsershots.org#@#.advert_area
 ||vdunprmzgffmf.site^
 ||vdvqtappes.com^
 ||vdwgagjfqoreu.site^
+||vdxagufwubpfb.space^
 ||vdxsvladcihnm.online^
 ||vdzepdkifdmeg.site^
 ||ve99cncwycr8pwep5y4tzj.rest^
@@ -99222,6 +99238,7 @@ browsershots.org#@#.advert_area
 ||vsorcyifkcbwo.site^
 ||vsqczzvkhzphx.site^
 ||vsrttzvdtihei.site^
+||vssffcgtiucwe.site^
 ||vssgvpxtqtcsj.site^
 ||vsspdabuuewzo.space^
 ||vsswietbgd.com^
@@ -101362,6 +101379,7 @@ browsershots.org#@#.advert_area
 ||xhsusbtxgzndj.website^
 ||xhtdzcrksnqwu.space^
 ||xhunajtipm.com^
+||xhvvrxaldcnel.site^
 ||xhwsvvhzozndh.website^
 ||xhxmwcxglc.com^
 ||xhxqxgxcbdpsx.website^
