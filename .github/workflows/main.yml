@@ -22,21 +22,27 @@ jobs:
           echo "================================="
           > brave-adblock.txt
           for u in $urls; do
-            echo ">> Tải: $u"
+            echo ">> Downloading: $u"
             if curl -fsSL --retry 3 "$u" >> brave-adblock.txt; then
               echo "" >> brave-adblock.txt
             else
-              echo "!!! LỖI tải: $u (bỏ qua, không ghi vào file)"
+              echo "!!! ERROR downloading: $u (skipping, not written to file)"
             fi
           done
           
-          # Làm sạch các dòng bắt đầu bằng !
+          # Clean up lines starting with !
           sed -i '/^!/d' brave-adblock.txt
           
-          # Thêm Title vào trên cùng
-          echo "! Title: Brave Adblock filters" | cat - brave-adblock.txt > temp.txt && mv temp.txt brave-adblock.txt
+          # Add info block to the top
+          {
+            echo "! Title: Brave Shields Adblock filters"
+            echo "! Description: Compiled from the 31 default filters of Brave Shields."
+            echo "! Version: 1.0"
+            echo "! Homepage: https://filters.bibica.net/brave-adblock.txt"
+            cat brave-adblock.txt
+          } > temp.txt && mv temp.txt brave-adblock.txt
           
-          echo "Tổng số dòng trong brave-adblock.txt: $(wc -l < brave-adblock.txt)"
+          echo "Total lines in brave-adblock.txt: $(wc -l < brave-adblock.txt)"
       - name: Commit
         run: |
           git config user.name "github-actions"
