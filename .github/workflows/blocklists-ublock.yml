@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build blocklists-ublock.txt
+      - name: Build blocklists-minimal-ublock.txt
         run: |
           echo ">> Downloading raw domains..."
           curl -s https://raw.githubusercontent.com/bibicadotnet/blocklist_minimal/main/blocklists.txt -o raw_domains.txt
@@ -34,13 +34,13 @@ jobs:
             echo "! Version: $VERSION"
             echo "! Last modified: $LAST_MODIFIED"
             echo "! Expires: 12 hours (update frequency)"
-            echo "! Description: Domains from blocklist_minimal converted to uBlock syntax."
-            echo "! GitHub: https://github.com/bibicadotnet/blocklist_minimal"
-            echo "! Homepage: https://github.com/bibicadotnet/blocklist_minimal"
+            echo "! Description: Domains from Blocklist Minimal converted to uBlock syntax."
+            echo "! GitHub: https://github.com/bibicadotnet/ublock-filters"
+            echo "! Homepage: https://filters.bibica.net/blocklists-minimal-ublock.txt"
             cat ublock_list.txt
-          } > blocklists-ublock.txt
+          } > blocklists-minimal-ublock.txt
           
-          echo "Total lines in blocklists-ublock.txt: $(wc -l < blocklists-ublock.txt)"
+          echo "Total lines in blocklists-minimal-ublock.txt: $(wc -l < blocklists-minimal-ublock.txt)"
           
           # Clean up temporary files
           rm raw_domains.txt ublock_list.txt
@@ -49,6 +49,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add blocklists-ublock.txt
-          git diff --cached --quiet || git commit -m "Update blocklists-ublock.txt"
+          git add blocklists-minimal-ublock.txt
+          git diff --cached --quiet || git commit -m "Update blocklists-minimal-ublock.txt"
           git push
