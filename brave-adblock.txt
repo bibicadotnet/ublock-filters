@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260801021406
-! Last modified: 01 Aug 2026 02:14:06 UTC+7
+! Version: 20260801035701
+! Last modified: 01 Aug 2026 03:57:01 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -20160,21 +20160,20 @@ erogen.su##+js(aopr, document.dispatchEvent)
 ||adservice.google.com^$script,redirect=noopjs,domain=yallo.tv
 imasdk.googleapis.com##+js(no-fetch-if, secure.adnxs.com/ptv, war:noop-vast4.xml)
 
+@@*$image,domain=a2zupload.com
+@@||a2zupload.com^$ghide
+@@||googlesyndication.com/pagead/$script,domain=a2zupload.com
+@@||dl.a2zapk.*/getred.php$xhr,domain=a2zapk.*
+@@||tmp.a2zapk.*/js/advertisement/$frame,domain=a2zapk.*
 a2zapk.*##+js(acs, atob, decodeURIComponent)
 a2zapk.*##+js(aopr, AaDetector)
 a2zapk.*##+js(set, notifyMe, noopFunc)
 a2zapk.io##+js(aeld, click, location.href)
+a2zapk.*##+js(acs, $, alertmsg)
+a2zapk.*,a2zupload.com##ins.adsbygoogle
 ||prahmnatured.com^
 ||a2zapk.*/js/notification.js
-@@||a2zupload.com^$ghide
-@@||googlesyndication.com/pagead/$script,domain=a2zupload.com
-@@*$image,domain=a2zupload.com
-a2zapk.*,a2zupload.com##ins.adsbygoogle
-a2zapk.*##+js(acs, $, alertmsg)
-@@||dl.a2zapk.*/getred.php$xhr,domain=a2zapk.*
-@@||tmp.a2zapk.*/js/advertisement/$frame,domain=a2zapk.*
-||googlesyndication.com^$image,redirect=1x1.gif,domain=a2zapk.*
-||googlesyndication.com^$image,redirect=1x1.gif,domain=a2zapk.io
+||googlesyndication.com^$image,redirect=1x1.gif,domain=a2zapk.*|a2zapk.io|a2zapk.dev
 
 @@||virginmediatelevision.ie/player/$xhr,1p
 @@||virginmediatelevision.ie/includes/js/cookienotice.js.pagespeed.$script,1p
@@ -76113,6 +76112,7 @@ browsershots.org#@#.advert_area
 ||insightspendadvancement.com^
 ||insighttawie.cfd^
 ||insigit.com^
+||insignificant-bitter.pro^
 ||insignificant-constant.com^
 ||insignificant-foot.com^
 ||insistent-worker.com^
@@ -87966,6 +87966,7 @@ browsershots.org#@#.advert_area
 ||pregnantskipper.com^
 ||prelectbeath.cyou^
 ||premiapommies.cfd^
+||premitunebbed.cyou^
 ||premiumads.net^
 ||premiumvertising.com^
 ||prendreheft.cfd^
@@ -93652,6 +93653,7 @@ browsershots.org#@#.advert_area
 ||smlmszewhtcyd.site^
 ||smlypotr.net^
 ||smmnclhggakto.website^
+||smmnukhmkbffv.site^
 ||smoggy-construction.com^
 ||smoggy-twist.pro^
 ||smoggyfeed.com^
@@ -95331,6 +95333,7 @@ browsershots.org#@#.advert_area
 ||swojarawv.com^
 ||swollenbasis.com^
 ||swonswksodcbc.website^
+||swoobmoczogq.in^
 ||swooppolygraph.com^
 ||swopkodakerrastus.cfd^
 ||swopxenopus.qpon^
@@ -95602,6 +95605,7 @@ browsershots.org#@#.advert_area
 ||tankfangspain.com^
 ||tankingbaklawa.shop^
 ||tankroyaldivide.com^
+||tanmmxyfybzpp.website^
 ||tannedeluder.cyou^
 ||tannedposes.cfd^
 ||tannideilocano.qpon^
@@ -95641,6 +95645,7 @@ browsershots.org#@#.advert_area
 ||tarbushpteris.qpon^
 ||tardecto.cyou^
 ||tardierrouges.com^
+||tardiescomournaphides.cfd^
 ||tardleuruturiglet.cyou^
 ||targeta41.net^
 ||targetmatch.co^
@@ -95657,6 +95662,7 @@ browsershots.org#@#.advert_area
 ||tarotaffirm.com^
 ||tarpagainst.qpon^
 ||tarpturfdom.cfd^
+||tarquingumtreemourner.qpon^
 ||tarreyieldwaned.qpon^
 ||tarrishconstr.cfd^
 ||tarrishquinbotein.cfd^
@@ -98118,6 +98124,7 @@ browsershots.org#@#.advert_area
 ||umqosmlnjdrwl.site^
 ||umrgdvvdgxjto.store^
 ||umsgpfloirafp.site^
+||umssvcwqpokjt.online^
 ||umtudo.com^
 ||umuraaajkrkxl.space^
 ||umwrkqxocevoy.online^
@@ -99494,6 +99501,7 @@ browsershots.org#@#.advert_area
 ||vgxmagbsctvdf.online^
 ||vgyppkfadflol.website^
 ||vgzglvykuyclh.store^
+||vgzogmuqcjhul.space^
 ||vgzpyrrekytio.space^
 ||vh4kpb2zkig2bfcgovjrlj2.rest^
 ||vhanxmtpkluuf.online^
@@ -99670,6 +99678,7 @@ browsershots.org#@#.advert_area
 ||viperydanite.cfd^
 ||vipsnotoire.cyou^
 ||vipwqpsoxnmwt.site^
+||viqonnkopkkjp.site^
 ||viraginjasyruths.cyou^
 ||viragosclum.cfd^
 ||viral782.com^
@@ -102458,6 +102467,7 @@ browsershots.org#@#.advert_area
 ||xnrzeuweyrwyx.online^
 ||xnsdayearqlpo.space^
 ||xntlhvmcfqdxf.website^
+||xntwwkayczvaj.website^
 ||xnuewypvwoziz.store^
 ||xnurnqmhkkmfe.online^
 ||xnuxpyn71vmtbb4my8b5ifpx4.rest^
