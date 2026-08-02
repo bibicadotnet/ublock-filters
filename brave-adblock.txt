@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260802172831
-! Last modified: 02 Aug 2026 17:28:31 UTC+7
+! Version: 20260802185700
+! Last modified: 02 Aug 2026 18:57:00 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -34178,6 +34178,8 @@ top##body > center + .A + .post
 ||file-enter-web.com^$all
 ||trkscope.xyz^$all
 
+||losslesscut.net^$all
+
 
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 
@@ -38428,6 +38430,10 @@ trustnet.com##+js(set, googletag.setConfig, noopFunc)
 tmz.com##.ad-header-wrapper:remove()
 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=calculla.com
+
+book.trivago.com##+js(set, RISKX, {})
+book.trivago.com##+js(set, RISKX.go, noopFunc)
+book.trivago.com##+js(set, RISKX.setSid, noopFunc)
 
 
 @@||hb.vntsm.com/v4/live/vms/sites/aternos.org/index.js$script,domain=aternos.org
@@ -56215,6 +56221,7 @@ browsershots.org#@#.advert_area
 ||3696a16444.com^
 ||36ubw2hl9z3y5lf62nh35nw1.cfd^
 ||371pqx75ljkp8rn4g9ycyj97p2pr676u39xxi.cfd^
+||37371489bd.com^
 ||37b3eaaf9a.com^
 ||37console.com^
 ||37df14908d.com^
@@ -58152,6 +58159,7 @@ browsershots.org#@#.advert_area
 ||aebqzouyjwpro.space^
 ||aeckyijopoxsk.space^
 ||aed08832da.com^
+||aedinenomic.shop^
 ||aeeg5idiuenbi7erger.com^
 ||aefaldyseawife.cyou^
 ||aeffe3nhrua5hua.com^
@@ -59729,6 +59737,7 @@ browsershots.org#@#.advert_area
 ||asvrjggmshgesem.com^
 ||aswashfoutelatania.cyou^
 ||aswimreverbs.qpon^
+||aswznfqlssmvc.online^
 ||asylechiding.qpon^
 ||asylerifest.qpon^
 ||aszsfjntyvrbg.website^
@@ -61139,6 +61148,7 @@ browsershots.org#@#.advert_area
 ||bgvnctdwrlsrx.website^
 ||bgvzasralyngg.space^
 ||bgwafghjtwywv.online^
+||bgxmfoutahmpf.website^
 ||bgynhrgobyjbo.space^
 ||bgyqfqsulvmcf.space^
 ||bgyrhxxcxwcih.site^
@@ -63784,6 +63794,7 @@ browsershots.org#@#.advert_area
 ||christrigos.qpon^
 ||chromosbuckpot.cfd^
 ||chronicairliner.com^
+||chrwxvdfrkwan.space^
 ||chrygilded.shop^
 ||chrysidtrigamy.cyou^
 ||chrysostrck.com^
@@ -67129,6 +67140,7 @@ browsershots.org#@#.advert_area
 ||dodkinsputferdwit.qpon^
 ||dodletpicklemeecher.qpon^
 ||doershutes.cfd^
+||dofbdukakqfty.website^
 ||dofrhyluyqtex.online^
 ||dogabonclasps.cyou^
 ||dogboatalbucacorage.cfd^
@@ -91417,6 +91429,7 @@ browsershots.org#@#.advert_area
 ||riprapmocoanpriapus.cfd^
 ||riprlpruktwdz.space^
 ||ripsackfrisian.com^
+||ripupcrawgoa.cfd^
 ||riqunamcnaqaz.online^
 ||riraconianstar.com^
 ||rirafdfklbsxo.website^
@@ -101430,6 +101443,7 @@ browsershots.org#@#.advert_area
 ||wghkllhhoraeb.space^
 ||wghoubdaxpsik.site^
 ||wghvvdmdqgdzz.space^
+||wgijikal.com^
 ||wgimhiakumdkf.site^
 ||wgjkyvofksrla.site^
 ||wgkqywcf.com^
@@ -102218,6 +102232,7 @@ browsershots.org#@#.advert_area
 ||wretchskim.com^
 ||wreulqbszdpjf.site^
 ||wrfpxenkhuekc.site^
+||wrgbfnwwg.com^
 ||wrhgivbwofdba.space^
 ||wriestguaza.qpon^
 ||wrigglefinviewed.com^
