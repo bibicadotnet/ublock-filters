@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260804050131
-! Last modified: 04 Aug 2026 05:01:31 UTC+7
+! Version: 20260804070227
+! Last modified: 04 Aug 2026 07:02:27 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26384,7 +26384,7 @@ hdhub4u.fail,hubdrive.*,moviesubtitles.click,telegratuita.com##+js(aeld, DOMCont
 141jav.com##+js(nowoif)
 filmifen.com##+js(aeld, load, document.body.appendChild(s))
 play.xpass.top##+js(acs, document.createElement, document.head||)
-/\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\/invoke\.js/$script,3p
+/\/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\/invoke\.js/$script,3p,important
 /\/[0-9a-z]{2}\/[0-9a-f]{32}\.js/$script,xhr,3p,match-case,method=get,to=com,from=ad|ag|app|bet|biz|blogspot.com|blue|boo|by|bz|care|casa|cash|cc|ceo|cfd|cx|click|cloud|club|com.se|cyou|dad|day|dev|download|forum|fun|gdn|ge|hair|homes|host|how|icu|in|info|is|lat|link|live|lol|ltd|md|me|media|mobi|moe|monster|one|onl|online|page|pe|pink|pk|pro|pw|re|red|rest|sbs|sh|site|skin|space|stream|su|team|tel|to|today|top|tube|tv|wedding|world|ws|xyz|~edu.ag|~edu.by|~edu.bz|~edu.ge|~edu.in|~edu.md|~edu.me|~edu.pe|~edu.pk|~edu.so|~edu.ws|~gov.ag|~gov.by|~gov.bz|~gov.ge|~gov.in|~gov.md|~gov.me|~gov.pk|~gov.sh|~gov.so|~gov.to|~gov.tv|~gov.ws|~palaugov.pw|~proton.me|~twitch.tv
 /\/[0-9a-z]{2}\/[0-9a-f]{32}\.js/$script,xhr,3p,match-case,method=get,to=com,from=123av.com|141jav.com|186.2.175.5|1piecemanga.com|4chanarchives.com|69shux.co|85po.com|aguea.net|animepelix.net|animerco.org|anizle.org|apkadmin.com|arakpop.net|asiaflix.net|bigwarp.art|blogspot.com|bookfrom.net|brobokep.org|cartoony.net|cdn9mc.com|clicknupload.cfd|comohoy.com|d-pdf.com|datavaults.co|desiupload.co|downsub.com|europixhd-official.com|filmnudes.com|filmpornoitaliano.org|flacdownloader.com|fmovies24-to.com|fsportshd.net|fztvseries.ng|hdpornflix.com|hentai2read.com|hianime.nz|hubdrive.space|indi-share.com|ironhentai.com|isekaitube.com|japaneseholes.com|javboys.com|javbraze.com|javhdporn.net|jgvdata.com|jpopsingles.eu|kisshentaiz.com|koreaboo.net|koshalworld.com|latinluchas.com|loadedfiles.org|loiflix.shop|madouqu.com|manhwa68.com|media.cm|megadiscografiascompletas.com|movielysium.net|monoschino2.com|moviemaniak.com|movies7.us|myxxgirl.com|nekopoi.care|niganpro.com|niraw.com|njav.com|novizer.com|nsfwgify.com|notunmovie.net|official.coomer.com.co|omegascans.org|onejav.com|onepiece-manga-online.net|pagalfree.com|pagalnew.com|pagalworld.us|pelimeli.com|pelis182.net|photocalltv.org|pixvid.org|player.subespanolvip.com|playmogo.com|plugincrack.com|pokopow.com|poophd.pm|popcornmovies.org|pornhoarder.net|pornincest.net|raw.senmanga.com|relampagomovies.com|seriesgod.com|sexiezpix.com|skidrowcodex.net|splay.id|spotidownloader.com|streampoi.com|surrit.store|sxyprn.com|tapepops.com|thecakeboutiquect.com|thefantazy.com|thepiratebay.org|tokyomotion.net|torbobit.net|torrentgalaxy-official.com|torrentjogos.com.br|towheree.com|uniquestream.net|vidboys.com|vidsonic.net|viduyy.com|xfantazy.com|xmegadrive.com
 /\/[0-9a-f]{32}\.js/$script,xhr,3p,to=com,from=bembed.net|embedv.net|listeamed.net|moflix-stream.day|moflix-stream.fans|v6embed.xyz|vid-guard.com
@@ -68593,6 +68593,7 @@ browsershots.org#@#.advert_area
 ||efadfubcqalcr.club^
 ||efaqipresgode.website^
 ||efbdfbvpsmngh.site^
+||efbeoyanzbtzk.space^
 ||efcmdpfbepeba.site^
 ||efdgiceidhinekm.com^
 ||efdjphnd.com^
@@ -76212,6 +76213,7 @@ browsershots.org#@#.advert_area
 ||impalmpannebotulin.cfd^
 ||imparksoptingmacuta.cyou^
 ||impartial-arrival.com^
+||impartialdig.pro^
 ||impartialpath.com^
 ||impartialreefham.com^
 ||impartsmilk.com^
@@ -80657,6 +80659,7 @@ browsershots.org#@#.advert_area
 ||llipdqmmdvmpu.online^
 ||lljoetsjbpukj.online^
 ||llllhshgscfda.site^
+||llmkghvhttoki.online^
 ||llnakdvnqoghu.site^
 ||llngvswgppjo.com^
 ||lloydcamenaewhizzes.cyou^
@@ -87948,6 +87951,7 @@ browsershots.org#@#.advert_area
 ||plasmboseroto.cyou^
 ||plasmidjerky.com^
 ||plasminog.cfd^
+||plasmonbogier.cyou^
 ||plasmsmoses.cyou^
 ||plasticdamage.com^
 ||plastleislike.com^
@@ -94782,6 +94786,7 @@ browsershots.org#@#.advert_area
 ||sowelsnock.cyou^
 ||sowpixnymnoxw.space^
 ||sowpoint.com^
+||sowtcrcheshiner.cyou^
 ||soxfokwppwqpm.website^
 ||soxhyxhugzwez.website^
 ||soxnhocmadklc.site^
@@ -96573,6 +96578,7 @@ browsershots.org#@#.advert_area
 ||teaserresshot.cfd^
 ||teaspoonwrenpursue.com^
 ||teatheserest.shop^
+||teatimealcyonevisited.qpon^
 ||tebahqhzjdcom.online^
 ||techilymuskish.qpon^
 ||techiteration.com^
@@ -97342,6 +97348,7 @@ browsershots.org#@#.advert_area
 ||tntxtyapobjrk.space^
 ||tnuiqidpolkmy.com^
 ||tnujzhfuslgwm.space^
+||tnvhuvqqbbc.com^
 ||tnvvcxxyetzsv.online^
 ||tnwndrllupvqj.online^
 ||tnxgvdzwqpizt.site^
@@ -100289,6 +100296,7 @@ browsershots.org#@#.advert_area
 ||vg4u8rvq65t6.com^
 ||vgbllzycxjrub.online^
 ||vgbvqutapetpb.website^
+||vgbvsyijljily.space^
 ||vgefehgpxogcw.online^
 ||vgexzbbuusqxf.space^
 ||vgfasfrttxhrc.site^
@@ -101136,6 +101144,7 @@ browsershots.org#@#.advert_area
 ||vyxijcujtjrzo.website^
 ||vyxsgealwarnz.website^
 ||vz.7vid.net^
+||vzaegrwwshajq.space^
 ||vzafeclhxfuym.website^
 ||vzakrwqsbbsro.site^
 ||vzaznkojzoyyo.online^
@@ -102185,6 +102194,7 @@ browsershots.org#@#.advert_area
 ||wkbyglkyywtez.space^
 ||wkcipnrwggdht.store^
 ||wkcqqgyhtjsvc.space^
+||wkcqzaddpfmom.space^
 ||wkdjprbtixvnx.website^
 ||wkerjleoderlg.online^
 ||wkfjbrmbkdiqa.online^
@@ -105387,6 +105397,7 @@ browsershots.org#@#.advert_area
 ||zun3e3eyw5h4fvj859.cfd^
 ||zuoxtrkqwyfmp.website^
 ||zupcrxfechrmx.store^
+||zuqimdiwllqxe.space^
 ||zuqltpaydnomz.website^
 ||zuqxuomhfipor.space^
 ||zusgorphsbeny.site^
