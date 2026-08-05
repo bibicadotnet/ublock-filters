@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260805225737
-! Last modified: 05 Aug 2026 22:57:37 UTC+7
+! Version: 20260806003647
+! Last modified: 06 Aug 2026 00:36:47 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -213,9 +213,11 @@ web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.
 ||facebook.com/api/graphql/$xhr,replace=/\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/{}/g,domain=web.facebook.com|www.facebook.com
 ||facebook.com/api/graphql/$xhr,replace=/\{"node":\{"__typename":"MarketplaceFeedAdStory"[^\n]+?"cursor":(?:null|"\{[^\n]+?\}"|[^\n]+?MarketplaceSearchFeedStoriesEdge")\}/{}/g,domain=web.facebook.com|www.facebook.com
 ||facebook.com/api/graphql/$xhr,replace=/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/{}/,domain=web.facebook.com|www.facebook.com
+||static.xx.fbcdn.net/rsrc.php/*.js$script,replace=/"__typename":"SponsoredData"/"__typename":"SponsorData"/g
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/g, {}, /api/graphql)
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"MarketplaceFeedAdStory"[^\n]+?"cursor":(?:null|"\{[^\n]+?\}"|[^\n]+?MarketplaceSearchFeedStoriesEdge")\}/g, {}, /api/graphql)
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/, {}, /api/graphql)
+web.facebook.com,www.facebook.com##+js(rpnt, script, '/"[a-z0-9]{8}":true,/g', , condition, compat_iframe_token)
 web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.story.sponsored_data.ad_id)
 web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.marketplace_search.feed_units.edges.[-].node.story.sponsored_data.ad_id)
 web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
@@ -8139,10 +8141,6 @@ supervideo.*##+js(aopr, AaDetector)
 /tag*.js$script,domain=supervideo.tv|supervideo.one|supervideo.cc
 
 ||intellipopup.com^$script,redirect=noopjs
-
-@@||enterinit.com^$ghide
-enterinit.com##.bs-wrap-gdpr-law
-enterinit.com##*::selection:style(background-color:#338FFF!important)
 
 ||cdn.jsdelivr.net/*/dist/js/wgd-core.min.js$script
 
@@ -38504,10 +38502,7 @@ web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcomp
 web.facebook.com,www.facebook.com##div[role="complementary"] a[attributionsrc][href^="http"][target="_blank"][role="link"][rel*="noreferrer"]:has(img[src])
 web.facebook.com,www.facebook.com##div[role="complementary"] h3 span[style^="-webkit-box-orient:vertical"]:has-text(/^Sponsored$/)
 web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id)
-web.facebook.com,www.facebook.com##+js(json-edit, .require..node[?.*.__typename=="SponsoredData"])
-web.facebook.com,www.facebook.com##+js(json-edit, ..edges..node[?.*.__typename=="SponsoredData"])
-web.facebook.com,www.facebook.com##+js(json-edit, ..comet_sections..node[?.*.__typename=="SponsoredData"])
-web.facebook.com,www.facebook.com##+js(json-edit, ..story..node[?.*.__typename=="SponsoredData"])
+web.facebook.com,www.facebook.com##+js(json-edit, ..node[?.*.__typename=="SponsoredData"])
 web.facebook.com,www.facebook.com##+js(json-edit, ..nodes.*[?.sponsored_data])
 web.facebook.com,www.facebook.com##+js(jsonl-edit-xhr-response, .data[?.category=="SPONSORED"].node, propsToMatch, /graphql)
 web.facebook.com,www.facebook.com##+js(jsonl-edit-xhr-response, ..node[?.*.__typename=="SponsoredData"], propsToMatch, /graphql)
@@ -38526,6 +38521,20 @@ web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.proto
 web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.before, Function.prototype.toString)
 web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.after, JSON.parse)
 web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.after, Function.prototype.toString)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, Object.getOwnPropertyDescriptor)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, XMLHttpRequest.prototype)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Node.prototype.insertBefore, Object.getOwnPropertyDescriptor)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Node.prototype.insertBefore, XMLHttpRequest.prototype)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.after, Object.getOwnPropertyDescriptor)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.after, XMLHttpRequest.prototype)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.append, Object.getOwnPropertyDescriptor)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.append, XMLHttpRequest.prototype)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.before, Object.getOwnPropertyDescriptor)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.before, XMLHttpRequest.prototype)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.insertAdjacentElement, Object.getOwnPropertyDescriptor)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.insertAdjacentElement, XMLHttpRequest.prototype)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.prepend, Object.getOwnPropertyDescriptor)
+web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.prepend, XMLHttpRequest.prototype)
 ||static.xx.fbcdn.net/rsrc.php/$script,domain=web.facebook.com|www.facebook.com,replace=/return r instanceof ArrayBuffer/return r.constructor.name==="ArrayBuffer"/
 
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=jessicachoosemake.com,important
@@ -58989,6 +58998,7 @@ browsershots.org#@#.advert_area
 ||ambitiousdemand.com^
 ||ambitiousmarket.pro^
 ||ambitsunneatagone.cfd^
+||ambonesswiss.cyou^
 ||ambosmosts.cfd^
 ||ambroty.xyz^
 ||ambsacedeposeslance.cyou^
@@ -59063,6 +59073,7 @@ browsershots.org#@#.advert_area
 ||amunfezanttor.com^
 ||amusgjaczncmg.site^
 ||amusingbase.com^
+||amusinggemeled.shop^
 ||amusinghump.com^
 ||amuyongsentsarachne.cyou^
 ||amveojmbffpma.online^
@@ -61211,6 +61222,7 @@ browsershots.org#@#.advert_area
 ||bfraircymryuh.xyz^
 ||bfrjiwydcakxu.site^
 ||bfrrndnsbmiov.site^
+||bfsqzaxsjeycw.space^
 ||bftbphjlcefsk.site^
 ||bfwnbnerccsor.space^
 ||bfxytxdpnk.com^
@@ -62377,6 +62389,7 @@ browsershots.org#@#.advert_area
 ||brtwlhfmomcng.site^
 ||bruceleadx1.com^
 ||brucinabloke.cfd^
+||bruetcohen.cyou^
 ||brugesgarner.com^
 ||bruinleges.qpon^
 ||bruisedblock.pro^
@@ -63405,6 +63418,7 @@ browsershots.org#@#.advert_area
 ||cchpvhkoqilnr.online^
 ||cchuovsztwnez.online^
 ||cchvgvgnqxrjr.space^
+||cchxgahvhzdoh.site^
 ||ccidedogerppw.space^
 ||cciqjddkvgljm.site^
 ||ccjfxvnyiqcfv.space^
@@ -64611,6 +64625,7 @@ browsershots.org#@#.advert_area
 ||comerglucase.cyou^
 ||comerhurlentertain.com^
 ||comertmtcyglq.website^
+||comethhurriweeted.cfd^
 ||comfitdossel.cfd^
 ||comfortablehall.pro^
 ||comfortablepossibilitycarlos.com^
@@ -67849,6 +67864,7 @@ browsershots.org#@#.advert_area
 ||dsivor.com^
 ||dsixzz.com^
 ||dsjbna.com^
+||dsjejt.com^
 ||dsjggm.com^
 ||dsjofl.com^
 ||dsjoiyflhvxpq.website^
@@ -68186,6 +68202,7 @@ browsershots.org#@#.advert_area
 ||dust-0001.delorazahnow.workers.dev^
 ||dustexhibition.com^
 ||dustinga.com^
+||dustmancarian.cyou^
 ||dustourrenewer.qpon^
 ||dustourtollage.qpon^
 ||dustyrender.com^
@@ -73619,6 +73636,7 @@ browsershots.org#@#.advert_area
 ||griddededuce.shop^
 ||gridder.co^
 ||gridderreswear.qpon^
+||griddlegetas.cfd^
 ||gridmalope.qpon^
 ||gridnovablock.com^
 ||gridrelay27.co^
@@ -74639,6 +74657,7 @@ browsershots.org#@#.advert_area
 ||hentaigold.net^
 ||hentaionline.net^
 ||henzxztnnwmhp.website^
+||hepburnpulsant.qpon^
 ||hepburnwiringsdoubler.cyou^
 ||hepcatprosily.cyou^
 ||hepteneidolsephetic.cyou^
@@ -74806,6 +74825,7 @@ browsershots.org#@#.advert_area
 ||hhosfypbmvdoj.website^
 ||hhowyijfffxry.online^
 ||hhplkjrwrcflr.space^
+||hhrbryqfizuzv.site^
 ||hhtteocvkxvph.online^
 ||hhudialsvwews.site^
 ||hhuhwkfwugi.com^
@@ -75293,6 +75313,7 @@ browsershots.org#@#.advert_area
 ||hospitable-effort.pro^
 ||hospitabledues.com^
 ||hospitalforgery.com^
+||hospitapollen.cfd^
 ||hostadsmarkets.com^
 ||hostave.net^
 ||hostave4.net^
@@ -83154,6 +83175,7 @@ browsershots.org#@#.advert_area
 ||monsoonlassi.com^
 ||monsterofnews.com^
 ||monstroustouchy.com^
+||montanadeeper.cyou^
 ||monterapraham.qpon^
 ||monthdisembroildisembroilhenrietta.com^
 ||monthsexpressive.com^
@@ -86395,6 +86417,7 @@ browsershots.org#@#.advert_area
 ||oratemissayfiercly.cyou^
 ||oratesmyxomas.cfd^
 ||oratorbelievinginvention.com^
+||orbbanate.qpon^
 ||orbit-static.xyz^
 ||orbitcarrot.com^
 ||orbiteleveed.com^
@@ -89641,6 +89664,7 @@ browsershots.org#@#.advert_area
 ||purreeerugo.cfd^
 ||purrerguze.cyou^
 ||pursedtuwi.qpon^
+||purshiakalam.cfd^
 ||pursuedcovering.com^
 ||pursuingconjunction.com^
 ||purtygoudy.com^
@@ -93199,6 +93223,7 @@ browsershots.org#@#.advert_area
 ||saooykasbxdts.space^
 ||sapekcabobs.cfd^
 ||sapmgtkvtoulm.space^
+||sapperpokable.cfd^
 ||saptiledispatch.com^
 ||sapuzvinnbuqc.online^
 ||sapwooddeciare.cfd^
@@ -93527,6 +93552,7 @@ browsershots.org#@#.advert_area
 ||scvmljhzcdfyj.store^
 ||scvzzypvcveio.online^
 ||scwmllkshdfug.website^
+||scyphatipis.shop^
 ||scyunztvkunuw.website^
 ||sczsjiyrfjgcv.website^
 ||sda.seesaa.jp^
@@ -96701,6 +96727,7 @@ browsershots.org#@#.advert_area
 ||tagetoloffic.shop^
 ||taginova.xyz^
 ||tagivi.com^
+||tagjsirw.com^
 ||tagshuzzy.cyou^
 ||tagsoviet.com^
 ||tagtailjabbing.qpon^
@@ -99484,6 +99511,7 @@ browsershots.org#@#.advert_area
 ||undesirableratificationprograms.com^
 ||undigneskullmbeuer.cfd^
 ||undinedwaly.cyou^
+||undoersaconic.cyou^
 ||undoneknit.com^
 ||undosupporterpyjamas.com^
 ||undoubtedlyovercoat.com^
@@ -103213,6 +103241,7 @@ browsershots.org#@#.advert_area
 ||wvkhmysqclufx.site^
 ||wvloxeggdbjeq.com^
 ||wvlserrzyvspo.online^
+||wvluhltwdsaze.space^
 ||wvlwtsgbperzr.space^
 ||wvmvpjlguwapy.online^
 ||wvnggxfjhwdzd.online^
@@ -103527,6 +103556,7 @@ browsershots.org#@#.advert_area
 ||xepluwsaisxgi.website^
 ||xeqqshdc.com^
 ||xerahhhwhpcey.online^
+||xeriffnegerquotid.cfd^
 ||xerotesamyroot.cfd^
 ||xeroxhoubara.cfd^
 ||xerunkus.com^
@@ -104255,6 +104285,7 @@ browsershots.org#@#.advert_area
 ||yanadu.click^
 ||yanbkkbxjguvf.website^
 ||yandfartoomanyrel.com^
+||yanmysipmhlgg.space^
 ||yaoeoownhrjxe.space^
 ||yapabbreviate.com^
 ||yapfairmark.com^
@@ -105228,6 +105259,7 @@ browsershots.org#@#.advert_area
 ||zbevofrechbto.space^
 ||zbgoxfihhvxqd.site^
 ||zbkrmwrzftiav.site^
+||zbnceqoxuooct.website^
 ||zbo1uekugxxhentqm.cfd^
 ||zborqhpkcjsao.site^
 ||zbpcfwjglyyiy.space^
