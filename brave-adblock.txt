@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260807104441
-! Last modified: 07 Aug 2026 10:44:41 UTC+7
+! Version: 20260807122923
+! Last modified: 07 Aug 2026 12:29:23 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -28068,6 +28068,7 @@ astrozop.com,criczop.com,feedzop.com,gamezop.com,gamezop.io,quizzop.com,umogames
 fmradiofree.com,internetradio-horen.de,radio-australia.org,radio-danmark.dk,radio-hrvatska.com,radio-norge.org,radio-osterreich.at##+js(trusted-replace-argument, Element.prototype.setAttribute, 1, , condition, '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode|adShieldError/')
 ||html-load.com^$script,xhr,domain=notebookcheck.*|notebookcheck.biz|notebookcheck.com|notebookcheck.info|notebookcheck.it|notebookcheck.net|notebookcheck.nl|notebookcheck.org|notebookcheck.pl|notebookcheck.se|notebookcheck-cn.com|notebookcheck-hu.com|notebookcheck-ru.com|notebookcheck-tr.com
 notebookcheck.*,notebookcheck-cn.com,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com##+js(trusted-replace-argument, Element.prototype.setAttribute, 1, , condition, '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode|adShieldError/')
+coolmath4kids.com,coolmath4parents.com,coolmath4teachers.com,coolmathgames.com##+js(json-edit, .scriptLoader.*[?.id=="ad_stack_split_provider"])
 ||html-load.com^$script,xhr,domain=babla.cn|babla.co.id|babla.co.th|babla.gr|babla.no|babla.ru|babla.vn|fxstreet.com|fxstreet.com.tr|fxstreet.de.com|fxstreet.es|fxstreet.fr|fxstreet.hk|fxstreet.hu|fxstreet.it|fxstreet.ru.com|gentside.co.uk|gentside.com|gentside.de|ohmymag.co.uk|ohmymag.com|ohmymag.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de|willyweather.co.uk|willyweather.com|willyweather.com.au|woxikon.bg|woxikon.co|woxikon.co.uk|woxikon.com|woxikon.com.br|woxikon.cl|woxikon.dk|woxikon.de|woxikon.fr|woxikon.es|woxikon.it|woxikon.mx|woxikon.nl|woxikon.pl|woxikon.pt|woxikon.ru|woxikon.se
 ||css-load.com^$domain=ygosu.com|loawa.com|bamgosu.site
 ||css-load.com^$redirect=noopjs,domain=honkailab.com
@@ -28197,7 +28198,6 @@ gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.
 notebookcheck.*,notebookcheck-cn.com,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com##^script[data-cfasync="false"][nowprocket]
 notebookcheck.*,notebookcheck-cn.com,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com##^script[src*="html-load.com"]
 notebookcheck.*,notebookcheck-cn.com,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com##^script:has-text(&&window,)
-coolmath4kids.com,coolmath4parents.com,coolmath4teachers.com,coolmathgames.com##^script:has-text(html-load.com)
 interfootball.co.kr,a-ha.io,cboard.net,joongdo.co.kr,viva100.com,maketecheasier.com,tweaksforgeeks.com,m.inven.co.kr,mlbpark.donga.com##+js(rmnt, script, KCgpPT57bGV0IGU)
 bleepingcomputer.com,pravda.com.ua##+js(rmnt, script, Ad-Shield)
 ap7am.com,cinema.com.my,dolldivine.com,giornalone.it,iplocation.net,jamaicajawapos.com,jutarnji.hr,kompasiana.com,mediaindonesia.com,niice-woker.com,pep.ph,slobodnadalmacija.hr,upmedia.mg##+js(rmnt, script, adrecover.com)
@@ -28252,7 +28252,6 @@ weerplaza.nl##+js(rmnt, script, '/:\[?window,/')
 fmradiofree.com,internetradio-horen.de,radio-australia.org,radio-danmark.dk,radio-hrvatska.com,radio-norge.org,radio-osterreich.at##+js(rmnt, script, /\)\.join\(String\.fromCharCode|html-load\.com/)
 gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com##+js(rmnt, script, '"nowprocket"')
 notebookcheck.*,notebookcheck-cn.com,notebookcheck-hu.com,notebookcheck-ru.com,notebookcheck-tr.com##+js(rmnt, script, &&window\,)
-coolmath4kids.com,coolmath4parents.com,coolmath4teachers.com,coolmathgames.com##+js(rmnt, script, html-load.com)
 12thmanrising.com,allucanheat.com,aroundthefoghorn.com,arrowheadaddict.com,badgerofhonor.com,bamahammer.com,beargoggleson.com,beyondtheflag.com,birdswatcher.com,blackandteal.com,blogredmachine.com,bluemanhoop.com,boltbeat.com,bosoxinjection.com,buffalowdown.com,caneswarning.com,catcrave.com,chopchat.com,climbingtalshill.com,cubbiescrib.com,dailyknicks.com,dairylandexpress.com,dawgpounddaily.com,dawindycity.com,dawnofthedawg.com,detroitjockcity.com,dodgersway.com,ebonybird.com,fansided.com,flywareagle.com,gbmwolverine.com,gigemgazette.com,gmenhq.com,hailfloridahail.com,halohangout.com,hardwoodhoudini.com,horseshoeheroes.com,housethathankbuilt.com,huskercorner.com,insidetheiggles.com,jaysjournal.com,justblogbaby.com,kckingdom.com,kingjamesgospel.com,kingsofkauffman.com,lakeshowlife.com,lombardiave.com,mentalfloss.com,motorcitybengals.com,musketfire.com,nflspinzone.com,ninernoise.com,nugglove.com,onechicagocenter.com,phinphanatic.com,pistonpowered.com,predominantlyorange.com,ramblinfan.com,redbirdrants.com,reviewingthebrew.com,riggosrag.com,ripcityproject.com,risingapple.com,rumbunter.com,scarletandgame.com,section215.com,sidelionreport.com,slapthesign.com,sodomojo.com,southsideshowdown.com,stillcurtain.com,stormininnorman.com,stripehype.com,thatballsouttahere.com,thecelticbhoys.com,thejetpress.com,thelandryhat.com,thepewterplank.com,thesmokingcuban.com,thevikingage.com,thunderousintentions.com,undeadwalking.com,valleyofthesuns.com,whodatdish.com,winteriscoming.net,yanksgoyard.com##+js(nostif, [native code], 500)
 12thmanrising.com,allucanheat.com,aroundthefoghorn.com,arrowheadaddict.com,badgerofhonor.com,bamahammer.com,beargoggleson.com,beyondtheflag.com,birdswatcher.com,blackandteal.com,blogredmachine.com,bluemanhoop.com,boltbeat.com,bosoxinjection.com,buffalowdown.com,caneswarning.com,catcrave.com,chopchat.com,climbingtalshill.com,cubbiescrib.com,dailyknicks.com,dairylandexpress.com,dawgpounddaily.com,dawindycity.com,dawnofthedawg.com,detroitjockcity.com,dodgersway.com,ebonybird.com,fansided.com,flywareagle.com,gbmwolverine.com,gigemgazette.com,gmenhq.com,hailfloridahail.com,halohangout.com,hardwoodhoudini.com,horseshoeheroes.com,housethathankbuilt.com,huskercorner.com,insidetheiggles.com,jaysjournal.com,justblogbaby.com,kckingdom.com,kingjamesgospel.com,kingsofkauffman.com,lakeshowlife.com,lombardiave.com,mentalfloss.com,motorcitybengals.com,musketfire.com,nflspinzone.com,ninernoise.com,nugglove.com,onechicagocenter.com,phinphanatic.com,pistonpowered.com,predominantlyorange.com,ramblinfan.com,redbirdrants.com,reviewingthebrew.com,riggosrag.com,ripcityproject.com,risingapple.com,rumbunter.com,scarletandgame.com,section215.com,sidelionreport.com,slapthesign.com,sodomojo.com,southsideshowdown.com,stillcurtain.com,stormininnorman.com,stripehype.com,thatballsouttahere.com,thecelticbhoys.com,thejetpress.com,thelandryhat.com,thepewterplank.com,thesmokingcuban.com,thevikingage.com,thunderousintentions.com,undeadwalking.com,valleyofthesuns.com,whodatdish.com,winteriscoming.net,yanksgoyard.com##+js(trusted-replace-argument, Element.prototype.setAttribute, 1, , condition, '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode|adShieldError/')
 ||asset.ad-shield.cc/images$image,3p,redirect=32x32.png
@@ -28637,8 +28636,8 @@ explorecams.com,minecraft.buzz,rarepike.com##+js(aeld, np.detect)
 
 
 
-*,~amazon.*,~apple.com,~bing.com,~chatgpt.com,~chess.com,~claude.ai,~cloudflare.com,~dailymotion.com,~disqus.com,~facebook.com,~fbsbx.com,~flickr.com,~github.com,~google.com,~hcaptcha.com,~instagram.com,~lichess.org,~linkedin.com,~live.com,~microsoft.com,~mozilla.org,~netflix.com,~pinterest.com,~spotify.com,~reddit.com,~tiktok.com,~tumblr.com,~twitch.tv,~twitchcdn.net,~twitter.com,~tinypass.com,~vscode.dev,~whatsapp.com,~wikipedia.org,~x.com,~yahoo.com,~yandex.*,~youtube.com##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo\b.+?base64 -d\b|^cmd \/c\b.+?\bcurl .+?(\.exe|\.bat)\b|^powershell.+?-w(indowStyle)? h(idden)?\b|^powershell.+?-W H(idden)?\b|^powershell.+?-NoP\b|^powershell.+?-ep bypass\b|^powershell.+?-ExecutionPolicy (Bypass|Unrestricted)|\\PowerShell\.exe.+?-ep bypass\b|powershell.+?\biex\(irm|powershell.+?Invoke-Expression|powershell.+?Invoke-WebRequest|powershell.+?-UseBasicParsing|\biwr\b.+?-OutFile\b.+?\$env:(TEMP|TMP)\b|\$env:(TEMP|TMP)\b[\/\\].+?\.(exe|bat|ps1|cmd|vbs)\b|\bstart \$env:(TEMP|TMP)\b|Add-Type -As System\.Windows\.Forms|Windows\.Forms\.MessageBox|\bcmd.+?\/c.+?-nop\b.+?\biex\(irm|\b(cmd|powershell)\b.+?recaptcha|\b(cmd|powershell)\b.+?#(Verification|   )|\b(cmd|powershell)\b.+?   #|^osascript |^curl -s.+?\| (bash|sh|zsh)\b|^\/bin\/(bash|sh|zsh) -c.+?\bcurl|^bash -c.+?\$\(curl|^python3? -c.+?\b(exec|urllib|subprocess)|^echo.+?base64 (--decode|-D|-d)\b.+?\| (bash|sh)\b|chmod \+x.+?&&|\b(bash|sh|osascript)\b.+?recaptcha|\b(bash|sh|osascript)\b.+?#(Verification|   )|\b(bash|sh|osascript)\b.+?   #|^wget .+?\| (bash|sh)\b|^curl\b.+?-o\b.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)\b|\/tmp\/.+?chmod \+x.+?&&|\b(apt(-get)?|dpkg)\b .+?http|^wget -q.+?\.(sh|py|bin|elf)\b|C:\\Windows\\system32\\cmd\.exe.+?powershell/msi, domAlert, Copy-paste blocked - 📋🛇❗ ${text})
-sites.google.com##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo\b.+?base64 -d\b|^cmd \/c\b.+?\bcurl .+?(\.exe|\.bat)\b|^powershell.+?-w(indowStyle)? h(idden)?\b|^powershell.+?-W H(idden)?\b|^powershell.+?-NoP\b|^powershell.+?-ep bypass\b|^powershell.+?-ExecutionPolicy (Bypass|Unrestricted)|\\PowerShell\.exe.+?-ep bypass\b|powershell.+?\biex\(irm|powershell.+?Invoke-Expression|powershell.+?Invoke-WebRequest|powershell.+?-UseBasicParsing|\biwr\b.+?-OutFile\b.+?\$env:(TEMP|TMP)\b|\$env:(TEMP|TMP)\b[\/\\].+?\.(exe|bat|ps1|cmd|vbs)\b|\bstart \$env:(TEMP|TMP)\b|Add-Type -As System\.Windows\.Forms|Windows\.Forms\.MessageBox|\bcmd.+?\/c.+?-nop\b.+?\biex\(irm|\b(cmd|powershell)\b.+?recaptcha|\b(cmd|powershell)\b.+?#(Verification|   )|\b(cmd|powershell)\b.+?   #|^osascript |^curl -s.+?\| (bash|sh|zsh)\b|^\/bin\/(bash|sh|zsh) -c.+?\bcurl|^bash -c.+?\$\(curl|^python3? -c.+?\b(exec|urllib|subprocess)|^echo.+?base64 (--decode|-D|-d)\b.+?\| (bash|sh)\b|chmod \+x.+?&&|\b(bash|sh|osascript)\b.+?recaptcha|\b(bash|sh|osascript)\b.+?#(Verification|   )|\b(bash|sh|osascript)\b.+?   #|^wget .+?\| (bash|sh)\b|^curl\b.+?-o\b.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)\b|\/tmp\/.+?chmod \+x.+?&&|\b(apt(-get)?|dpkg)\b .+?http|^wget -q.+?\.(sh|py|bin|elf)\b|C:\\Windows\\system32\\cmd\.exe.+?powershell/msi, domAlert, Copy-paste blocked - 📋🛇❗ - ${text})
+*,~amazon.*,~apple.com,~bing.com,~chatgpt.com,~chess.com,~claude.ai,~cloudflare.com,~dailymotion.com,~disqus.com,~facebook.com,~fbsbx.com,~flickr.com,~github.com,~google.com,~hcaptcha.com,~instagram.com,~lichess.org,~linkedin.com,~live.com,~microsoft.com,~mozilla.org,~netflix.com,~pinterest.com,~spotify.com,~reddit.com,~tiktok.com,~tinypass.com,~tumblr.com,~twitch.tv,~twitchcdn.net,~twitter.com,~virustotal.com,~vscode.dev,~whatsapp.com,~wikipedia.org,~x.com,~yahoo.com,~yandex.*,~youtube.com##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo\b.+?base64 -d\b|^cmd \/c\b.+?\bcurl .+?(\.exe|\.bat)\b|^cmd\b.+?\bfor \/f\b.+?\bdelims\b.+?\bpow\b|^powershell.+?-w(indowStyle)? h(idden)?\b|^powershell.+?-W H(idden)?\b|^powershell.+?-NoP\b|^powershell.+?-ep bypass\b|^powershell.+?-EP (B|U)\b|^powershell.+?-ExecutionPolicy (Bypass|Unrestricted)|\\PowerShell\.exe.+?-ep bypass\b|powershell.+?\biex\(|powershell.+?Invoke-Expression|powershell.+?Invoke-WebRequest|powershell.+?-UseBasicParsing|\biwr\b.+?-OutFile\b.+?\$env:(TEMP|TMP)\b|\$env:(TEMP|TMP)\b[\/\\].+?\.(exe|bat|ps1|cmd|vbs)\b|\bstart \$env:(TEMP|TMP)\b|%LOCALAPPDATA%\\.+?\.(exe|bat|ps1|cmd|vbs)\b|%APPDATA%\\.+?\.(exe|bat|ps1|cmd|vbs)\b|\[Convert\]::FromBase64String|\[Text\.Encoding\]::UTF8\.GetString|\btry\b\s*\{\s*\birm\b.+?\}\s*\bcatch\b.+?\{\s*\biex\b|Add-Type -As System\.Windows\.Forms|Windows\.Forms\.MessageBox|\bcmd.+?\/c.+?-nop\b.+?\biex\(|\b(cmd|powershell)\b.+?recaptcha|\b(cmd|powershell)\b.+?#(Verification|   )|\b(cmd|powershell)\b.+?   #|^osascript |^curl -s\b.+?\| (bash|sh|zsh)\b|^\/bin\/(bash|sh|zsh) -c\b.+?\bcurl|^bash -c\b.+?\$\(curl|^python3? -c\b.+?\b(exec|urllib|subprocess)\b|^echo\b.+?base64 (--decode|-D|-d)\b.+?\| (bash|sh)\b|openssl base64 -d|chmod \+x.+?&&|\b(bash|sh|osascript)\b.+?recaptcha|\b(bash|sh|osascript)\b.+?#(Verification|   )|\b(bash|sh|osascript)\b.+?   #|^wget .+?\| (bash|sh)\b|^curl\b.+?-o\b.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)\b|\/tmp\/.+?chmod \+x.+?&&|\b(apt(-get)?|dpkg)\b .+?http|^wget -q.+?\.(sh|py|bin|elf)\b|C:\\Windows\\system32\\cmd\.exe.+?powershell/msi, domAlert, Copy-paste blocked - 📋🛇❗ ${text})
+sites.google.com##+js(prevent-clipboard-write, /^mshta |^(bash <<<|curl -kfsSL) \$\(echo\b.+?base64 -d\b|^cmd \/c\b.+?\bcurl .+?(\.exe|\.bat)\b|^cmd\b.+?\bfor \/f\b.+?\bdelims\b.+?\bpow\b|^powershell.+?-w(indowStyle)? h(idden)?\b|^powershell.+?-W H(idden)?\b|^powershell.+?-NoP\b|^powershell.+?-ep bypass\b|^powershell.+?-EP (B|U)\b|^powershell.+?-ExecutionPolicy (Bypass|Unrestricted)|\\PowerShell\.exe.+?-ep bypass\b|powershell.+?\biex\(|powershell.+?Invoke-Expression|powershell.+?Invoke-WebRequest|powershell.+?-UseBasicParsing|\biwr\b.+?-OutFile\b.+?\$env:(TEMP|TMP)\b|\$env:(TEMP|TMP)\b[\/\\].+?\.(exe|bat|ps1|cmd|vbs)\b|\bstart \$env:(TEMP|TMP)\b|%LOCALAPPDATA%\\.+?\.(exe|bat|ps1|cmd|vbs)\b|%APPDATA%\\.+?\.(exe|bat|ps1|cmd|vbs)\b|\[Convert\]::FromBase64String|\[Text\.Encoding\]::UTF8\.GetString|\btry\b\s*\{\s*\birm\b.+?\}\s*\bcatch\b.+?\{\s*\biex\b|Add-Type -As System\.Windows\.Forms|Windows\.Forms\.MessageBox|\bcmd.+?\/c.+?-nop\b.+?\biex\(|\b(cmd|powershell)\b.+?recaptcha|\b(cmd|powershell)\b.+?#(Verification|   )|\b(cmd|powershell)\b.+?   #|^osascript |^curl -s\b.+?\| (bash|sh|zsh)\b|^\/bin\/(bash|sh|zsh) -c\b.+?\bcurl|^bash -c\b.+?\$\(curl|^python3? -c\b.+?\b(exec|urllib|subprocess)\b|^echo\b.+?base64 (--decode|-D|-d)\b.+?\| (bash|sh)\b|openssl base64 -d|chmod \+x.+?&&|\b(bash|sh|osascript)\b.+?recaptcha|\b(bash|sh|osascript)\b.+?#(Verification|   )|\b(bash|sh|osascript)\b.+?   #|^wget .+?\| (bash|sh)\b|^curl\b.+?-o\b.+?\/tmp\/.+?&&|^nc .+?-e \/bin\/(bash|sh)\b|\/tmp\/.+?chmod \+x.+?&&|\b(apt(-get)?|dpkg)\b .+?http|^wget -q.+?\.(sh|py|bin|elf)\b|C:\\Windows\\system32\\cmd\.exe.+?powershell/msi, domAlert, Copy-paste blocked - 📋🛇❗ - ${text})
 
 
 
@@ -58426,6 +58425,7 @@ browsershots.org#@#.advert_area
 ||agattlaidvkmm.website^
 ||agavestreflefalse.qpon^
 ||agavewrasses.cfd^
+||agavosemishnic.cfd^
 ||agbfgatnhzdeb.online^
 ||agcdn.com^
 ||agcmveaitacs.com^
@@ -60986,6 +60986,7 @@ browsershots.org#@#.advert_area
 ||begony.xyz^
 ||begowkmoocha.cfd^
 ||begravesimula.cfd^
+||begrimreplace.shop^
 ||beguessoestrum.qpon^
 ||beguilemaud.cfd^
 ||begunksplints.com^
@@ -61171,6 +61172,7 @@ browsershots.org#@#.advert_area
 ||besthabit.pro^
 ||bestialanacompulsive.com^
 ||bestidate4you.com^
+||bestillbecolor.shop^
 ||bestofall.info^
 ||bestonlinecasino.club^
 ||bestorminvoicewedeled.cfd^
@@ -63072,6 +63074,7 @@ browsershots.org#@#.advert_area
 ||cakmzschaasdf.space^
 ||cakzbbrjeagxl.online^
 ||calabarminimus.cfd^
+||calamiredact.qpon^
 ||calamityfortuneaudio.com^
 ||calamitymyselfprong.com^
 ||calamitynineteenthglide.com^
@@ -66359,6 +66362,7 @@ browsershots.org#@#.advert_area
 ||ddrsemxv.com^
 ||ddsfzaxnkuztb.space^
 ||ddxiejwiegzxa.website^
+||ddyhhneftqvlfdb.com^
 ||ddytwtumsiopf.space^
 ||ddzk5l3bd.com^
 ||ddzyijhyaujus.site^
@@ -67819,6 +67823,7 @@ browsershots.org#@#.advert_area
 ||drudgeryarson.com^
 ||druej.com^
 ||drueryeartagfungose.cfd^
+||druffenanatto.cyou^
 ||drufgqygmwhen.site^
 ||drugeugene.cfd^
 ||druggedlibrary.com^
@@ -69451,6 +69456,7 @@ browsershots.org#@#.advert_area
 ||enjoyingcane.com^
 ||enjoyingclienthousing.com^
 ||enjoyingdishwashertoilet.com^
+||enjxbulvn.com^
 ||enlardungouty.cyou^
 ||enlargementemergencyflank.com^
 ||enlightencareerschronicle.com^
@@ -69918,6 +69924,7 @@ browsershots.org#@#.advert_area
 ||ethizeeuripusbaudery.cfd^
 ||ethnicchristmassocks.com^
 ||ethnogmoongpersue.cfd^
+||ethylictoko.cfd^
 ||etiolinedwardstoons.qpon^
 ||etivbuvltde.com^
 ||etivfnfdlwwlc.online^
@@ -78978,6 +78985,7 @@ browsershots.org#@#.advert_area
 ||kalganscope.com^
 ||kalmiasparple.shop^
 ||kalmukhydra.cfd^
+||kalorippet.shop^
 ||kalpisvirason.qpon^
 ||kalwarsandawe.cfd^
 ||kamberro.lol^
@@ -79298,6 +79306,7 @@ browsershots.org#@#.advert_area
 ||khajurzeolitevicary.cfd^
 ||khakiroute.cyou^
 ||khalalnixes.cyou^
+||khalifabranlesoversum.qpon^
 ||khamalbesaint.cyou^
 ||khamilangoontower.cyou^
 ||khamipam.cyou^
@@ -79356,6 +79365,7 @@ browsershots.org#@#.advert_area
 ||khzypcnfnkjqw.website^
 ||kiackeffuse.qpon^
 ||kiackgold.cyou^
+||kiakialen.qpon^
 ||kiblahmafia.com^
 ||kibxgtjvdfuw.com^
 ||kickhoistsuccess.com^
@@ -85205,6 +85215,7 @@ browsershots.org#@#.advert_area
 ||notorietysoldduplicate.com^
 ||notoriouscolumnistdead.com^
 ||notslgefxb.com^
+||nouezbrn.com^
 ||noughtmiles.com^
 ||noughtspicule.qpon^
 ||noughttrustthreshold.com^
@@ -87139,6 +87150,7 @@ browsershots.org#@#.advert_area
 ||ownablearmful.qpon^
 ||owndangle.com^
 ||owndata.network^
+||ownedmention.cfd^
 ||owonchghcurdw.website^
 ||owrehipburkes.qpon^
 ||owrj838bplzo8j536urt.cfd^
@@ -93225,6 +93237,7 @@ browsershots.org#@#.advert_area
 ||rwolbykeddxca.website^
 ||rworljrkawlqq.top^
 ||rwowunoz.in^
+||rwpdarehxzjxu.site^
 ||rwpvjrjxyhpzr.space^
 ||rwpxoyhvpnysk.online^
 ||rwqovmoezrvrv.top^
@@ -93512,6 +93525,7 @@ browsershots.org#@#.advert_area
 ||sangarsooty.shop^
 ||sanghissed.com^
 ||sanghsfind.shop^
+||sangleybrazils.cyou^
 ||sangmoonlightstake.com^
 ||sangopportunity.com^
 ||sanguinecocky.com^
@@ -93980,6 +93994,7 @@ browsershots.org#@#.advert_area
 ||sedativequickie.com^
 ||sedgebkt.cyou^
 ||sedgedunspike.cfd^
+||sediletychite.qpon^
 ||sedodna.com^
 ||seduceboozeblackmail.com^
 ||seducemover.com^
@@ -99731,6 +99746,7 @@ browsershots.org#@#.advert_area
 ||umepbimeghqpq.online^
 ||umeqaqdcvviwd.space^
 ||umexalim.com^
+||umgoolhjbqa.com^
 ||umgzvlbrqzyeq.online^
 ||umhkzidngrmor.website^
 ||umhtpaohymjwy.com^
@@ -104602,6 +104618,7 @@ browsershots.org#@#.advert_area
 ||xyfzrzldyaoaf.space^
 ||xygnldwsguite.space^
 ||xyhjflxkhqchl.online^
+||xyibmdxgyrhko.site^
 ||xyicgmkbjemlh.website^
 ||xylanfdname.com^
 ||xylinidbobbin.qpon^
@@ -105765,6 +105782,7 @@ browsershots.org#@#.advert_area
 ||zekneylmdrfud.space^
 ||zekperpfsozkw.online^
 ||zelvlzqbhpnpo.online^
+||zemeismdiauunmoody.cfd^
 ||zemisolate.qpon^
 ||zemmndpahyhjy.site^
 ||zendabakas.cyou^
@@ -114008,6 +114026,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||24live.com/api/banners
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||2merkato.com/images/banners/
+||2v2.io/ads/
 ||4rfv.co.uk/advnew/
 ||5dariyanews.com/images/adherecolads.jpg
 ||80.lv/api/promos?
@@ -118131,7 +118150,7 @@ cpubenchmark.net,crash.net,defence-ua.com,harddrivebenchmark.net##.banner-block
 dailycoffeenews.com##.banner-box
 igi-global.com##.banner-carousel-item
 theshovel.com.au##.banner-col
-jns.org,nscreenmedia.com,op.gg,rawinu.com,whoscored.com##.banner-container
+2v2.io,jns.org,nscreenmedia.com,op.gg,rawinu.com,whoscored.com##.banner-container
 dbdiagram.io,soccerway.com##.banner-content
 insidebitcoins.com##.banner-cta-wrapper
 weatherin.org##.banner-desktop-full-width
@@ -121833,7 +121852,7 @@ windows101tricks.com##.zanui-container
 techspot.com##.zenerr
 antimusic.com##.zerg
 pcmag.com##.zmgad-full-width
-bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,huffpost.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,cleaner.com,cults3d.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,montrealgazette.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com,weekand.com##.zone-el
 cleaner.com##.zone-sky
 cnn.com##.zone__ads
