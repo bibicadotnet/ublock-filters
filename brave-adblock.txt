@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260808204006
-! Last modified: 08 Aug 2026 20:40:06 UTC+7
+! Version: 20260808212508
+! Last modified: 08 Aug 2026 21:25:08 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26357,6 +26357,8 @@ balbums.st##+js(prevent-window-open)
 balbums.st##[id^="__clb-spot_"]
 
 octavestreaming.com##+js(norafif, ()=>e())
+
+/^https:\/\/nekostream\.site\/[a-f0-9]{32}\.js(?:$|\?)/$script,third-party
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -66966,6 +66968,7 @@ browsershots.org#@#.advert_area
 ||diningsovereign.com^
 ||dinkeybawtie.cfd^
 ||dinklyablates.com^
+||dinnerunkiss.qpon^
 ||dinojiti.cyou^
 ||dinomicrummies.com^
 ||dinosaurprinciples.com^
@@ -72760,6 +72763,7 @@ browsershots.org#@#.advert_area
 ||geggeryectypal.qpon^
 ||gegori.xyz^
 ||gegqyfewpclyb.site^
+||geheyfesters.cfd^
 ||geirathorpe.qpon^
 ||geishaskaryonpaggle.cfd^
 ||gejjjgxopqqd.com^
@@ -73491,6 +73495,7 @@ browsershots.org#@#.advert_area
 ||gohotygirl.com^
 ||goilyklykgejy.website^
 ||goingtabific.com^
+||goitreirritetoyful.qpon^
 ||gojjutccrvayv.store^
 ||goksmejewlqpk.space^
 ||gold2762.com^
@@ -79137,6 +79142,7 @@ browsershots.org#@#.advert_area
 ||kchhccjmzipel.site^
 ||kcillhxxixpfr.online^
 ||kcjmivforjixu.online^
+||kcjqyrfvevpsv.site^
 ||kcldlqybhdgdk.site^
 ||kcoktkhntiubu.online^
 ||kcqbrwygxixdh.site^
@@ -79289,6 +79295,7 @@ browsershots.org#@#.advert_area
 ||kfbjqsqbvnmrj.site^
 ||kfcddnruqoyhix.com^
 ||kfdjjedtasohc.website^
+||kfdpzjytelqcd.website^
 ||kfeiovrksdezl.online^
 ||kfesqxzagfxgr.online^
 ||kffrbabivwwpskn.com^
@@ -79963,6 +79970,7 @@ browsershots.org#@#.advert_area
 ||ku56qnt7qimv94lqxgx71n49vcxb.cfd^
 ||ku5txooz1otjpoxm58.rest^
 ||kuaadsslt.com^
+||kuaoavpntbefq.website^
 ||kuaskqytzcrdq.site^
 ||kuauoqvkuvppu.space^
 ||kuazennmquins.site^
@@ -80108,6 +80116,7 @@ browsershots.org#@#.advert_area
 ||kxnorzzxuylms.online^
 ||kxnuaytyunkqo.online^
 ||kxoarhydioiuf.site^
+||kxsqmmabtevpz.website^
 ||kxtszslwanvgl.site^
 ||kxuingylmnoxo.space^
 ||kxuzlgksuxkhm.site^
@@ -93926,6 +93935,7 @@ browsershots.org#@#.advert_area
 ||sclmbsrsdvcnx.site^
 ||scloluzwgfdvr.website^
 ||sclvnnorxiotv.site^
+||scmfdhzvvw.com^
 ||scnd-tr.com^
 ||scnkzannzapes.site^
 ||scobbykanauji.cyou^
@@ -97077,6 +97087,7 @@ browsershots.org#@#.advert_area
 ||sxdfhgniwzxzc.space^
 ||sxdnqvxka.com^
 ||sxdsvaicpjnzg.website^
+||sxehbxqqwvby.com^
 ||sxetpzonjqvzu.site^
 ||sxgqqsngkzozy.website^
 ||sxijascmyuisl.site^
@@ -102969,6 +102980,7 @@ browsershots.org#@#.advert_area
 ||whetteddawkin.cfd^
 ||whewhikrokartou.net^
 ||wheybkethenic.qpon^
+||wheyeymesial.cfd^
 ||whglicfodltns.space^
 ||whgugqkhydhg.net^
 ||which-impact.pro^
