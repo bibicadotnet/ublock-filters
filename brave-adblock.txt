@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260809022335
-! Last modified: 09 Aug 2026 02:23:35 UTC+7
+! Version: 20260809032048
+! Last modified: 09 Aug 2026 03:20:48 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -38608,12 +38608,8 @@ client.falixnodes.net##+js(rpnt, script, /window\.googletag.*?enableServices\(\)
 client.falixnodes.net##+js(rpnt, script, /googletag\.pubads\(\)\.addEventListener.*rewardedSlot\)\;\s+\}\);\s+\}/s)
 client.falixnodes.net##+js(nosiif, /lovelylovely|veryveryplease|click\(\)|MouseEvent|dispatchEvent/)
 client.falixnodes.net##+js(nostif, /lovelylovely|veryveryplease|click\(\)|MouseEvent|dispatchEvent/)
-client.falixnodes.net##+js(nostif, )}}}})
-client.falixnodes.net##+js(nostif, ]])!==)
-client.falixnodes.net##+js(nostif, ]/*)
-client.falixnodes.net##+js(nostif, }/*)
-client.falixnodes.net##^script:has-text(/\=arguments\;if\(typeof /)
-client.falixnodes.net##+js(rmnt, script, /\=arguments\;if\(typeof /)
+client.falixnodes.net##^script:has-text(/\=\(\[\]\+\[\]\)\[\(/)
+client.falixnodes.net##+js(rmnt, script, /\=\(\[\]\+\[\]\)\[\(/)
 
 ||global.novelpia.com/_nuxt/*.js|$script,replace=/if\(\w\.check_is_ad_free\(\)\)/if(true)/
 @@||global.novelpia.com^$ghide
@@ -57443,6 +57439,7 @@ browsershots.org#@#.advert_area
 ||accusationroad.com^
 ||accusedbeatnormandy.com^
 ||accuserutility.com^
+||accusestannatechiru.qpon^
 ||accustomedinaccessible.com^
 ||accustomjumper.com^
 ||acdcdn.com^
@@ -61614,6 +61611,7 @@ browsershots.org#@#.advert_area
 ||blitzesemulous.cfd^
 ||blizzdata.site^
 ||bljmfvmpmapzf.website^
+||bllqbpgjkzqu.com^
 ||blmihlvicnopl.store^
 ||blmt499e4myf86rt2.cfd^
 ||blnfsdkskzqfh.site^
@@ -62126,6 +62124,7 @@ browsershots.org#@#.advert_area
 ||bqqwgpnffgvfbqu.rest^
 ||bqrjotqnqh.com^
 ||bqrlfqqeqzbvcpljvg4x9k.cfd^
+||bqsxrfaxrnvd.com^
 ||bqszugpxadzlg.store^
 ||bqtboylklunvj.space^
 ||bqvoqxomctvlf.website^
@@ -67182,6 +67181,7 @@ browsershots.org#@#.advert_area
 ||distrustuldistrustulproprietor.com^
 ||disturbancecommemorate.com^
 ||disturbsparkler.com^
+||disturbvastly.cfd^
 ||dit-dit-dot.com^
 ||ditdotsol.com^
 ||ditherscutes.qpon^
@@ -78680,6 +78680,7 @@ browsershots.org#@#.advert_area
 ||jtiluxuooejuy.site^
 ||jtinbgeyzmcjd.online^
 ||jtkbsquyfvpt.com^
+||jtlovmkxtsj.com^
 ||jtlvnjrfwwgm.com^
 ||jtopudllmvejj.website^
 ||jtozgzksqatjb.site^
@@ -79513,6 +79514,7 @@ browsershots.org#@#.advert_area
 ||kissbaketurpentine.com^
 ||kissoffering.com^
 ||kiswahscowing.cfd^
+||kiteateesscollop.cyou^
 ||kitemannishmine.cyou^
 ||kitrigthy.com^
 ||kitschcorbieseloined.cfd^
@@ -85167,6 +85169,7 @@ browsershots.org#@#.advert_area
 ||nnrxxiyinizda.site^
 ||nnsaahrxibbxb.online^
 ||nnupmdxkvxqip.online^
+||nnuylcspwb.com^
 ||nnvstgnnimwha.space^
 ||nnyejjtckhxkp.online^
 ||nnyzvxuzlvcgl.space^
@@ -91016,6 +91019,7 @@ browsershots.org#@#.advert_area
 ||qualified-beach.pro^
 ||qualifiedact.com^
 ||qualifiedbillion.com^
+||qualifiedjunior.pro^
 ||qualitiessnoutdestitute.com^
 ||quality-traffic.com^
 ||qualitydestructionhouse.com^
@@ -101765,6 +101769,7 @@ browsershots.org#@#.advert_area
 ||vkofmxopxieit.space^
 ||vkoqaquif.com^
 ||vkpfzrvrkwimum.com^
+||vkpwnuxlgtepw.website^
 ||vkqowkbmcjzin.online^
 ||vkrzvxtrjqr.com^
 ||vksqnghc.com^
@@ -101877,6 +101882,7 @@ browsershots.org#@#.advert_area
 ||vnvdljol.com^
 ||vnvklhydurflj.online^
 ||vnvlbydtlqvw.com^
+||vnwcesyaexpln.site^
 ||vnxfggfffjcvp.online^
 ||vnzuedcokblpx.site^
 ||vnzwvnevgfemyz.com^
@@ -102070,6 +102076,7 @@ browsershots.org#@#.advert_area
 ||vsgdodqfjpdws.space^
 ||vsimyppptdxdo.site^
 ||vsjoderczncr.com^
+||vsjzxaluvkagy.website^
 ||vskewwuoda.com^
 ||vskfhfqsvurqy.online^
 ||vsksdftatdnwg.site^
@@ -102217,6 +102224,7 @@ browsershots.org#@#.advert_area
 ||vwouwbxjowntnif.com^
 ||vwpgzsrphaocc.website^
 ||vwpttkoh.xyz^
+||vwrlrqohhyzlu.space^
 ||vwrwbedwbynww.site^
 ||vwsezpkqtgaez.site^
 ||vwshvtlrdkdwl.site^
@@ -103505,6 +103513,7 @@ browsershots.org#@#.advert_area
 ||wnotrbrxpealj.online^
 ||wnoyzbrcacpep.site^
 ||wnp.com^
+||wnsyicfquaczs.site^
 ||wnt-some-psh.net^
 ||wnt-some-push.com^
 ||wnt-some-push.net^
