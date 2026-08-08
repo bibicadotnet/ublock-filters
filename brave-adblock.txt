@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260808133919
-! Last modified: 08 Aug 2026 13:39:19 UTC+7
+! Version: 20260808144228
+! Last modified: 08 Aug 2026 14:42:28 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -61905,6 +61905,7 @@ browsershots.org#@#.advert_area
 ||bookmsg.com^
 ||bookshelfcomplaint.com^
 ||booktakeaway.com^
+||booktiturel.com^
 ||booleyopacous.cyou^
 ||boolylipases.com^
 ||boomads.com^
@@ -71190,6 +71191,7 @@ browsershots.org#@#.advert_area
 ||fkjzfsgkmnhdq.website^
 ||fkklcqmeqoerb.space^
 ||fklfsnsaeijok.space^
+||fkneydktkpw.com^
 ||fkozajhehnjjt.store^
 ||fkqfsenwhfhge.online^
 ||fkqupdyajllgx.website^
@@ -71870,6 +71872,7 @@ browsershots.org#@#.advert_area
 ||freeemcees.qpon^
 ||freefromads.com^
 ||freefromads.pro^
+||freeingpilaff.cfd^
 ||freelygreatestscammer.com^
 ||freemanaccordingly.com^
 ||freemenscriven.cyou^
@@ -76115,6 +76118,7 @@ browsershots.org#@#.advert_area
 ||icecaptifter.com^
 ||icefishhumet.shop^
 ||icelessbogles.com^
+||icesykjykfefc.space^
 ||icetechus.com^
 ||icfikkizz9n2rbtf.cfd^
 ||icfisvenkolnd.online^
@@ -83920,6 +83924,7 @@ browsershots.org#@#.advert_area
 ||musartrammie.qpon^
 ||musasnortlestrunts.cyou^
 ||muscidsbandstitres.cfd^
+||musciwattletovar.cfd^
 ||muscovilenca.cyou^
 ||muscowwhammlegundeck.cfd^
 ||musersrands.cfd^
@@ -91539,6 +91544,7 @@ browsershots.org#@#.advert_area
 ||rcvlink.com^
 ||rcvlinks.com^
 ||rcvobudipmrke.site^
+||rcvwctrkfjfwf.space^
 ||rcxbznsriheku.website^
 ||rcxltnjszmheg.space^
 ||rcxtaenbaktmr.site^
@@ -92291,6 +92297,7 @@ browsershots.org#@#.advert_area
 ||rgmhrvwugwlnd.website^
 ||rgmuksfuciowy.online^
 ||rgobrulzyjxyt.site^
+||rgphvfqlevubc.online^
 ||rgqneyzmihvdg.space^
 ||rgskrmtckgwwl.online^
 ||rgsoxfrxdalom.website^
@@ -96250,6 +96257,7 @@ browsershots.org#@#.advert_area
 ||stfeukufunden.org^
 ||stgcdn.com^
 ||stgowan.com^
+||sthbvfmmlgpye.site^
 ||sthenianootkaonefold.cfd^
 ||sthhbqpjfdves.space^
 ||sthqkewgwdgky.online^
@@ -103458,6 +103466,7 @@ browsershots.org#@#.advert_area
 ||wordsreceivingdisappointment.com^
 ||wordtradeflank.com^
 ||wordycourage.com^
+||wordysugar.pro^
 ||worgzcdfgkyff.space^
 ||woriusly.com^
 ||workback.net^
@@ -187773,6 +187782,8 @@ $uritransform=/#Echobox=[\d]{10}$//,to=iltalehti.fi|hs.fi
 ||nosubapp.com/api/heartbeat
 
 ||igniteseurope.com/stats/
+
+||rollercoin.com/static/img/referral_160-600.png$image,redirect=1x1.gif,important
 
 
 
