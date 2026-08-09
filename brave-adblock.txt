@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260809232623
-! Last modified: 09 Aug 2026 23:26:23 UTC+7
+! Version: 20260810002438
+! Last modified: 10 Aug 2026 00:24:38 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -27068,8 +27068,6 @@ simpcity.*##.node--link
 ||simpcity.*/smp/d.min.js
 saint2.cr##^script:has-text(WebAssembly)
 saint2.cr##+js(acs, WebAssembly, Promise)
-pdftoshokan.com##+js(aeld, , /exoJsPop|venor\.php|document\.location\.protocol/)
-pdftoshokan.com##^script:has-text(/adConfig|preparePop|\/popunder1000/)
 
 
 
@@ -38705,6 +38703,10 @@ fo76db.com##+js(trusted-rpnt, script, / ads\.map[\S\s\n]+?join\(''\)/)
 
 flipkart.com#@#div[data-id][style]:has([width][height][fill])
 
+pdftoshokan.com##+js(aeld, /click|load/, /document\.location|pop\.|exo|cookie|\.php/)
+pdftoshokan.com##+js(nowoif, ok_)
+pdftoshokan.com##^script:has-text(/ad.?Config|prepare.?Pop|\/popunder|ads_host/)
+
 
 @@*$ghide,domain=gplinks.*|qrixpe.com|powergam.online|sanadegreecollege.in
 sanadegreecollege.in,powergam.online,qrixpe.com##center, .main-content, .myTimerDiv, .myTimer, .SmileyBanner, .myWaitingDiv:others()
@@ -39626,7 +39628,8 @@ financacerta.com,encurtads.net###wpsafe-link:style(display: block !important;)
 financacerta.com,encurtads.net###wpsafe-link, .text-center.wpsafe-top > div > h1:others()
 financacerta.com,encurtads.net##+js(rmnt, script, popUp)
 
-lokerwfh.net,app.khaddavi.net,go.gociwidey.com###verify, #second_open_placeholder:others()
+lokerwfh.net,app.khaddavi.net,go.gociwidey.com##+js(trusted-replace-argument, document.getElementById, 0, json:"body", condition, xnjThB)
+lokerwfh.net,app.khaddavi.net,go.gociwidey.com##li, ol, ul, h2, h3, .entry-meta, .entry-title
 lokerwfh.net,app.khaddavi.net,go.gociwidey.com##+js(no-fetch-if, googlesyn)
 lokerwfh.net,app.khaddavi.net,go.gociwidey.com##+js(nano-stb, /.?/, *)
 lokerwfh.net,sfl.gl,go.gociwidey.com##.z-0.overflow-hidden.relative.w-full.rounded-lg.to-\[\#0948EA\].from-\[\#5597FF\].bg-gradient-to-r.p-8.min-h-\[189px\]
@@ -61267,6 +61270,7 @@ browsershots.org#@#.advert_area
 ||bhmhpqlckfhty.com^
 ||bhmioppwbmxhv.space^
 ||bhobmdtjc.com^
+||bhoosatriens.shop^
 ||bhotialine.shop^
 ||bhotiaunequal.qpon^
 ||bhotiyarazored.cyou^
@@ -63139,6 +63143,7 @@ browsershots.org#@#.advert_area
 ||cank.xyz^
 ||cank9.site^
 ||cankeruptedblahs.cfd^
+||canneledebug.cfd^
 ||canolamonthlyswapping.com^
 ||canseldomsulphur.com^
 ||cansojdrsopsz.online^
@@ -67020,6 +67025,7 @@ browsershots.org#@#.advert_area
 ||dimnessslatecosmetic.com^
 ||dimpledplain.cyou^
 ||dimplesredness.cyou^
+||dimplyskoptsy.qpon^
 ||dimpsychology.pro^
 ||dimqtugkwxzrq.site^
 ||dimryaikxp.com^
@@ -79480,6 +79486,7 @@ browsershots.org#@#.advert_area
 ||kgmipfngmsypp.online^
 ||kgnejmrvvveri.website^
 ||kgozkkmzuigpr.site^
+||kgpleuric.cyou^
 ||kgpngtpxklcpk.site^
 ||kgricuptghssu.website^
 ||kgslcxtpctxru.online^
@@ -80779,6 +80786,7 @@ browsershots.org#@#.advert_area
 ||leelanehinnied.qpon^
 ||leeriergrf.com^
 ||leetaipt.net^
+||leetmenuzaron.qpon^
 ||leetsennuye.cfd^
 ||leeziccbpknmr.space^
 ||leezoama.net^
@@ -82435,6 +82443,7 @@ browsershots.org#@#.advert_area
 ||mapwisemulder.qpon^
 ||mapxdidwwp.com^
 ||maqtaerditpoz.site^
+||maragedperiapt.qpon^
 ||marapcana.online^
 ||maraseffete.shop^
 ||marathiglowed.cfd^
@@ -82684,6 +82693,7 @@ browsershots.org#@#.advert_area
 ||mbvndisplay.site^
 ||mbvsm.com^
 ||mbvubhvcfcjju.space^
+||mbxknvktj.com^
 ||mc7clurd09pla4nrtat7ion.com^
 ||mccxupbdxfhu.com^
 ||mcegpoujeecux.online^
@@ -84278,6 +84288,7 @@ browsershots.org#@#.advert_area
 ||mwsgqdwersskb.space^
 ||mwtnddspzneka.site^
 ||mwtwzzeyvnwdx.site^
+||mwumbd.com^
 ||mwuzj1o7m731lr.cfd^
 ||mwvpjvvnovuqb.website^
 ||mwxxgdhvhdrgt.space^
@@ -86139,6 +86150,7 @@ browsershots.org#@#.advert_area
 ||ocgqmmqztfwkn.site^
 ||ochdbjgbkommn.website^
 ||ochersculmen.shop^
+||ocheryfoziest.cyou^
 ||ochredravin.qpon^
 ||ochringnondark.cfd^
 ||ochxpgojofbgk.space^
@@ -87784,6 +87796,7 @@ browsershots.org#@#.advert_area
 ||pantafives.com^
 ||pantherinvincible.com^
 ||pantiesdrayed.cyou^
+||pantineskeigh.cfd^
 ||pantomimeinforms.com^
 ||pantomimemailman.com^
 ||pantoonguggled.cyou^
@@ -88628,6 +88641,7 @@ browsershots.org#@#.advert_area
 ||pickyincase.qpon^
 ||pickyreflows.cfd^
 ||picmega.com^
+||picotedunwarn.qpon^
 ||pictela.net^
 ||pictureshosierygauntlet.com^
 ||picturespushfulrookie.com^
@@ -92971,6 +92985,7 @@ browsershots.org#@#.advert_area
 ||rmddsanqhfkvm.online^
 ||rmdmwnoxsjukc.site^
 ||rmerfszrhuhrx.space^
+||rmfkpysvzygpa.online^
 ||rmfnmkuwsgeje.website^
 ||rmgdxpkjmrjdt.website^
 ||rmggipaazeupw.site^
@@ -94295,6 +94310,7 @@ browsershots.org#@#.advert_area
 ||scvmljhzcdfyj.store^
 ||scvzzypvcveio.online^
 ||scwmllkshdfug.website^
+||scwuufxvjvcoy.website^
 ||scyphatipis.shop^
 ||scyunztvkunuw.website^
 ||sczsjiyrfjgcv.website^
@@ -95096,6 +95112,7 @@ browsershots.org#@#.advert_area
 ||signumvampingtiptoes.cyou^
 ||sikaratheistfuttock.cyou^
 ||sikhismpavinssalons.cyou^
+||sikkimdedimus.qpon^
 ||siksikapunamu.shop^
 ||sikuptdybwuwp.site^
 ||silanesyampa.shop^
@@ -95346,6 +95363,7 @@ browsershots.org#@#.advert_area
 ||skullhalfway.com^
 ||skullypokuntyapocks.qpon^
 ||skunkedgryde.com^
+||skunkedkecky.qpon^
 ||skunkipil.qpon^
 ||skuzzsvdpbkkt.site^
 ||skvpwecqrbovi.online^
@@ -96970,6 +96988,7 @@ browsershots.org#@#.advert_area
 ||suggilzanza.com^
 ||sughscrawm.shop^
 ||sugomliuton.com^
+||suhkxbszepout.online^
 ||suhlclbwibpxnmr.com^
 ||suhvoulwtaxfj.site^
 ||suicidalruse.com^
@@ -98168,6 +98187,7 @@ browsershots.org#@#.advert_area
 ||thesisadornpathetic.com^
 ||thetrendytales.com^
 ||theweblocker.net^
+||thewrazeingparrots.cyou^
 ||theyaoukombu.cyou^
 ||theydmatelotmorule.cyou^
 ||thgdprtfgudrt.site^
@@ -99137,6 +99157,7 @@ browsershots.org#@#.advert_area
 ||trialshoewager.com^
 ||trianglesickdemocrat.com^
 ||triangularmouse.com^
+||triasidleful.cyou^
 ||tribalfusion.com^
 ||tribclipsdorts.cyou^
 ||tribevild.cyou^
@@ -99605,6 +99626,7 @@ browsershots.org#@#.advert_area
 ||tvwqwxaqhov.com^
 ||tvwxwboysflvt.website^
 ||tvxzuiiddkbqy.online^
+||tvynopubluqgi.online^
 ||tvzyqtgcqhvtr.space^
 ||twarsirbkkf.com^
 ||twasmerelyhers.com^
@@ -102347,6 +102369,7 @@ browsershots.org#@#.advert_area
 ||vtlpkoshbpquo.online^
 ||vtmbnurtndcgo.store^
 ||vtmkplihozqfv.com^
+||vtmynxncwcgwn.online^
 ||vtndhqsmzwrzc.space^
 ||vtojhgymssztr.site^
 ||vtoqtpohhrghk.online^
