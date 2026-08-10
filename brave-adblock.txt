@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260810141740
-! Last modified: 10 Aug 2026 14:17:40 UTC+7
+! Version: 20260810161131
+! Last modified: 10 Aug 2026 16:11:31 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -25934,10 +25934,10 @@ urbandictionary.com###ud-root > div[class]:has(div[class*="leaderboard"])
 
 /adserver.$script,redirect=noop.js,from=ameede.net
 
-vidbox.dev##+js(nostif, getComputedStyle)
-vidbox.dev##+js(no-fetch-if, method:HEAD)
-vidbox.dev##section[aria-label="Sponsored content"]
-vidbox.dev##.dark\:bg-black.pt-20.bg-white.w-full.z-10.relative > .lg\:px-8.md\:px-6.px-4.max-w-\[1440px\].mx-auto:has(#ad-container)
+vidbox.dev,vidbox.vc##+js(nostif, getComputedStyle)
+vidbox.dev,vidbox.vc##+js(no-fetch-if, method:HEAD)
+vidbox.dev,vidbox.vc##section[aria-label="Sponsored content"]
+vidbox.dev,vidbox.vc##.dark\:bg-black.pt-20.bg-white.w-full.z-10.relative > .lg\:px-8.md\:px-6.px-4.max-w-\[1440px\].mx-auto:has(#ad-container)
 
 world-iptv.club##+js(acs, setTimeout, /eeea5e31|new\s+Function/)
 
@@ -57720,6 +57720,7 @@ browsershots.org#@#.advert_area
 ||aeuifgsbjnzpp.online^
 ||aeuukmhqenlvf.website^
 ||aevfoobzfsfjx.space^
+||aevgpmrbwkqdy.online^
 ||aewhvwzitmfxv.website^
 ||aewqedfkkplhtdh.com^
 ||aexouiunvonkl.site^
@@ -61164,6 +61165,7 @@ browsershots.org#@#.advert_area
 ||btrlvukwtlqyc.site^
 ||btstores.com^
 ||bttphsqvrunfw.store^
+||bttpolwqviovn.site^
 ||bttrack.com^
 ||bttupamp.com^
 ||bttzjdxxmazye.site^
@@ -67324,6 +67326,7 @@ browsershots.org#@#.advert_area
 ||exoclick.com^
 ||exodiumriveter.com^
 ||exodosjaunty.cyou^
+||exodtsamansys.online^
 ||exodusjailhousetarantula.com^
 ||exodygrafter.qpon^
 ||exofrwe.com^
@@ -72316,6 +72319,7 @@ browsershots.org#@#.advert_area
 ||ikzwvkuxrymqu.space^
 ||ilaterdeallyig.info^
 ||ilcdllaojci.com^
+||ilclqdpkuquix.com^
 ||ilcstuywgiayu.com^
 ||ildr3vij.xyz^
 ||ileacringes.com^
@@ -75003,6 +75007,7 @@ browsershots.org#@#.advert_area
 ||kqhzkvhcafxwn.website^
 ||kqiyhirquvyrn.online^
 ||kqjlaqcl.com^
+||kqnoczl.com^
 ||kqpfniauomrpx.online^
 ||kqrxasqbuxbtx.site^
 ||kqsebncdjeuuj.site^
@@ -76417,6 +76422,7 @@ browsershots.org#@#.advert_area
 ||lqdimcpwev.com^
 ||lqidzftosyjap.website^
 ||lqivhsbmqcc.com^
+||lqjsgjjngltyo.space^
 ||lqliraxqkwqzw.site^
 ||lqljgkcjsuzer.store^
 ||lqllisdlizrix.site^
@@ -82752,6 +82758,7 @@ browsershots.org#@#.advert_area
 ||pridehickintimidating.com^
 ||pridianhummussober.cyou^
 ||priestsuede.click^
+||primary-confidence.com^
 ||primaryads.com^
 ||primaryapologizediversity.com^
 ||primaryattract.com^
@@ -88082,6 +88089,7 @@ browsershots.org#@#.advert_area
 ||squillabutenelofter.cyou^
 ||squirestankie.com^
 ||squirkverraykorunas.cyou^
+||squirmosmosestatar.qpon^
 ||squirtdrsuccession.com^
 ||sqwiyhokurecf.online^
 ||sqxbkrmtgei.com^
@@ -91098,6 +91106,7 @@ browsershots.org#@#.advert_area
 ||uighnhsbatmdf.store^
 ||uighurestopamiga.qpon^
 ||uigxkdqdouweq.online^
+||uijpsffuajevb.com^
 ||uikosfascqisl.space^
 ||uildfordgovery.com^
 ||uilts.com^
@@ -93323,6 +93332,7 @@ browsershots.org#@#.advert_area
 ||wbvgjhejkunhb.site^
 ||wbvxljdkzkfcm.online^
 ||wbww9ouxolw7ji3i.rest^
+||wbxyusccfitux.site^
 ||wbysnyeqjdwhl.site^
 ||wc87322357rey4fz.cfd^
 ||wcbxugtfk.com^
@@ -94065,6 +94075,7 @@ browsershots.org#@#.advert_area
 ||wntkjkymoulmx.online^
 ||wntxecprzkusk.site^
 ||wnuoqyophobbm.site^
+||wnvqeizwbpads.online^
 ||wnvxsbctvedod.online^
 ||wnxluflnmqxyh.online^
 ||wnyhuwsmimlzop.com^
@@ -96481,6 +96492,7 @@ browsershots.org#@#.advert_area
 ||zntyosjbsivry.site^
 ||znutlgbuoivtq.site^
 ||znxifrpxsmuak.space^
+||znxshdhiswvyl.site^
 ||znycxdjoyexaj.website^
 ||znymzgnpmebhu.online^
 ||znypnplxeanxw.online^
