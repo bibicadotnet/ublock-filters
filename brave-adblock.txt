@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260811004525
-! Last modified: 11 Aug 2026 00:45:25 UTC+7
+! Version: 20260811014624
+! Last modified: 11 Aug 2026 01:46:24 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26368,6 +26368,8 @@ xprivo.com##+js(json-prune, sponsored_ads)
 mangakuri.online##+js(rpnt, script, anti_adblock_enabled:true, anti_adblock_enabled:false)
 
 nuviatoon.com##+js(no-fetch-if, tag.min.js)
+
+||puzzleshq.com/polite-msg-js/|$script
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -61979,6 +61981,7 @@ browsershots.org#@#.advert_area
 ||ceasepancreas.com^
 ||ceaslessivorygoats.com^
 ||ceaslesswisely.com^
+||cebineviewingvaluta.cfd^
 ||cebjrqvyienhy.site^
 ||cebnovoscizrj.online^
 ||cecalsukeyicker.qpon^
@@ -68887,6 +68890,7 @@ browsershots.org#@#.advert_area
 ||fsgkzonhuoafn.store^
 ||fsgpxvemqbven.store^
 ||fsgqwkngpxqqxy.com^
+||fsirqrkoq.com^
 ||fsknvrmtznthn.online^
 ||fslstdvdszczh.online^
 ||fsmfceljvhwfg.space^
@@ -77262,6 +77266,7 @@ browsershots.org#@#.advert_area
 ||mcnfmjecjemgh.site^
 ||mcnlpmzrhpvcq.online^
 ||mcnuzaallztck.website^
+||mcobtobfooqc.in^
 ||mcoscsxewhv.com^
 ||mcppsh.com^
 ||mcpuwpsh.com^
@@ -85842,6 +85847,7 @@ browsershots.org#@#.advert_area
 ||rsxkamyyjynij.online^
 ||rsxtxfgrowhzm.online^
 ||rsyauqmnzkznc.store^
+||rsyrrgedgnewk.website^
 ||rtalffozjnwkq.space^
 ||rtb-media.me^
 ||rtbbhub.com^
@@ -86053,6 +86059,7 @@ browsershots.org#@#.advert_area
 ||rwolbykeddxca.website^
 ||rworljrkawlqq.top^
 ||rwowunoz.in^
+||rwozapfyenmgc.website^
 ||rwpdarehxzjxu.site^
 ||rwpvjrjxyhpzr.space^
 ||rwqovmoezrvrv.top^
@@ -86955,6 +86962,7 @@ browsershots.org#@#.advert_area
 ||sggsfejquvhak.site^
 ||sggumsnmiuuar.site^
 ||sghbvhktcomrn.online^
+||sgjobzsseszke.site^
 ||sgllpsstmvgns.site^
 ||sgnetwork.co^
 ||sgpniarijjbzt.online^
@@ -90042,6 +90050,7 @@ browsershots.org#@#.advert_area
 ||tnlnblwozgdbi.site^
 ||tnlszozefygrt.online^
 ||tnmdthuefllhf.site^
+||tnnahkwdogzen.website^
 ||tnnfecqadqzck.online^
 ||tnnugxbvcszsn.site^
 ||tnomtrfvxvlza.space^
@@ -91600,6 +91609,7 @@ browsershots.org#@#.advert_area
 ||unpackelasticlens.com^
 ||unpackstaleintended.com^
 ||unpavelamplet.cfd^
+||unperchtairger.qpon^
 ||unpoiseshoves.shop^
 ||unpracticalwhich.org^
 ||unqsnzyrsdkuz.website^
@@ -92120,6 +92130,7 @@ browsershots.org#@#.advert_area
 ||uzfriodntbdip.online^
 ||uzgcdprqhjbak.space^
 ||uzgppwcacrs.com^
+||uzgtfqxnqim.com^
 ||uzhjcqoywhrvn.space^
 ||uziesijakitin.store^
 ||uzihdotfqfoof.site^
@@ -94423,6 +94434,7 @@ browsershots.org#@#.advert_area
 ||wqwoynnxgujac.online^
 ||wqxvfzvqcqmcs.website^
 ||wqyenrdmgkikd.site^
+||wr6wg4gw3pyxfq.cfd^
 ||wrangleclaspinteract.com^
 ||wrapstupendous.com^
 ||wrastlecywydd.qpon^
@@ -96211,6 +96223,7 @@ browsershots.org#@#.advert_area
 ||yzwtz.com^
 ||yzyjcjmsylgbv.site^
 ||yzyzkatyeco.com^
+||z3quffj9f74zjn.rest^
 ||z451hzjrn3ntu1.cfd^
 ||z5g022gc.xyz^
 ||z9m55eyo41gm6r1n.rest^
@@ -127844,6 +127857,7 @@ omni.soundestlink.com$image
 ||justpickaname.com^
 ||justwebcards.com^
 ||justwowjars.com^
+||kartbarriersystem.com^
 ||keenquill.com^
 ||kernellife.com^
 ||kidpowers.com^
