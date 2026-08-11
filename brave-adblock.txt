@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260811135502
-! Last modified: 11 Aug 2026 13:55:02 UTC+7
+! Version: 20260811150631
+! Last modified: 11 Aug 2026 15:06:31 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -65877,6 +65877,7 @@ browsershots.org#@#.advert_area
 ||duhkxehelalch.store^
 ||duhxgrfaziemg.site^
 ||duidoaghteqgs.website^
+||duisbmflblhyh.online^
 ||duiunmaigiqiy.space^
 ||dujucrgeabijh.website^
 ||dukerationpecial.com^
@@ -66526,6 +66527,7 @@ browsershots.org#@#.advert_area
 ||ejsxzsisfbvfm.online^
 ||ejuacikpcxjyk.online^
 ||ejufwpkpikrgy.space^
+||ejwghlzeeqhxz.site^
 ||ejwxlplhgzzhf.store^
 ||ejxfetghjdmm.com^
 ||ejxguyflv.com^
@@ -73591,6 +73593,7 @@ browsershots.org#@#.advert_area
 ||jasperybarmie.qpon^
 ||jatnifenian.qpon^
 ||jaukedhowfs.qpon^
+||jauntsjesuspalar.cfd^
 ||jauntyit.com^
 ||javascriptcdnlive.com^
 ||javgg.eu^
@@ -80392,6 +80395,7 @@ browsershots.org#@#.advert_area
 ||oifeqfiurelhe.site^
 ||oifthjnpbzycw.online^
 ||oifyyeiuwnpzc.space^
+||oihemecfxews.com^
 ||oihjkobiyortd.space^
 ||oiismyzivtine.website^
 ||oijcphjwiabsg.online^
@@ -92038,6 +92042,7 @@ browsershots.org#@#.advert_area
 ||urljofjevbddc.website^
 ||urningcense.qpon^
 ||urnooiew.com^
+||urnvloeigdtzk.site^
 ||urnwhereabouts.com^
 ||urocystfoozler.cyou^
 ||urogrambaskets.cyou^
@@ -93038,6 +93043,7 @@ browsershots.org#@#.advert_area
 ||volumesundue.com^
 ||volumntime.com^
 ||voluntaryboy.com^
+||volutedoda.cyou^
 ||volutehewgag.cfd^
 ||voluumtrk.com^
 ||voluumtrk3.com^
@@ -94839,6 +94845,7 @@ browsershots.org#@#.advert_area
 ||wynvalur.com^
 ||wyojunmhapedc.site^
 ||wyominghicky.com^
+||wypzilhkesnhs.site^
 ||wyqikvlslnuuf.space^
 ||wyrglylcvbpdy.net^
 ||wyrkxpdolvfeh.online^
@@ -94928,6 +94935,7 @@ browsershots.org#@#.advert_area
 ||xbhoylaadarbq.website^
 ||xbiicstjgsqpr.website^
 ||xbiywrtuqbels.space^
+||xbjvmbmhtppqmim.com^
 ||xbjzqknhajwyw.website^
 ||xbkcaouzpdgpb.site^
 ||xbntrnsfgmhiw.space^
@@ -94999,6 +95007,7 @@ browsershots.org#@#.advert_area
 ||xecetvzlrqphx.site^
 ||xeducmvlja.com^
 ||xedvuqcniuwth.website^
+||xeehvosxtrv.com^
 ||xefhktqktlwar.space^
 ||xegxxzcluwfqo.website^
 ||xeiswdcgastrt.online^
@@ -95088,6 +95097,7 @@ browsershots.org#@#.advert_area
 ||xhmyevcqcasdf.site^
 ||xhnouqnhyhohr.online^
 ||xhowfogabl.com^
+||xhpygriykcgib.site^
 ||xhqdvrbaoybgw.site^
 ||xhrhamnlzddyk.space^
 ||xhstfdnhkcgec.online^
@@ -95802,6 +95812,7 @@ browsershots.org#@#.advert_area
 ||yffuolhpfdjya.site^
 ||yfiucflgsgbry.site^
 ||yfjkqpdwlimuh.space^
+||yfjynoteuipez.space^
 ||yfkbdckdvrjvm.space^
 ||yfldcanampeev.online^
 ||yflksvxeqncep.online^
@@ -96369,6 +96380,7 @@ browsershots.org#@#.advert_area
 ||yyqrofyyvjfyo.space^
 ||yyroyyipsitcf.site^
 ||yywflujrcwrcrio.net^
+||yyxnoegkqkavu.space^
 ||yyxpearkrincp.site^
 ||yyxwdvaqngiqn.online^
 ||yyyyvulnhyiur.online^
@@ -214806,6 +214818,7 @@ ed.ac.uk##+js(trusted-set-cookie, _uoeCookiePrefsV4, eyJuZWNlc3NhcnkiOnRydWUsInB
 engirank.eu,perspektywy.pl##+js(trusted-set-local-storage-item, cookieConsent, '{"analytics":false,"functional":false,"marketing":false}')
 hailo-windsystems.com##+js(trusted-set-cookie, cookie_consent, '{"method":"DENY","groups":[]}', , , reload, 1, domain, .hailo-windsystems.com)
 otakuthon.com##+js(trusted-set-cookie, otakuthon_cookie_consent, '{"choice":"denied","analytics":false,"updatedAt":"$currentISODate$"}')
+aistudio.xiaomimimo.com##+js(trusted-set-local-storage-item, cookieConsent, '{"value":{"analytical":false,"functional":false,"lastConsentTime":"$currentISODate$"},"createdTime":"$currentISODate$","updateTime":"$currentISODate$","version":1}')
 
 
 dailymail.co.uk,dailymail.com##+js(trusted-click-element, div[data-project="mol-fe-cmp"] button[class*="consent"]:not([class*="reject"]))
