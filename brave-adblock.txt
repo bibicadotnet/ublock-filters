@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260812225314
-! Last modified: 12 Aug 2026 22:53:14 UTC+7
+! Version: 20260812235114
+! Last modified: 12 Aug 2026 23:51:14 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -38718,8 +38718,6 @@ decompiler.com##+js(set, OffscreenCanvas.prototype.getContext, undefined)
 decompiler.com##+js(nosiif, === false)
 decompiler.com##+js(aost, Element.prototype.removeChild, /blocked|tick/)
 
-javmix.*#@#+js(acs, addEventListener, style.display)
-
 twitch.tv##.stream-display-ad__wrapper + div > div[style^="position:"] > div[class^="Layout-sc-"]:has(video[src^="https://m.media-amazon.com"])
 twitch.tv##.chat-shell > div[class^="Layout-sc-"]  > div[style^="transition:"]:has(video[src^="https://m.media-amazon.com"])
 
@@ -58190,6 +58188,7 @@ browsershots.org#@#.advert_area
 ||akxppoopmal.in^
 ||akydxrphsdaaq.site^
 ||akyidxbfhyqfd.online^
+||akyvleboteji.com^
 ||akzuhhdexvmnz.website^
 ||al-adtech.com^
 ||al5sm.com^
@@ -71084,6 +71083,7 @@ browsershots.org#@#.advert_area
 ||hasfyyyxvrjfsc.com^
 ||hashersargus.shop^
 ||hasidimprowess.cyou^
+||haslockvayuunsing.cyou^
 ||hastediminutiondoes.com^
 ||hastenassume.com^
 ||hastenedassessmentbaking.com^
@@ -78674,6 +78674,7 @@ browsershots.org#@#.advert_area
 ||msdoj.com^
 ||msdsabmyd.com^
 ||msdtqofattbqv.website^
+||mseupkcziqzzj.website^
 ||msgixnjxivvhur.com^
 ||msgose.com^
 ||msgpbwbfradny.website^
@@ -79697,6 +79698,7 @@ browsershots.org#@#.advert_area
 ||nlklabpbcecnk.site^
 ||nlkli.com^
 ||nllddbvlkwgbs.online^
+||nlljjwoenyljb.online^
 ||nllvrimafveet.site^
 ||nllzvzafpfodg.space^
 ||nlmhhgvljqktf.website^
@@ -81289,6 +81291,7 @@ browsershots.org#@#.advert_area
 ||otsygurelkncw.site^
 ||otterscrenula.qpon^
 ||otunmakpjbtga.website^
+||otusszjpgcxoq.online^
 ||otvojqdrozce.com^
 ||otvqtoatjgt.in^
 ||otwaagpjpgctw.online^
@@ -81495,6 +81498,7 @@ browsershots.org#@#.advert_area
 ||owywlwjvvkcjc.site^
 ||owzniiafv.com^
 ||ox7mkp7rkbzrel5fc4.cfd^
+||oxadlnveeutrm.website^
 ||oxado.com^
 ||oxauxgbuzyyae.online^
 ||oxbbzxqfnv.com^
@@ -83612,6 +83616,7 @@ browsershots.org#@#.advert_area
 ||psshqlfxthaza.online^
 ||psslbjewrblbw.website^
 ||pstciayvpsmhj.site^
+||pstmbevofvoat.website^
 ||pstreetma.com^
 ||psuhofevzdnyz.online^
 ||psujkvhtymfwc.website^
@@ -91036,6 +91041,7 @@ browsershots.org#@#.advert_area
 ||tricesunplait.cfd^
 ||tricklewatchingtypist.com^
 ||trickretrorest.com^
+||trickybalance.pro^
 ||triczjnzuktsh.website^
 ||tridiiscupper.cfd^
 ||trifling-profession.pro^
@@ -177178,6 +177184,8 @@ bing.com##+js(href-sanitizer, body a[href^="/rebates/welcome?url=http"], ?url)
 ||bing.com/rebates/welcome?url=http$doc,urlskip=?url
 ||bing.com/alink/link?url=http$doc,urlskip=?url
 ||bing.com/web/xlsc.aspx
+bing.com##+js(href-sanitizer, a[href*="bing.com/ck/a"], ?u /^a1(.*)$/ -base64)
+||bing.com/ck/a*u=a1$doc,urlskip=?u /^a1(.*)$/ -base64
 
 ||ds1.nl/redirect/*^dai_url=http$doc,urlskip=?dai_url
 
