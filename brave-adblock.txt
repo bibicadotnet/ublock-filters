@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260814033417
-! Last modified: 14 Aug 2026 03:34:17 UTC+7
+! Version: 20260814043739
+! Last modified: 14 Aug 2026 04:37:39 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -20678,13 +20678,12 @@ hivelr.com##+js(aeld, load, detect-modal)
 
 nulledbear.com##+js(nostif, nextFunction)
 
+dragontea.ink##+js(trusted-suppress-native-method, Node.prototype.removeChild, /^\[object HTMLImageElement\]$/, prevent, /emojis8\.js:/)
+dragontea.ink##.body-top-ads
+dragontea.ink##.dta
 dragontea.ink##body > div[style]:not([id]):style(position: static !important; background-color: rgba(0, 0, 0, 0) !important)
 dragontea.ink##html, body:style(overflow: visible !important;)
-dragontea.ink##iframe[id^="google_ads_iframe"]
-dragontea.ink##.dta
-dragontea.ink##+js(nosiif, /_0x|dtaf/)
-dragontea.ink##style:has-text(.reading-content img):remove()
-dragontea.ink##+js(rpnt, script, "}};, "}}; jQuery(document).ready(function(t){let e=document.createElement("link");e.setAttribute("rel"\,"stylesheet")\,e.setAttribute("media"\,"all")\,e.setAttribute("href"\,"https://dragontea.ink/wp-content/cache/autoptimize/css/autoptimize_5bd1c33b717b78702e18c3923e8fa4f0.css")\,document.head.appendChild(e)\,t(".dmpvazRKNzBib1IxNjh0T0cwUUUxekEyY3F6Wm5QYzJDWGZqdXFnRzZ0TT0nuobc").parent().prev().prev().prev();var a=1\,n=16\,r=11\,i="08"\,g=""\,c=""\,d=0\,o=2\,p=3\,s=0\,h=100;s++\,s*=2\,h/=2\,h/=2;var $=3\,u=20;function b(){let e=t(".entry-header.header")\,a=parseInt(e.attr("data-id"));return a}function m(t\,e\,a\,n\,r){return CryptoJSAesJson.decrypt(t\,e+a+n+r)}function f(t\,e){return CryptoJSAesJson.decrypt(t\,e)}function l(t\,e){return parseInt(t.toString()+e.toString())}function k(t\,e\,a){return t.toString()+e.toString()+a.toString()}$*=2\,u=u-2-2\,i="03"\,o++\,r++\,n=n/4-2\,a++\,a*=4\,n++\,n++\,n++\,a-=5\,r++\,i="07"\,t(".reading-content .page-break img").each(function(){var e\,g=t(this)\,c=f(g.attr("id").toString()\,(e=parseInt((b()+l(r\,i))*a-t(".reading-content .page-break img").length)\,e=l(2*n+1\,e)).toString());g.attr("id"\,c)})\,r=0\,n=0\,a=0\,i=0\,t(".reading-content .page-break img").each(function(){var e=t(this)\,a=parseInt(e.attr("id").replace(/image-(\d+)[a-z]+/i\,"$1"));t(".reading-content .page-break").eq(a).append(e)})\,t(".reading-content .page-break img").each(function(){var e=t(this).attr("id");g+=e.substr(-1)\,t(this).attr("id"\,e.slice(0\,-1))})\,d++\,$++\,$++\,u/=4\,u*=2\,o*=2\,p-=3\,p++\,t(".reading-content .page-break img").each(function(){var e\,a=t(this)\,n=f(a.attr("dta").toString()\,(e=parseInt((b()+l($\,u))*(2*d)-t(".reading-content .page-break img").length-(4*d+1))\,e=k(2*o+p+p+1\,g\,e)).toString());a.attr("dta"\,n)})\,d=0\,$=0\,u=0\,o=0\,p=0\,t(".reading-content .page-break img").each(function(){var e=t(this).attr("dta").substr(-2);c+=e\,t(this).removeAttr("dta")})\,s*=s\,s++\,h-=25\,h++\,h++\,t(".reading-content .page-break img").each(function(){var e=t(this)\,a=f(e.attr("data-src").toString()\,(b()\,k(b()+4*s\,c\,t(".reading-content .page-break img").length*(2*h))).toString());e.attr("data-src"\,a)})\,s=0\,h=0\,t(".reading-content .page-break img").each(function(){t(this).addClass("wp-manga-chapter-img img-responsive lazyload effect-fade")})\,_0xabe6x4d=!0});)
+||dragontea.ink/dtpu.js$script
 
 time.artjoey.com##.adsense:style(padding: 0 !important;)
 
@@ -58907,6 +58906,7 @@ browsershots.org#@#.advert_area
 ||arpenexcite.cfd^
 ||arpoyoiriphet.space^
 ||arqjnojtrrwfd.space^
+||arracksoapsud.shop^
 ||arrangedateslocally.com^
 ||arraydepressinginnocence.com^
 ||arrdnboauysbn.com^
@@ -58942,6 +58942,7 @@ browsershots.org#@#.advert_area
 ||arwdcrdpiwinc.site^
 ||arwhpetevielbj.com^
 ||arxoplagziavr.site^
+||arylssulphur.cfd^
 ||arylsynetic.cyou^
 ||as5000.com^
 ||asacdn.com^
@@ -59069,6 +59070,7 @@ browsershots.org#@#.advert_area
 ||astonishmentfriedcount.com^
 ||astonishmentfuneral.com^
 ||astraor770.com^
+||astreanmasseur.shop^
 ||astriertewart.qpon^
 ||astrokompas.com^
 ||astrologybacklightsinless.com^
@@ -63509,6 +63511,7 @@ browsershots.org#@#.advert_area
 ||cr08.biz^
 ||cr92xhpt372ymbu.rest^
 ||crabcoprogramme.com^
+||crabsasb.cfd^
 ||crabstuffs.cyou^
 ||crackingoptimistic.com^
 ||crackrapt.com^
@@ -64341,6 +64344,7 @@ browsershots.org#@#.advert_area
 ||dbpjegtrlbmzp.space^
 ||dbpkchblarrdg.space^
 ||dbr9gtaf8.com^
+||dbrnqueazy.shop^
 ||dbrovltcxmwfv.online^
 ||dbsmnmbotbbpn.space^
 ||dbtdqczgztmgy.website^
@@ -68435,6 +68439,7 @@ browsershots.org#@#.advert_area
 ||finishedwindscreen.com^
 ||finishingrex.com^
 ||finnedrepitchplanaru.cfd^
+||finnocgrates.cfd^
 ||finreporter.net^
 ||fiordedreddled.shop^
 ||fiorewonyhade.online^
@@ -68549,6 +68554,7 @@ browsershots.org#@#.advert_area
 ||fkydrcmyucibm.space^
 ||fkzcrofqtjawk.space^
 ||flabileamber.qpon^
+||flaconquave.qpon^
 ||flagads.net^
 ||flaggynasi.com^
 ||flagsportclamour.com^
@@ -69761,6 +69767,7 @@ browsershots.org#@#.advert_area
 ||gecksastrict.cfd^
 ||geckxmcccnhbc.space^
 ||geetecrlxnygu.online^
+||geezersexactor.cyou^
 ||gefqbzyzufohv.online^
 ||geggeryectypal.qpon^
 ||gegori.xyz^
@@ -70945,6 +70952,7 @@ browsershots.org#@#.advert_area
 ||gybmppuezjtqe.space^
 ||gycjygwxcm.com^
 ||gycrrespjfqwk.store^
+||gyeiu6cpggzfxjpupwem.rest^
 ||gyfgwpqnkitsd.website^
 ||gygplfimptkaj.website^
 ||gyhitscnehrid.online^
@@ -71316,6 +71324,7 @@ browsershots.org#@#.advert_area
 ||hchwkwwflqsrc.website^
 ||hcjjizmrsilri.online^
 ||hcjqgdkjoljarh.com^
+||hcjzvzvavb.com^
 ||hclcvthefqyac.space^
 ||hclgbntmci.com^
 ||hclmnarlsmleo.site^
@@ -74313,6 +74322,7 @@ browsershots.org#@#.advert_area
 ||jloymapbukmdc.space^
 ||jlpbymrzollix.space^
 ||jlpuzawkaasxh.site^
+||jlqkn85v5pzet7g.cfd^
 ||jltczmewqabda.online^
 ||jlutlocaj.com^
 ||jlvhwqtkmttgq.site^
@@ -76846,6 +76856,7 @@ browsershots.org#@#.advert_area
 ||lockedyetoffence.com^
 ||lockersatelic.cam^
 ||locketsauce.com^
+||lockjawbeside.cyou^
 ||locksadvancedrelease.com^
 ||locksdrizzle.com^
 ||lockupaccede.com^
@@ -77944,6 +77955,7 @@ browsershots.org#@#.advert_area
 ||menacing-gate.pro^
 ||menacing-rain.com^
 ||menacingresource.pro^
+||mencrepey.shop^
 ||mendejobnamepanama.cyou^
 ||meniseparcook.qpon^
 ||mennlumqmgddz.site^
@@ -78576,6 +78588,7 @@ browsershots.org#@#.advert_area
 ||moncatfgtgdul.website^
 ||mondayrecalled.com^
 ||moneey.christmas^
+||moneralcurara.cfd^
 ||moneralsramana.shop^
 ||monetag.com^
 ||monetarysportystamp.com^
@@ -80844,6 +80857,7 @@ browsershots.org#@#.advert_area
 ||ogqlccnoxzvum.space^
 ||ogreresults.qpon^
 ||ogrhbjyjvdbct.online^
+||ogrismtouched.cyou^
 ||ogscumkte.com^
 ||ogsorfhdwamjv.com^
 ||ogszigdu.in^
@@ -81702,6 +81716,7 @@ browsershots.org#@#.advert_area
 ||owsazgnm.in^
 ||owslnuzidiugg.store^
 ||owssalylvzcox.site^
+||owsxngmhupqdwu.com^
 ||owtpooquoezgt.space^
 ||owvedlxhgvvxf.store^
 ||owvkfujan.com^
@@ -82724,6 +82739,7 @@ browsershots.org#@#.advert_area
 ||pilummearnesu.online^
 ||pimamonthon.cfd^
 ||pimanfattenbreakax.cfd^
+||pimentoorrery.cyou^
 ||pimqacihydhna.site^
 ||pimqyurkdhekj.website^
 ||pinangrelax.cfd^
@@ -91923,6 +91939,7 @@ browsershots.org#@#.advert_area
 ||ubbfatevovpkd.site^
 ||ubbsaxcfvmhmj.online^
 ||ubeijmwbtkhvo.site^
+||uberousrept.cfd^
 ||ubgvqakukavmm.space^
 ||ubh61blic8qegqtlgo.rest^
 ||ubhoryjlvjfux.website^
@@ -94581,6 +94598,7 @@ browsershots.org#@#.advert_area
 ||weirdopt.com^
 ||weirdsentence.com^
 ||weirdusual.pro^
+||weirdyboreenslittle.cyou^
 ||wejqzsufiutaa.site^
 ||wekaukilp.cfd^
 ||wekazjwmctawy.site^
@@ -94709,6 +94727,7 @@ browsershots.org#@#.advert_area
 ||whamsdesorb.qpon^
 ||whankdeedeed.com^
 ||whapdroit.shop^
+||whappetfarsi.cyou^
 ||wharvesrefall.com^
 ||whatisuptodaynow.com^
 ||whatsupp25.biz^
@@ -130081,6 +130100,7 @@ omni.soundestlink.com$image
 ||websitesdude.com^
 ||wellgroomedapparel.com^
 ||wellgroomedhydrant.com^
+||westsideglobe.com^
 ||whimsicalcanyon.com^
 ||whimsicalgrove.com^
 ||whimsicalvantage.com^
