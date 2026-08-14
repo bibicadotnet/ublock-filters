@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260814175219
-! Last modified: 14 Aug 2026 17:52:20 UTC+7
+! Version: 20260814183929
+! Last modified: 14 Aug 2026 18:39:29 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -28153,7 +28153,7 @@ ampav.com,artforum.com,artnews.com,atxtv.co,bgr.com,billboard.com,deadline.com,d
 ampav.com,artforum.com,artnews.com,atxtv.co,bgr.com,billboard.com,deadline.com,dickclark.com,footwearnews.com,goldderby.com,hollywoodreporter.com,indiewire.com,la3c.com,lifeisbeautiful.com,luminatedata.com,robbreport.com,rollingstone.com,shemedia.com,sourcingjournal.com,sportico.com,spy.com,sxsw.com,tvline.com,variety.com,vibe.com,wwd.com##^script[src*="html-load.com"]
 ampav.com,artforum.com,artnews.com,atxtv.co,bgr.com,billboard.com,deadline.com,dickclark.com,footwearnews.com,goldderby.com,hollywoodreporter.com,indiewire.com,la3c.com,lifeisbeautiful.com,luminatedata.com,robbreport.com,rollingstone.com,shemedia.com,sourcingjournal.com,sportico.com,spy.com,sxsw.com,tvline.com,variety.com,vibe.com,wwd.com##^script:has-text(').join(String.fromCharCode')
 autofrage.net,computerfrage.net,finanzfrage.net,gesundheitsfrage.net,gutefrage.net,motorradfrage.net,reisefrage.net,sportlerfrage.net##^script[data-cfasync="false"][nowprocket]
-autobild.de,bild.de,bz-berlin.de,computerbild.de,fitbook.de,fitbook-magazine.com,myhomebook.de,myhomebook-magazine.com,petbook.de,petbook-magazine.com,stylebook.de,techbook.de,techbook-magazine.com,travelbook.de,travelbook-magazine.com##^script:has-text(/\(\)=>eval|html-load\.com|await eval|:window/)
+autobild.de,bild.de,bz-berlin.de,computerbild.de,fitbook.de,fitbook-magazine.com,myhomebook.de,myhomebook-magazine.com,petbook.de,petbook-magazine.com,stylebook.de,techbook.de,techbook-magazine.com,travelbook.de,travelbook-magazine.com##^script:has-text(/\(\)=>eval|html-load\.com|await eval|:\[?window,/)
 autobild.de,bild.de,bz-berlin.de,computerbild.de,fitbook.de,fitbook-magazine.com,myhomebook.de,myhomebook-magazine.com,petbook.de,petbook-magazine.com,stylebook.de,techbook.de,techbook-magazine.com,travelbook.de,travelbook-magazine.com##^script[onload*="error-report.com"]
 autobild.de,bild.de,bz-berlin.de,computerbild.de,fitbook.de,fitbook-magazine.com,myhomebook.de,myhomebook-magazine.com,petbook.de,petbook-magazine.com,stylebook.de,techbook.de,techbook-magazine.com,travelbook.de,travelbook-magazine.com##^script[data-cfasync="false"][nowprocket]
 calgaryherald.com,calgarysun.com,canada.com,canoe.com,driving.ca,edmontonjournal.com,edmontonsun.com,financialpost.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ontariofarmer.com,ottawacitizen.com,ottawasun.com,thegrowthop.com,theprovince.com,thestarphoenix.com,tj.news,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com##^script:has-text(/\(\)=>eval|html-load\.com|await eval|:window/)
@@ -28237,7 +28237,7 @@ ampav.com,artforum.com,artnews.com,atxtv.co,bgr.com,billboard.com,deadline.com,d
 dodgerblue.com##+js(rmnt, script, error-report.com)
 ||azerion.com^
 ||restomp-excity.online^
-autobild.de,bild.de,bz-berlin.de,computerbild.de,fitbook.de,fitbook-magazine.com,myhomebook.de,myhomebook-magazine.com,petbook.de,petbook-magazine.com,stylebook.de,techbook.de,techbook-magazine.com,travelbook.de,travelbook-magazine.com##+js(rmnt, script, /\(\)=>eval|html-load\.com|await eval|:window/)
+autobild.de,bild.de,bz-berlin.de,computerbild.de,fitbook.de,fitbook-magazine.com,myhomebook.de,myhomebook-magazine.com,petbook.de,petbook-magazine.com,stylebook.de,techbook.de,techbook-magazine.com,travelbook.de,travelbook-magazine.com##+js(rmnt, script, '/\(\)=>eval|html-load\.com|await eval|:\[?window,/')
 calgaryherald.com,calgarysun.com,canada.com,canoe.com,driving.ca,edmontonjournal.com,edmontonsun.com,financialpost.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ontariofarmer.com,ottawacitizen.com,ottawasun.com,thegrowthop.com,theprovince.com,thestarphoenix.com,tj.news,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com##+js(rmnt, script, /\(\)=>eval|html-load\.com|await eval|:window/)
 caminteresse.fr,capital.fr,cotemaison.fr,croq-kilos.com,cuisineaz.com,deco.fr,femmeactuelle.fr,fourchette-et-bikini.fr,gamesider.com,geo.fr,harpersbazaar.fr,hbrfrance.fr,meteocity.com,passeportsante.net,programme.tv,programme-tv.net,turbo.fr,uppercutmma.com,voici.fr##+js(rmnt, script, ()=>eval)
 gentside.*,maxisciences.com,ohmymag.*##+js(rmnt, script, ()=>eval)
@@ -31589,7 +31589,7 @@ sgp1.cdn.digitaloceanspaces.com###frame[title="encrypted shop"][allowfullscreen]
 ||azurewebsites.net/alertmicrosoft.mp3
 ||azureedge.net/*/esc.js
 ||azureedge.net/*/flscn.js
-/text_tel.js$domain=amplifyapp.com|app|azurestaticapps.net|dev|fit|me|page|site|github.io|herokuapp.com
+/text_tel.js$domain=amplifyapp.com|app|azurestaticapps.net|dev|fit|me|on-forge.com|page|site|github.io|herokuapp.com
 ||netlify.app/text.js|$1p
 ||github.io/my-new-app/text.js$1p
 /a0ler0tm0s.mp3$domain=dev|online|shop
@@ -60842,6 +60842,7 @@ browsershots.org#@#.advert_area
 ||bolckrijublup.space^
 ||bold-display.pro^
 ||bold-potential.com^
+||boldinencloud.cyou^
 ||boldlypinfall.cfd^
 ||boletetimers.cfd^
 ||bolichejerl.cyou^
@@ -61301,6 +61302,7 @@ browsershots.org#@#.advert_area
 ||bsqvmdbkmeyte.website^
 ||bssgnowkrcjpm.online^
 ||bstrvqdwuytk.com^
+||bsuwaczsfertl.site^
 ||bsuzrzbpyviyv.online^
 ||bsvajclq.com^
 ||bsvhinycewtko.space^
@@ -68838,6 +68840,7 @@ browsershots.org#@#.advert_area
 ||fnozzitywh.com^
 ||fnqhgazwgznjq.site^
 ||fnqhhshfbpkwp.site^
+||fnrrvyypkcckq.online^
 ||fntevbrdbjg.com^
 ||fnvbvmrbvfbtjg.com^
 ||fnvvtwclgdcqr.online^
@@ -69291,6 +69294,7 @@ browsershots.org#@#.advert_area
 ||fsuwiwvhtcfzm.space^
 ||fswatrlxubu.com^
 ||fsxmidyo.com^
+||fszuzgqojcqdf.com^
 ||ft8wc5lywzb9r8.cfd^
 ||ftamwoagth.in^
 ||ftblltrck.com^
@@ -88392,6 +88396,7 @@ browsershots.org#@#.advert_area
 ||slaqandsan.xyz^
 ||slashstar.net^
 ||slate-assets.click^
+||slate-assets.shop^
 ||slatehystericaltaunt.com^
 ||slavesthy.com^
 ||slaviankolobia.com^
@@ -90191,6 +90196,7 @@ browsershots.org#@#.advert_area
 ||talldoubted.com^
 ||tallmentally.com^
 ||tallthirsty.com^
+||talonfidgesumbers.cyou^
 ||talpiddel.qpon^
 ||talroebnwhbif.space^
 ||tamableleporid.qpon^
@@ -92973,6 +92979,7 @@ browsershots.org#@#.advert_area
 ||userstat.net^
 ||usertag.online^
 ||usewmeukdgmnh.website^
+||usfduc.com^
 ||usgutmbdobzni.website^
 ||ushercensor.com^
 ||usherfrightenwaiter.com^
@@ -93702,6 +93709,7 @@ browsershots.org#@#.advert_area
 ||vinaliapilers.qpon^
 ||vindicosuite.com^
 ||vindictivemopenthrone.com^
+||vineaeguacimo.shop^
 ||vinegardaring.com^
 ||vinettaahaaina.shop^
 ||vinit.cloud^
