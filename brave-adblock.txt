@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260814165331
-! Last modified: 14 Aug 2026 16:53:31 UTC+7
+! Version: 20260814175219
+! Last modified: 14 Aug 2026 17:52:20 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26375,6 +26375,9 @@ hollywoodhinditracks2.blogspot.com##+js(acs, atob, decodeURIComponent)
 cokcok.stream##+js(trusted-replace-node-text, script, '/const *_[a-z0-9]+ *= *{ *"media_file" *: *" *https:\\\/\\\/cdn[0-9]+\.cokcok\.[a-z0-9]+\\\/assets\\\/videos\\\/.+"click_through" *:.+};/', media_file, '')
 
 polenjournal.de##+js(aeld, load, ADBLOCK)
+
+vidneo.cc##+js(json-edit, ..playGateQueue)
+vidneo.cc##+js(json-prune-fetch-response, playerHeadScriptSnippets, , propsToMatch, /api/config)
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -59859,6 +59862,7 @@ browsershots.org#@#.advert_area
 ||bbd834il.de^
 ||bbehvkrkbzcyw.online^
 ||bbexwxh978vugbij4zctewh5o9bnbj4ohmmpxk.cfd^
+||bbgfssicevqpa.space^
 ||bbhszcabrptsq.space^
 ||bbiklzuzmsylk.online^
 ||bbikmvkmebxn.com^
@@ -67242,6 +67246,7 @@ browsershots.org#@#.advert_area
 ||eom1lv1qny1hjq9jjqlcrx83ezkvo6z.rest^
 ||eondunpea.com^
 ||eonwuljgmyjep.site^
+||eoojhxzrnpqmj.site^
 ||eookanmfhqjkh.online^
 ||eopfryauyxzzpx.com^
 ||eophytebeigel.qpon^
@@ -75818,7 +75823,6 @@ browsershots.org#@#.advert_area
 ||kuvirixa.com^
 ||kuvkjnmxs.com^
 ||kuxibbprpctsb.website^
-||kuyhaa-me.site^
 ||kvaaa.com^
 ||kvaosvpndvxzs.space^
 ||kvarcureeny.com^
@@ -76577,6 +76581,7 @@ browsershots.org#@#.advert_area
 ||lieutenantvealelongated.com^
 ||lievestcrasser.com^
 ||lifeboatlegalalleviate.com^
+||lifedayfrondalcippe.cyou^
 ||lifemoodmichelle.com^
 ||lifeporn.net^
 ||lifesoonersoar.org^
@@ -79956,6 +79961,7 @@ browsershots.org#@#.advert_area
 ||nkcdtumculrow.space^
 ||nkdfuveaxnmnt.space^
 ||nkfyeklrvwa.com^
+||nkgcezyw.com^
 ||nkgmodulsssiy.online^
 ||nkjeclbpgotxd.website^
 ||nkjykuobtzsgg.store^
@@ -85454,6 +85460,7 @@ browsershots.org#@#.advert_area
 ||rcvlink.com^
 ||rcvlinks.com^
 ||rcvobudipmrke.site^
+||rcvriqufiwtct.site^
 ||rcvwctrkfjfwf.space^
 ||rcxbznsriheku.website^
 ||rcxltnjszmheg.space^
@@ -88877,6 +88884,7 @@ browsershots.org#@#.advert_area
 ||spacetraff.com^
 ||spacingbestirs.com^
 ||spaciousuniversity.com^
+||spacklepeached.cyou^
 ||spadedesirablereproduce.com^
 ||spadeharassrefusal.com^
 ||spadelack.com^
@@ -115397,6 +115405,7 @@ pixiv.net##section:has(> div > div > iframe[name="illusttop_appeal"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
+theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
@@ -120924,7 +120933,7 @@ animepahe.ru,kwik.si##+js(aopr, PopAds)
 @@*$ghide,domain=taazaalerts.com|mahabhulekh712.in|anumin.com|awolio.com|cgbsesupport.com|eternalcbse.i|foreverhealth.in|gplinks.co|jobwaala.in|kaisekareblog.com|sugargliderfaqs.com|picassoappk.com|geniuseducares.com|netflixvip.in|raidersixgameapk.com|sarkariexam365.com|digitalfacts4u.com|odiasongsworld.com|instander.me|trancebazar.com|odishadjs.link|pagalmp3status.com|flyshayari.com|powerrangergames.com|kishanganjnews.in|tipdoot.in
 taazaalerts.com,mahabhulekh712.in,anumin.com,awolio.com,cgbsesupport.com,eternalcbse.in,foreverhealth.in,jobwaala.in,kaisekareblog.com,sugargliderfaqs.com,picassoappk.com,geniuseducares.com,netflixvip.in,raidersixgameapk.com,sarkariexam365.com,digitalfacts4u.com,odiasongsworld.com,instander.me,trancebazar.com,odishadjs.link,pagalmp3status.com,flyshayari.com,powerrangergames.com,kishanganjnews.in,tipdoot.in##+js(aopw, AdBDetected)
 taazaalerts.com,mahabhulekh712.in,anumin.com,awolio.com,cgbsesupport.com,eternalcbse.in,foreverhealth.in,jobwaala.in,kaisekareblog.com,sugargliderfaqs.com,picassoappk.com,geniuseducares.com,netflixvip.in,raidersixgameapk.com,sarkariexam365.com,digitalfacts4u.com,odiasongsworld.com,instander.me,trancebazar.com,odishadjs.link,pagalmp3status.com,flyshayari.com,powerrangergames.com,kishanganjnews.in,tipdoot.in##+js(set, count, 0)
-soraraw.net,shahieed4u.*,shaheed4u.*,vipleague.io,ninguno.cc,flyfrontier.com,shaheidd4u.net,vidzp.com,overclock3d.net,ninguno.net,starlightnet.work,socalgas.com,cloudhostingz.com,hertz.com.au,hertz.co.nz,crookshanksacademy.com,casthill.net,sterham.net,a.asd.homes,adobe.com,aipebel.com,anumin.com,apollographql.com,app.gather.town,archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,asiaflix.net,awolio.com,ba.com,barnesandnoble.com,bigbtc.win,bnc.ca,boxingstream.me,britishairways.com,btdig.com,buffsports.io,butter.us,calcolastipendionetto.it,capitalone.com,capitaloneoffers.com,capitaloneshopping.com,cardekhoindia.in,careersides.com,cgbsesupport.com,cimanow.cc,cinedesi.in,claroty.com,cnn.com,coinbase.com,coingax.com,colamanga.com,comohoy.com,cosme-de.com,cracksports.me,cricstream.me,crunchyroll.com,cyberlynews.com,dainandinvarta.com,dardmukti.in,dartsstreams.com,digitalfacts4u.com,discoveryplus.com,disneyplus.com,divnil.com,dofusports.xyz,e-gujarati.in,embedstreams.top,eternalcbse.in,everywherepaycard.com,facebook.com,fbstreams.co,flostreams.xyz,flyshayari.com,fordeal.com,foreverhealth.in,formula1.com,freepdfcomic.com,furecipes.com,ganohr.net,geforcenow.com,geniuseducares.com,godlikeproductions.com,golfstreams.me,gommonauti.it,google.com,goto.com,gotowebinar.com,gyansanatan.in,hackerrank.com,hbomax.com,healthrangerstore.com,help.sakarnewz.com,heybeng.com,hotstar.com,html-code-generator.com,hulu.com,hyundaipowerequipment.co.uk,iisfvirtual.in,infinityskull.com,instander.me,instantconsult.com.au,islamqahanafi.com,itrum.org,itv.com,japscan.lol,jiocinema.com,jiosaavnproapk.download,jobeducareer.com,jobpataka.com,jobwaala.in,kaisekareblog.com,kalista-beauty.com,kefayde.com,kick.com,kinemastermods.in,kishanganjnews.in,krunker.io,leak.sx,lego.com,lens-labo.net,linkjust.com,lobste.rs,lolesports.com,m.gamehub.cam,mahabhulekh712.in,mahitimanch.in,marcus.com,megacloud.tv,messitv.org,mirrativ.com,mmastreams.me,motogpstream.me,mukhyamantriyojana.in,musenboya.com,myaccountaccess.com,myarchive.in,mygamesreward.com,nayisahara.com,nbabox.co,ndlifestylego.com,netflixvip.in,newshuta.in,newzwala.co.in,nflbox.me,nhlbox.me,nothing.tech,odiasongsworld.com,odishadjs.link,olympicstreams.co,omuzaani.me,openai.com,opendroneid.org,optus.com.au,pagalmp3status.com,pandora.com,paramountplus.com,peacocktv.com,pethouse.com.au,picassoappk.com,pistonheads.com,playl2.net,playoffsstream.com,podcastle.ai,pornleaks.in,portal.app.flow.com.ar,potter-world.com,powerrangergames.com,primevideo.com,procinehub.com,projectcircuitbreaker.com,psychologytoday.com,pythonstudy.xyz,qatarstreams.me,raidersixgameapk.com,rapid-cloud.co,reliabletv.me,revadvert.com,roll20.net,rooter.gg,rugbystreams.me,rulingnews.com,saramart.com,sarkariexam365.com,shaahid4u.net,shahidd4u.net,shahiid4u.net,shaw.ca,soccerlive.app,socceronline.me,soccerworldcup.me,sonyliv.com,soraro.tonuriaz.info,sportsgames.today,sportsloverz.xyz,sportsnet.ca,sportsurge.net,spotify.com,ss64.com,starxinvestor.com,stgeorge.com.au,stream-livehd.online,stream.sportsspeed.site,streameast.app,streameast.ch,streameast.ec,streameast.fi,streameast.ms,streameast.ph,streameast.ps,streameast.sg,streameast.sk,stripe.com,sugargliderfaqs.com,support-lock.com,taazaalerts.com,techexpress360.in,techishant.in,tejtime24.com,telefullhd.com,telehealth.epic.com,tennisonline.me,test-website-b.pages.dev,thera-link.com,thestreameast.ru,thestreameast.st,thestreameast.su,thevouz.in,thunder-io.com,tmxskyspace.in,trancebazar.com,trezor.io,tv247365.link,tvableon.me,tvrium.click,tvsportslive.fr,twitch.tv,uploadbank.com,uploadmall.com,upscseva.in,userlytics.com,vanguard.com,velodata.app,vipbox.lc,viprow.nu,vipstand.pm,vizzy.io,volcom.ca,wavewalt.me,webdexscans.com,whatsapp.com,wheel.health,wheelofpets.com,wikifilmia.com,worldsports.me,xfinity.com,youtube.com,zealy.io,zee5.com,zoom.us,zoro.to##+js(brave-fix)
+soraraw.net,shahieed4u.*,shaheed4u.*,vipleague.io,ninguno.cc,flyfrontier.com,shaheidd4u.net,vidzp.com,overclock3d.net,ninguno.net,starlightnet.work,socalgas.com,cloudhostingz.com,hertz.com.au,hertz.co.nz,crookshanksacademy.com,casthill.net,sterham.net,a.asd.homes,adobe.com,aipebel.com,anumin.com,apollographql.com,app.gather.town,archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,asiaflix.net,awolio.com,ba.com,barnesandnoble.com,bigbtc.win,bnc.ca,boxingstream.me,britishairways.com,btdig.com,buffsports.io,butter.us,calcolastipendionetto.it,capitalone.com,capitaloneoffers.com,capitaloneshopping.com,cardekhoindia.in,careersides.com,cgbsesupport.com,cimanow.cc,cinedesi.in,claroty.com,cnn.com,coinbase.com,coingax.com,colamanga.com,comohoy.com,cosme-de.com,cracksports.me,cricstream.me,crunchyroll.com,cyberlynews.com,dainandinvarta.com,dardmukti.in,dartsstreams.com,digitalfacts4u.com,discoveryplus.com,disneyplus.com,divnil.com,dofusports.xyz,e-gujarati.in,embedstreams.top,eternalcbse.in,everywherepaycard.com,facebook.com,fbstreams.co,flostreams.xyz,flyshayari.com,fordeal.com,foreverhealth.in,formula1.com,freepdfcomic.com,furecipes.com,ganohr.net,geforcenow.com,geniuseducares.com,godlikeproductions.com,golfstreams.me,gommonauti.it,google.com,goto.com,gotowebinar.com,gyansanatan.in,hackerrank.com,hbomax.com,healthrangerstore.com,help.sakarnewz.com,heybeng.com,hotstar.com,html-code-generator.com,hulu.com,hyundaipowerequipment.co.uk,iisfvirtual.in,infinityskull.com,instander.me,instantconsult.com.au,islamqahanafi.com,itrum.org,itv.com,japscan.lol,jiocinema.com,jiosaavnproapk.download,jobeducareer.com,jobpataka.com,jobwaala.in,kaisekareblog.com,kalista-beauty.com,kefayde.com,kick.com,kinemastermods.in,kishanganjnews.in,krunker.io,leak.sx,lego.com,lens-labo.net,linkjust.com,lobste.rs,lolesports.com,m.gamehub.cam,mahabhulekh712.in,mahitimanch.in,marcus.com,megacloud.tv,messitv.org,mirrativ.com,mmastreams.me,motogpstream.me,mukhyamantriyojana.in,musenboya.com,myaccountaccess.com,myarchive.in,mygamesreward.com,nayisahara.com,nbabox.co,ndlifestylego.com,netflixvip.in,newshuta.in,newzwala.co.in,nflbox.me,nhlbox.me,nothing.tech,odiasongsworld.com,odishadjs.link,olympicstreams.co,omuzaani.me,openai.com,opendroneid.org,optus.com.au,pagalmp3status.com,pandora.com,paramountplus.com,peacocktv.com,pethouse.com.au,picassoappk.com,pistonheads.com,playl2.net,playoffsstream.com,podcastle.ai,pornleaks.in,portal.app.flow.com.ar,potter-world.com,powerrangergames.com,primevideo.com,procinehub.com,projectcircuitbreaker.com,psychologytoday.com,pythonstudy.xyz,qatarstreams.me,raidersixgameapk.com,rapid-cloud.co,reliabletv.me,revadvert.com,roll20.net,rooter.gg,rugbystreams.me,rulingnews.com,saramart.com,sarkariexam365.com,shaahid4u.net,shahidd4u.net,shahiid4u.net,shaw.ca,soccerlive.app,socceronline.me,soccerworldcup.me,sonyliv.com,soraro.tonuriaz.info,sportsgames.today,sportsloverz.xyz,sportsnet.ca,sportsurge.net,spotify.com,ss64.com,starxinvestor.com,stgeorge.com.au,stream-livehd.online,stream.sportsspeed.site,streameast.app,streameast.ch,streameast.ec,streameast.fi,streameast.ms,streameast.ph,streameast.ps,streameast.sg,streameast.sk,stripe.com,sugargliderfaqs.com,support-lock.com,taazaalerts.com,techexpress360.in,techishant.in,tejtime24.com,telefullhd.com,telehealth.epic.com,tennisonline.me,test-website-b.pages.dev,thera-link.com,thestreameast.ru,thestreameast.st,thestreameast.su,thevouz.in,thunder-io.com,tmxskyspace.in,trancebazar.com,trezor.io,tv247365.link,tvableon.me,tvrium.click,tvsportslive.fr,twitch.tv,uploadbank.com,uploadmall.com,upscseva.in,userlytics.com,vanguard.com,velodata.app,vipbox.lc,viprow.nu,vipstand.pm,vizzy.io,volcom.ca,wavewalt.me,webdexscans.com,whatsapp.com,wheel.health,wheelofpets.com,wikifilmia.com,worldsports.me,xfinity.com,youtube.com,zealy.io,zee5.com,zoom.us,zoro.to,ksp.co.il##+js(brave-fix)
 cnnespanol.cnn.com##+js(rmnt, script, location.replace)
 marcus.com,hackerrank.com##+js(aopr, navigator.brave)
 marcus.com,geforcenow.com##+js(set, navigator.brave, undefined)
@@ -130200,6 +130209,7 @@ omni.soundestlink.com$image
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
+/htdocs/js/admiral/init.js
 ||autoblog.com/.api/admiral
 ||bikemag.com/.api/admiral
 ||bringmethenews.com/.api/admiral
@@ -132689,6 +132699,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||informer.yandex.ru^
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
+||ingest.in.signoz.cloud^
 ||ingest.make.rvapps.io^
 ||ingesteer.services-prod.nsvcs.net^
 ||ingress.rebelboost.com/_ingest-rbst-stats?
@@ -135963,6 +135974,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aljazeera.com/thirdparty/nr.js
 ||allaboutberlin.com/whoisthere.js
 ||allbbwcams.com/api/metrics
+||allenai.org/v5/event
 ||allevents.in/actracker/
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
