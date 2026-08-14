@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260815032419
-! Last modified: 15 Aug 2026 03:24:19 UTC+7
+! Version: 20260815041858
+! Last modified: 15 Aug 2026 04:18:58 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -25510,11 +25510,13 @@ zpaste.net##center > center > button[class][style]
 
 filecrate.store##+js(aeld, click, !adShown)
 
-vidara.so,vidara.to##+js(nowoif)
-vidara.so,vidara.to##+js(acs, document.createElement, /blocker|detected/)
-||ssl.p.jwpcdn.com/player/*/googima.js$script,redirect=noopjs,domain=vidara.so|vidara.to
-vidara.to##+js(rmnt, script, document.getElementsByTagName)
-vidara.to##+js(set, HTMLScriptElement.prototype.onerror, undefined)
+*$script,redirect-rule=noopjs,domain=vidara.to|vidavra.com|vidara.so
+||ssl.p.jwpcdn.com/player/*/googima.js$script,redirect=noopjs,domain=vidara.so|vidara.to|vidavra.com
+vidara.so,vidara.to,vidavra.com##+js(nowoif)
+vidara.so,vidara.to,vidavra.com##+js(acs, document.createElement, /blocker|detected/)
+vidara.so,vidara.to,vidavra.com##+js(rmnt, script, document.getElementsByTagName)
+vidara.so,vidara.to,vidavra.com##+js(set, HTMLScriptElement.prototype.onerror, undefined)
+vidara.so,vidara.to,vidavra.com##div.max-w-3xl.mx-auto > div.relative.mb-5.rounded-xl.p-7.text-center
 myvidster.com##div.details_ads:nth-of-type(2)
 myvidster.com##td[height="90"]
 
@@ -40201,6 +40203,9 @@ qr1.me-qr.com##.px-0.col-12:has(>[class="adsbygoogle"])
 
 fibwatch.art##+js(rmnt, script, /showWarning|PASS_KEY/)
 ||urlshortlink.top/*^url=http$doc,urlskip=?url
+
+uploadao.com##+js(rmnt, script, zoneId)
+uploadao.com.dl0-ad-row
 
 [Adblock Plus 2.0]
 &rb=&uuid=$third-party
@@ -58646,6 +58651,7 @@ browsershots.org#@#.advert_area
 ||antlermaze.com^
 ||antliaredried.com^
 ||antlidgambir.shop^
+||antlikemimmed.qpon^
 ||antmyth.com^
 ||antoecilaptop.cfd^
 ||antoiew.com^
@@ -59162,6 +59168,7 @@ browsershots.org#@#.advert_area
 ||atonato.de^
 ||atonementimmersedlacerate.com^
 ||atonicophioidbiberon.cyou^
+||atopiescharr.qpon^
 ||atpodqbap.in^
 ||atpsjprnuspug.site^
 ||atqjthrqgcjkf.website^
@@ -65041,6 +65048,7 @@ browsershots.org#@#.advert_area
 ||diobolssorrowlr.cyou^
 ||diobolsuseable.cfd^
 ||diocoelstentonsurer.qpon^
+||diosmindaftest.shop^
 ||diosminfurzier.shop^
 ||dioxidssokes.cfd^
 ||dipolerutile.shop^
@@ -68187,6 +68195,7 @@ browsershots.org#@#.advert_area
 ||fczbxdexx.com^
 ||fd2722b11f.com^
 ||fd5237eac5.com^
+||fdadmvbteroqf.space^
 ||fdapqupdmw.com^
 ||fdbepwymahhfi.website^
 ||fdbfqpbjhmidw.space^
@@ -69465,6 +69474,7 @@ browsershots.org#@#.advert_area
 ||fusoidactuate.com^
 ||fussy-community.pro^
 ||futaqcap.in^
+||futehee.qpon^
 ||futhorcrocksuivez.cyou^
 ||future-hawk-content.co.uk^
 ||futureads.io^
@@ -75189,6 +75199,7 @@ browsershots.org#@#.advert_area
 ||kedgxztugonrg.space^
 ||keekedlegman.cyou^
 ||keelerimponediety.cyou^
+||keelfifteen.qpon^
 ||keelingchiming.cyou^
 ||keelsontattva.cyou^
 ||keentiedknives.com^
@@ -75234,6 +75245,7 @@ browsershots.org#@#.advert_area
 ||kernespalatalthigger.cfd^
 ||kernossmrgs.qpon^
 ||kerot.xyz^
+||kerriaarticle.cfd^
 ||kerryfluence.com^
 ||kertzmann.com^
 ||kesevitamus.com^
@@ -76624,6 +76636,7 @@ browsershots.org#@#.advert_area
 ||liduvxoyivocr.space^
 ||lidwftqjlltvm.com^
 ||liedloopful.com^
+||liedpalolo.cfd^
 ||lieezfgekiwgn.online^
 ||lieforepawsado.com^
 ||liegelygosport.com^
@@ -78354,6 +78367,7 @@ browsershots.org#@#.advert_area
 ||millprinciplesbaby.com^
 ||millsurfaces.com^
 ||millsuspect.com^
+||milpascreek.qpon^
 ||miltingtuchitanthill.cfd^
 ||miluwo.com^
 ||mimeioagotwvo.online^
@@ -84608,6 +84622,7 @@ browsershots.org#@#.advert_area
 ||qeyeaglxcfpvi.space^
 ||qeywmkatxqekt.space^
 ||qezodjntkbtah.site^
+||qf7fj5k1569ll8xrohk7f.cfd^
 ||qfanyeojjmkmw.online^
 ||qfcgiittmvnin.online^
 ||qfdilgjxpdevp.online^
@@ -86209,6 +86224,7 @@ browsershots.org#@#.advert_area
 ||rhhahzqblcxem.online^
 ||rhhvkmwlxeyst.store^
 ||rhhwilrxfgsat.website^
+||rhibllcwm.com^
 ||rhinaglauke.cyou^
 ||rhinfyfqtvift.site^
 ||rhinoaffiliates.com^
@@ -86530,6 +86546,7 @@ browsershots.org#@#.advert_area
 ||roamedtiffie.com^
 ||roasted-job.pro^
 ||roasted-standard.pro^
+||roasteddefraud.shop^
 ||roastengirt.cfd^
 ||roastrigidbitesize.com^
 ||roastwearwritten.com^
@@ -86948,6 +86965,7 @@ browsershots.org#@#.advert_area
 ||rusenov.com^
 ||rusinsawbill.com^
 ||ruskinhu.cyou^
+||rusoezjtmlqix.site^
 ||russelawn.qpon^
 ||russellminorpresumptuous.com^
 ||russianwoodencrown.com^
@@ -88468,6 +88486,7 @@ browsershots.org#@#.advert_area
 ||slackentheatres.com^
 ||slacklovely.com^
 ||slacklybarmie.cfd^
+||slacklygrewt.shop^
 ||slacksrefect.qpon^
 ||slahpxqb6wto.com^
 ||slakedartouhaleday.cyou^
@@ -91880,6 +91899,7 @@ browsershots.org#@#.advert_area
 ||tumbledemploymentcollapse.com^
 ||tumblepoet.com^
 ||tumblerpeacheswry.com^
+||tumetaipeicalesa.qpon^
 ||tumorskyar.com^
 ||tumri.net^
 ||tumuliapodia.cfd^
@@ -92262,6 +92282,7 @@ browsershots.org#@#.advert_area
 ||uefgoulcwiqal.space^
 ||uegonhnxbiyrc.website^
 ||uehmzlqrusxlw.online^
+||uej3uflnbqmwhc79h3l2gzt.rest^
 ||uektouluarthe.site^
 ||uelclnfeaxlur.online^
 ||ueleensadcyxh.site^
@@ -92667,6 +92688,7 @@ browsershots.org#@#.advert_area
 ||unhappybill.com^
 ||unhappygools.shop^
 ||unhappyweakness.com^
+||unhastyshote.shop^
 ||unhatedprotei.com^
 ||unhayedthew.cfd^
 ||unhealthyirreparable.com^
@@ -97116,6 +97138,7 @@ browsershots.org#@#.advert_area
 ||ymehnthakutyfor.com^
 ||ymesagmvlgiuo.website^
 ||ymghkfnajwmpk.space^
+||ymgmmlqakrllc.space^
 ||ymhiqcxygwtdh.site^
 ||ymicwnvwtbfvb.online^
 ||ymixhrbjlqyxt.space^
@@ -97947,6 +97970,7 @@ browsershots.org#@#.advert_area
 ||znntvpdicngpo.website^
 ||znorrymikvycz.site^
 ||znovjidqcxoza.website^
+||znpjgfowkfgen.site^
 ||znqvozidirqnh.site^
 ||znrakwmcjsvtm.online^
 ||znszuawsteibx.website^
@@ -98091,6 +98115,7 @@ browsershots.org#@#.advert_area
 ||zrvheziaakihj.website^
 ||zrvjzhcexv.com^
 ||zrvwyyqpkeehx.online^
+||zrwmausnhmxkq.space^
 ||zrwxvesqlyjml.website^
 ||zrygvvxyadvro.site^
 ||zrzdjoeeyabmg.website^
@@ -207354,7 +207379,7 @@ shab.ch##agb-bar
 priceline.com.au##api-cookie-banner
 wallet.kukai.app##app-agreement
 orcid.org##app-banners
-apps.db.ripe.net,loyalfans.com,navigraph.com,shop.hazi-hinam.co.il##app-cookie-consent
+apps.db.ripe.net,booking.autopartner.dk,loyalfans.com,navigraph.com,shop.hazi-hinam.co.il##app-cookie-consent
 ball.com,wanakaapp.nz##app-cookie-notice
 material.angular.dev##app-cookie-popup
 sard.ac##app-cookie-status
@@ -212069,7 +212094,6 @@ e-conomic.dk##.region-page-bottom
 septima.dk##.septimacc
 akurat.dk##.wpc-overlay
 akurat.dk##.wpc-popup
-booking.autopartner.dk##app-cookie-consent
 1508.dk##div[class^="Cookies-module-"]
 kantoorartikelen-arnhem.com###BlurryBackground
 menziszorgkantoor.nl###Cookiewall
