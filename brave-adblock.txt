@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260815090953
-! Last modified: 15 Aug 2026 09:09:53 UTC+7
+! Version: 20260815103243
+! Last modified: 15 Aug 2026 10:32:43 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -25676,6 +25676,7 @@ borntobefuck.com##.vast-container
 
 chatgpt.com##+js(trusted-json-edit, [?.type=="ads"].visibility.status="hidden")
 chatgpt.com##+js(trusted-json-edit, ..suppress_ads=true)
+chatgpt.com##+js(json-prune, messages.*.ads messages.*.renderedAdsHtml)
 
 ourcoincash.xyz,softdevelopp.com##+js(noeval-if, Adblock)
 
@@ -56830,6 +56831,7 @@ browsershots.org#@#.advert_area
 ||9lwl6rsk.xyz^
 ||9o924o5rnzb7bor.cfd^
 ||9pub.io^
+||9qbm4q34m29b5o4eh6xkn.rest^
 ||9s4l9nik.de^
 ||9t5.me^
 ||9tp9jd4p.de^
@@ -63453,6 +63455,7 @@ browsershots.org#@#.advert_area
 ||coscetfec.cfd^
 ||coseismcimeter.qpon^
 ||cosetengarb.com^
+||cosetssovkhoz.com^
 ||cosherslattens.qpon^
 ||cosinescichlid.cyou^
 ||cosmeticsgenerosity.com^
@@ -66880,6 +66883,7 @@ browsershots.org#@#.advert_area
 ||ekgjddiuwwyrv.online^
 ||ekhay.com^
 ||ekhsvsp.com^
+||ekhwbzfks.com^
 ||ekiisawyaretz.online^
 ||ekjjvwrdbm.com^
 ||ekjkfnbgpfrbd.website^
@@ -76179,6 +76183,7 @@ browsershots.org#@#.advert_area
 ||lanky-bar.com^
 ||lanky-pin.pro^
 ||lankyteaching.com^
+||lanpeatced.com^
 ||lantodomirus.com^
 ||laojwnvthnuec.online^
 ||lapbqcaykdsn.com^
@@ -77130,6 +77135,7 @@ browsershots.org#@#.advert_area
 ||loperbrattle.com^
 ||lopersmacabi.cyou^
 ||lophiiderugate.cfd^
+||lophineoutsayresave.cyou^
 ||lopsideddebate.com^
 ||loptrrfnfnsnb.space^
 ||lopwhrvtmmhck.store^
@@ -82078,6 +82084,7 @@ browsershots.org#@#.advert_area
 ||p6n0g0ia.xyz^
 ||p84eelu36l7ip3xlq9oxuugeoc5.rest^
 ||p8lxfvgnj426gpeemu5k6t.rest^
+||p9pxgx91z15el4b32ecfxo1yvi.cfd^
 ||p9wxctem41wmbn3n3kuh.cfd^
 ||pa5ka.com^
 ||paaeeets.net^
@@ -88326,6 +88333,7 @@ browsershots.org#@#.advert_area
 ||sillinessshoplifting.com^
 ||sillinesswoollen.com^
 ||sillorangesladen.com^
+||silver-assets.online^
 ||silverangleshookup.com^
 ||silverforestpath.com^
 ||silverleafroad.com^
@@ -98316,6 +98324,7 @@ browsershots.org#@#.advert_area
 ||zxlxqzn46yzbn8qxr69.rest^
 ||zxmkhbsmmuikc.online^
 ||zxn2u72vyrejmmw9tnb7wh.cfd^
+||zxnsukgybbfkmz.com^
 ||zxnymrendoxms.space^
 ||zxpvebhtojfvgu.com^
 ||zxqvocyhiggng.site^
@@ -116221,6 +116230,7 @@ bing.com##div[aria-label$="ProductAds"]
 bing.com##div[class="ins_exp tds"]
 bing.com##div[class="ins_exp vsp"]
 bing.com##li[data-idx]:has(#mm-ebad)
+chatgpt.com##[data-message-role="assistant"] > section[class] > aside[aria-label]:has(> div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L
 checkfelix.com,kayak.*,swoodoo.com##.EvBR
@@ -206363,7 +206373,7 @@ tomtom.com##.fixed.bottom-24
 thelatinonewsletter.org##.fixed.left-2
 newsbreak.com##.fixed:has([aria-label="Close cookie banner"])
 speedway.com##.fixed:has(a[href$="privacy-policy"])
-lowpass.cc##.fixed:has(div>p>a[href="https://www.beehiiv.com/privacy"])
+lowpass.cc##.fixed:has(div > p>a[href="https://www.beehiiv.com/privacy"])
 developer.arm.com##.fixedPolicyBox
 bleacherreport.com##.fixedRegion
 flyone.eu##.fixed_btm_bg
