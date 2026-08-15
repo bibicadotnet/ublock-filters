@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260815202510
-! Last modified: 15 Aug 2026 20:25:10 UTC+7
+! Version: 20260815211444
+! Last modified: 15 Aug 2026 21:14:44 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -83452,6 +83452,7 @@ browsershots.org#@#.advert_area
 ||polarcdn-terrax.com^
 ||polarichip.com^
 ||polarmobile.com^
+||polearmpvt.shop^
 ||poletbgulpers.cyou^
 ||poleynsset.com^
 ||policeair.com^
@@ -87173,6 +87174,7 @@ browsershots.org#@#.advert_area
 ||rwulzuaqsafn.com^
 ||rwunweqm.in^
 ||rwvfxkneipjnq.online^
+||rwvrruogiyipt.online^
 ||rwwmbymaezkla.top^
 ||rwzughyokkgua.site^
 ||rwzvqzvqkzowy.top^
@@ -90469,6 +90471,7 @@ browsershots.org#@#.advert_area
 ||tanakadebeige.qpon^
 ||tanceteventu.com^
 ||tangerineprestigiousbehaved.com^
+||tangerskinker.cfd^
 ||tangible-guarantee.pro^
 ||tangierlocoman.com^
 ||tangleproceeding.com^
@@ -92915,6 +92918,7 @@ browsershots.org#@#.advert_area
 ||unmectappic.com^
 ||unmefwsycamtq.space^
 ||unmiredaahreclang.cyou^
+||unmitreoutlast.cfd^
 ||unmnehicnyoiz.site^
 ||unnatural-buddy.pro^
 ||unnaturalcask.com^
@@ -93337,6 +93341,7 @@ browsershots.org#@#.advert_area
 ||utwghbrzkywjb.website^
 ||utwjzcomsuoqd.site^
 ||utxcfwjjjpsjt.space^
+||utxptgyqxnjff.online^
 ||utxtehvydvtus.website^
 ||utzzytfmbfekv.website^
 ||uu5h6tibr17mx8c1.rest^
@@ -94214,6 +94219,7 @@ browsershots.org#@#.advert_area
 ||vndrosaaypjvu.website^
 ||vnfmgenxtrmcv.online^
 ||vnijzahxlejop.website^
+||vnjazjelnhbjq.online^
 ||vnkzpvmaximaz.website^
 ||vnmgexvzxgcsw.site^
 ||vnnrttxnoybxm.website^
@@ -136688,6 +136694,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/backend-api/sentinel/ping
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
@@ -207503,7 +207510,7 @@ remitly.com##:has(> #cookie-consent-prompt-modal)
 santatracker.google.com##SANTA-NOTICE
 trustnet.com##USER-TYPE-POPUP
 dollarshaveclub.com##[aria-describedby="banner-description"]
-askethos.com,lemonade.com##[aria-describedby="cookie-consent-description"]
+askethos.com,k2think.ai,lemonade.com##[aria-describedby="cookie-consent-description"]
 ticketmaster.com##[aria-describedby="mobileMobileTOUMessage"]
 kstp.com,lucidchart.com,scribd.com##[aria-label="Cookie Consent Banner"]
 1password.com,shirtspace.com##[aria-label="Cookie Consent"]
@@ -207641,7 +207648,7 @@ corrupt.wiki,developer.rocket.chat,docs.coreframework.com,docs.fluentbit.io,docs
 betmgm.co.uk##div:has(> div > div[bol-component="cookie-consent"])
 realityjunkies.com##div:has(> p > a[href$="/legal/privacy"])
 jingdaily.com##div[aria-label="Cookie consent banner"]
-38-0.app,kittyscan.com,streamelements.com##div[aria-label="Cookie consent"]
+38-0.app,console.upstage.ai,kittyscan.com,streamelements.com##div[aria-label="Cookie consent"]
 webex.com##div[aria-label="Cookie information"]
 utrechtart.com##div[aria-label="cookie consent banner"]
 bicycling.com,biography.com,caranddriver.com,cosmopolitan.com,countryliving.com,delish.com,elle.com,elledecor.com,esquire.com,goodhousekeeping.com,harpersbazaar.com,housebeautiful.com,menshealth.com,pitchfork.com,popularmechanics.com,prevention.com,roadandtrack.com,runnersworld.com,thepioneerwoman.com,townandcountrymag.com,womenshealthmag.com##div[aria-label^="Privacy Disclosure"]
