@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260815221329
-! Last modified: 15 Aug 2026 22:13:29 UTC+7
+! Version: 20260815231543
+! Last modified: 15 Aug 2026 23:15:43 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -20684,6 +20684,9 @@ dragontea.ink##.dta
 dragontea.ink##body > div[style]:not([id]):style(position: static !important; background-color: rgba(0, 0, 0, 0) !important)
 dragontea.ink##html, body:style(overflow: visible !important;)
 ||dragontea.ink/dtpu.js$script
+||dragontea.ink^$document,replace=/(var tea='\{"ct":"(?:[A-Za-z0-9+\/]|\\\/)+={0,2}","iv":"[0-9a-f]{32}","s":"[0-9a-f]{16}"\}';)/$1document.write('<link rel="stylesheet" href="'+CryptoJSAesJson.decrypt(tea\,'yourmumandjerome').split('autoptimize').join('%61utoptimize')+'">');/
+dragontea.ink##+js(trusted-create-html, html, <img src="x:" style="display:none" onerror="(()=>{const u=x=>CryptoJSAesJson.decrypt(x\,'yourmumandjerome').split('autoptimize').join('%61utoptimize');if(typeof window.tea==='string'){let l=document.createElement('link');l.rel='stylesheet';l.setAttribute('href'\,u(window.tea));document.head.prepend(l);return}let v;Object.defineProperty(window\,'tea'\,{configurable:true\,get(){return v}\,set(x){v=x;document.write('<link rel=stylesheet href='+u(x)+'>')}})})();this.remove()">)
+dragontea.ink##+js(adjust-setInterval, /attachonce == false/, 800, 0.001)
 
 time.artjoey.com##.adsense:style(padding: 0 !important;)
 
@@ -60056,6 +60059,7 @@ browsershots.org#@#.advert_area
 ||beehivesmokeremotionally.com^
 ||beeishidcue.cyou^
 ||beelinehindu.com^
+||beemanbacuryliaise.qpon^
 ||beencoriqvcep.site^
 ||beenover.com^
 ||beepergaily.com^
@@ -61527,6 +61531,7 @@ browsershots.org#@#.advert_area
 ||burlytonight.pro^
 ||burnetsasgmt.com^
 ||burnetschurl.shop^
+||bursateyouprance.qpon^
 ||bursesinlands.cyou^
 ||burspiak.in^
 ||burstingsteed.com^
@@ -64681,6 +64686,7 @@ browsershots.org#@#.advert_area
 ||degasdiduced.cyou^
 ||degeronium.com^
 ||deghooda.net^
+||deglultjqnrpq.website^
 ||degreesberain.cfd^
 ||dehvgmbchvkcm.online^
 ||deicatekraft.cfd^
@@ -68568,6 +68574,7 @@ browsershots.org#@#.advert_area
 ||fillingwiltingoutwish.qpon^
 ||filllocate.com^
 ||fillpoliteness.com^
+||filthdirling.shop^
 ||filthybudget.com^
 ||filthygracefulspinach.com^
 ||filthyrankscuffle.com^
@@ -69177,6 +69184,7 @@ browsershots.org#@#.advert_area
 ||fpyf8.com^
 ||fqayoymigvmbw.website^
 ||fqbazpdbkbvxt.online^
+||fqcbxkvcabybj.online^
 ||fqdpqpwruidrz.store^
 ||fqdqndubwixwk.website^
 ||fqeyqzuncvkpx.website^
@@ -69688,6 +69696,7 @@ browsershots.org#@#.advert_area
 ||g2u9g28vywgnl8.cfd^
 ||g33ktr4ck.com^
 ||g33tr4c3r.com^
+||g3437pprk8z2xlcui.cfd^
 ||g6ghlogvlj3mmyb6.cfd^
 ||g6yihkn9ojo5lewotbkb7h.rest^
 ||g7fkbtiwkim23q9e27q.cfd^
@@ -69978,6 +69987,7 @@ browsershots.org#@#.advert_area
 ||geministinage.shop^
 ||gemlessmetates.shop^
 ||gen-ref.com^
+||genarchwarlike.cyou^
 ||genbalar.com^
 ||gendbkamiggxs.site^
 ||gendernewsmanmistic.qpon^
@@ -70288,6 +70298,7 @@ browsershots.org#@#.advert_area
 ||gjyprkxumokub.online^
 ||gjywuldwyu.com^
 ||gjzbbpqknqgbe.online^
+||gk6lb56jjxzqw1h319xf73.rest^
 ||gkamzhcneehyn.site^
 ||gkazhtoelmsok.site^
 ||gkdfqaetgjufu.site^
@@ -71556,6 +71567,7 @@ browsershots.org#@#.advert_area
 ||hdkaqblvbnhmtbb.com^
 ||hdmxutcrtereb.online^
 ||hdpaaaidikjlf.site^
+||hdpcjocezeuaw.space^
 ||hdppc.com^
 ||hdqtevaaenn.com^
 ||hdrctfcvghgvq.site^
@@ -71768,6 +71780,7 @@ browsershots.org#@#.advert_area
 ||hgjvihfstsdoi.site^
 ||hgobdrjitmvi.com^
 ||hgolecgocxwio.space^
+||hgovyniielsax.site^
 ||hgoxvtdgfcdlg.website^
 ||hgrepart.cyou^
 ||hgtasizbgvjdn.website^
@@ -71973,6 +71986,7 @@ browsershots.org#@#.advert_area
 ||hko7xcemkfzl4uwo.rest^
 ||hkoosgxqn.com^
 ||hkpjnieraypcn.site^
+||hkplevgpqjwrn.site^
 ||hkq1b3v4wiwzo9zi77.cfd^
 ||hkrpmavrbw.com^
 ||hkrshvakrvcvc.website^
@@ -98367,6 +98381,7 @@ browsershots.org#@#.advert_area
 ||zuevczaesmrbg.website^
 ||zufasbhzijysh.site^
 ||zufbfwccixrci.space^
+||zufevtaqnvodu.website^
 ||zugedrpjyzgim.space^
 ||zugo.com^
 ||zuhityfzxjhan.website^
