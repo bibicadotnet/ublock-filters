@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260816142526
-! Last modified: 16 Aug 2026 14:25:26 UTC+7
+! Version: 20260816152007
+! Last modified: 16 Aug 2026 15:20:07 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -25680,6 +25680,7 @@ borntobefuck.com##.vast-container
 chatgpt.com##+js(trusted-json-edit, [?.type=="ads"].visibility.status="hidden")
 chatgpt.com##+js(trusted-json-edit, ..suppress_ads=true)
 chatgpt.com##+js(json-prune, messages.*.ads messages.*.renderedAdsHtml)
+chatgpt.com##+js(trusted-replace-outbound-text, TextDecoder.prototype.decode, /^\{"type":\s*"ads"\,.*?("ads_request_id":.*?"ads_response_id"|"ads_response_id":.*?"ads_request_id"):.*\}$/, {})
 
 ourcoincash.xyz,softdevelopp.com##+js(noeval-if, Adblock)
 
@@ -64178,6 +64179,7 @@ browsershots.org#@#.advert_area
 ||cyaninewangles.shop^
 ||cyberfluxer.com^
 ||cybkit.com^
+||cycloneamalgamgnatho.cfd^
 ||cyclonechiefer.qpon^
 ||cycrtitiqxykp.space^
 ||cydoniacavorts.qpon^
@@ -76146,6 +76148,7 @@ browsershots.org#@#.advert_area
 ||kwwuuqkemijqv.online^
 ||kwxegvirgslwh.site^
 ||kwxxuqnikarny.site^
+||kwxyyureuuqqz.space^
 ||kwyoqlhshixgt.website^
 ||kxaazgvdumsle.site^
 ||kxapewakwxtyy.site^
@@ -76725,6 +76728,7 @@ browsershots.org#@#.advert_area
 ||lfikmuikwvhsw.online^
 ||lfjdqqmzpswof.website^
 ||lfnwxpcbfpkcx.website^
+||lfoacqdluayrr.space^
 ||lfokfyodzylck.site^
 ||lfppindfyzgag.site^
 ||lfrmicgsriuuk.online^
@@ -77414,6 +77418,7 @@ browsershots.org#@#.advert_area
 ||lqbvjmkoozmry.top^
 ||lqcgpcyighfhh.website^
 ||lqdimcpwev.com^
+||lqhadymruqgwc.website^
 ||lqibuklvfdhg.com^
 ||lqidzftosyjap.website^
 ||lqivhsbmqcc.com^
@@ -91447,6 +91452,7 @@ browsershots.org#@#.advert_area
 ||tlhrenkzzrwzc.online^
 ||tlinhdrchhl.com^
 ||tliplyornbfuz.site^
+||tlkdcajljikmr.online^
 ||tlkhivxrvlrcb.store^
 ||tlllccmkxwcze.website^
 ||tlmdclvcsndrs.site^
@@ -206445,6 +206451,7 @@ benq.com##.cookie-component
 moneycontrol.com##.cookie-concern-wrapper
 perthnow.com.au,thewest.com.au##.cookie-consent--GDPR
 friends.figma.com##.cookie-consent-acknowledgement-conatiner
+hevodata.com##.cookie-consent-anchor
 meest-shop.com##.cookie-consent-banner_root__M9V7x
 aerolopa.com##.cookie-consent-modern
 developers.turing.com##.cookie-consent-overlay
@@ -208407,7 +208414,7 @@ finquesdelmar.com,hortdesantcebria.com,iglumedia.com###bluemask
 finquesdelmar.com,hortdesantcebria.com,iglumedia.com##.tbox
 amway.com,amway.ua,day-tours-from-avignon.com,hari.ca##.disclaimer-container
 bta-international.com,dahlhaus-leuchten.de,poenvoorgroen.nl##.cc-layer
-absonline.co.il,alarm.com,albar.co.il,alislamy.co.il,am-oved.co.il,amrusi.co.il,anglo-saxon.co.il,april.co.il,armyinform.com.ua,bigassfans.com,bsmart.co.il,chicagobooth.edu,city-garden.co.il,crypton.sh,etzmaleh.co.il,eurocommercialproperties.com,europa.eu,frisbi24.ru,fundrazr.com,gilsport.co.il,globalcallforwarding.com,gocase.com.br,interdiscount.ch,joinstellar.ai,keter-books.co.il,kibutz-poalim.co.il,kley-zemer.co.il,kzpro.co.il,ladaat.co,liveagent.com,matzman-merutz.co.il,meiami.co.il,modan.co.il,motohurt.com,mundoperfecto.net,news.stanford.edu,orioninnovation.com,panet.com,pedalim.co.il,pepper.ru,rfdtvcanada.ca,shekel4u.co.il,softexia.com,stateofsurveillance.org,tainio-mania.online,tfgm.com,thecowboychannelcanada.ca,thetadata.net,thewaterchannel.ca,travel-europe.europa.eu,webdunia.com,wildtv.ca,zer4u.co.il###cookie-consent-banner
+absonline.co.il,alarm.com,albar.co.il,alislamy.co.il,am-oved.co.il,amrusi.co.il,anglo-saxon.co.il,april.co.il,armyinform.com.ua,bigassfans.com,bsmart.co.il,chicagobooth.edu,city-garden.co.il,crypton.sh,etzmaleh.co.il,eurocommercialproperties.com,europa.eu,frisbi24.ru,fundrazr.com,gilsport.co.il,globalcallforwarding.com,gocase.com.br,interdiscount.ch,joinstellar.ai,keter-books.co.il,kibutz-poalim.co.il,kley-zemer.co.il,kzpro.co.il,ladaat.co,liveagent.com,matzman-merutz.co.il,meiami.co.il,modan.co.il,motohurt.com,mundoperfecto.net,news.stanford.edu,orioninnovation.com,panet.com,pedalim.co.il,pepper.ru,rfdtvcanada.ca,shekel4u.co.il,softexia.com,stateofsurveillance.org,tainio-mania.online,tfgm.com,thecowboychannelcanada.ca,thetadata.net,thewaterchannel.ca,travel-europe.europa.eu,webdunia.com,wheretowatch.stream,wildtv.ca,zer4u.co.il###cookie-consent-banner
 adp-enseignes.com,affidabile.org,auburn.edu,barocca.ro,branah.com,datalounge.com,epaper.patrika.com,epiloglaser.com,fizzicseducation.com.au,gagaoolala.com,gocpa.ru,guideautoweb.com,harmilaw.com,knoema.com,knoema.ru,latrobe.edu.au,manda.co.jp,marketfinance.com,nact.jp,occto.or.jp,project529.com,rentafont.com.ua,scommesse.io,tampabay.com,tidesmarine.com,toei-metal.com,uwebergverlag.de,vitaslim.eu,wikihow.com,wikihow.it###gdpr
 vjoon.us###gdprOverlay
 adler-lingenau.com,cinch.co.uk,copl.be##div[class^="cookie-"]
