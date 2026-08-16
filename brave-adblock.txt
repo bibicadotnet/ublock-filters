@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260816202525
-! Last modified: 16 Aug 2026 20:25:25 UTC+7
+! Version: 20260816211557
+! Last modified: 16 Aug 2026 21:15:57 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -216,7 +216,7 @@ web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.
 ||facebook.com/api/graphql/$xhr,replace=/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/{}/,domain=web.facebook.com|www.facebook.com
 ||static.xx.fbcdn.net/rsrc.php/v*.js$script,replace=/"__typename":"SponsoredData"/"__typename":"SponsorData"/g
 ||static.xx.fbcdn.net/rsrc.php/v*.js$script,replace=/return M\(JSON\.parse\(m\)\)/return false/
-||static.xx.fbcdn.net/rsrc.php/v*.js$script,replace=/if\(!\(p!=null&&_!=null\)\)/if(false)/
+||static.xx.fbcdn.net/rsrc.php/v*.js$script,replace=/=document\.body\|\|document\.documentElement;/=document.body||document.documentElement;return false;/
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/g, {}, /api/graphql)
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"MarketplaceFeedAdStory"[^\n]+?"cursor":(?:null|"\{[^\n]+?\}"|[^\n]+?MarketplaceSearchFeedStoriesEdge")\}/g, {}, /api/graphql)
 web.facebook.com,www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/, {}, /api/graphql)
@@ -26031,6 +26031,7 @@ free-3dtextureshd.com##.adblock_title
 
 streamvid.dev##+js(acs, setTimeout, /_0x|window\.open/)
 streamvid.dev##+js(nowoif)
+playstreaming.win##+js(nostif, click)
 streamvid.dev##.ad_mobile
 
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima.js,domain=njbeachcams.com,important
@@ -26404,6 +26405,9 @@ garaz.cz##.placeholder-wrapper
 garaz.cz##div[data-advert]
 cyklobazar.cz##+js(json-edit-fetch-response, .stories.*[?.storyType=="ad"], propsToMatch, cykloStories)
 cyklobazar.cz##curtain-ad
+
+||naturalhistory2.si.edu/vt3/$all
+||landing.candynetwork.ai/*&affid=$doc,popup
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -27047,7 +27051,7 @@ tabooporn.tv,tabootube.*,tamilsexstory.net,teencamx.com,teenpornjpg.com,teenxxxp
 ulsex.net,ultraten.net,uncensoredleak.com,uniqueten.net,up-load.io,upicsz.com,uporn.icu,upskirt.tv,urgayporn.com,usaxtube.com##+js(acs, document.querySelectorAll, popMagic)
 vcp.xxx,ver-mangas-porno.com,verhentai.top,vermangasporno.com,verpeliculasporno.gratis,videos-xxx.*,videosputas.xxx,videosxxxputas.com,videoxxx.cc,vids.st,viewmature.com,vintageporntubes.com,vipporns.com,viralxvideos.es,viralxxxporn.com,vkrovatku.com,voyeurblog.net,voyeurxxxsex.com,vzrosliedamy.com##+js(acs, document.querySelectorAll, popMagic)
 wannafreeporn.com,wantmature.com,waploaded.com,watchfreejavonline.co,watchfreekav.com,watchhentai.net,watchporn.*,watchporn4k.com,watchporninpublic.com,watchseries1.*,webcams.casa,webtoonscan.com,westmanga.info,wetpussy.sexy,wetsins.com,womennaked.net,wonporn.com,worldsex.com,wow-mature.com,wowxxxtube.com##+js(acs, document.querySelectorAll, popMagic)
-x-videos.name,xanimehub.com,xanimu.com,xculitos.com,xemales.com,xemphim1.top,xexle.com,xfantazy.com,xfantazy.org,xforum.live,xfreehd.com,xfreepornsite.com,xhamsterteen.com,xkeezmovies.com,xn--algododoce-j5a.com,xmegadrive.com,xnxx-downloader.net,xnxx.party,xnxxhamster.net,xpicse.com,xpornzo.com,xsexpics.com,xsexpics.com,xspiel.com,xsportshd.com,xszav.club,xvideis.cc,xvideos.name,xx.knit.bid,xxf.mobi,xxr.mobi,xxu.mobi,xxx-videos.org,xxxcomics.org,xxxfiles.*,xxxhub.cc,xxxlesvianas.com,xxxonline.cc,xxxputas.net,xxxtor.com,xxxxselfie.com,xxxxxx.hu##+js(acs, document.querySelectorAll, popMagic)
+x-videos.name,xanimehub.com,xbokeps.com,xemales.com,xemphim1.top,xexle.com,xfantazy.com,xfantazy.org,xforum.live,xfreehd.com,xfreepornsite.com,xhamsterteen.com,xkeezmovies.com,xn--algododoce-j5a.com,xmegadrive.com,xnxx-downloader.net,xnxx.party,xnxxhamster.net,xpicse.com,xpornzo.com,xsexpics.com,xsexpics.com,xspiel.com,xsportshd.com,xszav.club,xvideis.cc,xvideos.name,xx.knit.bid,xxf.mobi,xxr.mobi,xxu.mobi,xxx-videos.org,xxxcomics.org,xxxfiles.*,xxxhub.cc,xxxlesvianas.com,xxxonline.cc,xxxputas.net,xxxtor.com,xxxxselfie.com,xxxxxx.hu##+js(acs, document.querySelectorAll, popMagic)
 y-porn.com,yaoiscan.com,yona-yethu.co.za,yongfucknaked.com,youlikeboys.com,youngbelle.net,youngerasiangirl.net,youngerporn.mobi,youngleak.com,youpornfm.com,youramateurporn.com,yporn.tv,ytanime.tv,yy1024.net##+js(acs, document.querySelectorAll, popMagic)
 zonavideosx.com,zthots.com##+js(acs, document.querySelectorAll, popMagic)
 6indianporn.com,amateurebonypics.com,amateuryoungpics.com,amigosporn.top,cinemabg.net,desimmshd.com,everia.club,frauporno.com,givemeaporn.com,hitomi.la,jav-asia.top,javfull.net,javideo.net,javsunday.com,kr18plus.com,luscious.net,missavtv.com,picbaron.com,pilibook.com,pornborne.com,porngrey.com,pornktube.*,pornx.tube,qqxnxx.com,sexvideos.host,submilf.com,subtaboo.com,watchseries.*,xfrenchies.com##+js(aeld, , popMagic)
@@ -62355,6 +62359,7 @@ browsershots.org#@#.advert_area
 ||cerilloinverts.com^
 ||cerosratio.shop^
 ||certainwolveshonestly.com^
+||certesaliform.qpon^
 ||ceryldelaine.com^
 ||ces2007.org^
 ||cessingbrant.cyou^
@@ -63677,6 +63682,7 @@ browsershots.org#@#.advert_area
 ||cqcpazetvhaso.website^
 ||cqcsvgiryffsf.online^
 ||cqeorasldxsbw.store^
+||cqfzpkcswpwiq.space^
 ||cqjfqrupph.com^
 ||cqjgztejpzvkd.space^
 ||cqkpoxtlakibf.space^
@@ -64519,6 +64525,7 @@ browsershots.org#@#.advert_area
 ||dawnfilthscribble.com^
 ||dawonfjvwjcaj.online^
 ||dawpateshrew.cfd^
+||dawsbumbleddefused.qpon^
 ||daxtnnqlppovj.space^
 ||daybedamido.qpon^
 ||dayboygubbincoexert.cyou^
@@ -66123,6 +66130,7 @@ browsershots.org#@#.advert_area
 ||dsqvcm.com^
 ||dsqwtw.com^
 ||dsqxrp.com^
+||dsqyla.com^
 ||dsraozxhfuifo.site^
 ||dsrbqn.com^
 ||dsrcxs.com^
@@ -73151,6 +73159,7 @@ browsershots.org#@#.advert_area
 ||ilaterdeallyig.info^
 ||ilcdllaojci.com^
 ||ilclqdpkuquix.com^
+||ilcovjbwvndmm.space^
 ||ilcstuywgiayu.com^
 ||ildr3vij.xyz^
 ||ileacringes.com^
@@ -78704,6 +78713,7 @@ browsershots.org#@#.advert_area
 ||misdlgenddd.com^
 ||miserableconcept.com^
 ||miserly-apple.pro^
+||miserly-wrap.com^
 ||miseshogglerstrit.cyou^
 ||misguidedconclusion.com^
 ||misguidedshelves.com^
@@ -86109,6 +86119,7 @@ browsershots.org#@#.advert_area
 ||redistedi.com^
 ||redockcatwise.cfd^
 ||redoubtantjar.cfd^
+||redoutmester.qpon^
 ||redowasiridate.com^
 ||redressjaguarsubsided.com^
 ||redressmigrantfailing.com^
@@ -89459,6 +89470,7 @@ browsershots.org#@#.advert_area
 ||spectrumirriplaceableirriplaceable.com^
 ||speculationchatter.com^
 ||speculationpains.com^
+||specuscossack.cyou^
 ||spedcubicalyanking.cyou^
 ||speeb.com^
 ||speecefilmy.cfd^
@@ -94037,6 +94049,7 @@ browsershots.org#@#.advert_area
 ||velkflirgbkvu.space^
 ||velocecdn.com^
 ||velocitycdn.com^
+||veloutfilmdom.cyou^
 ||velqgngcsyzra.website^
 ||velsriram.cyou^
 ||veluredcorveenikko.cfd^
@@ -97017,6 +97030,7 @@ browsershots.org#@#.advert_area
 ||xsqsskomtwkmw.space^
 ||xsqzditggsbkd.space^
 ||xsrbatihgyayg.site^
+||xsrcwtswtjkor.site^
 ||xsrs.com^
 ||xsrtagqglnlda.online^
 ||xsteethes.qpon^
@@ -98730,6 +98744,7 @@ browsershots.org#@#.advert_area
 ||zvjbgsqpcnlku.site^
 ||zvjinchjnsjje.site^
 ||zvjsiihwctudv.online^
+||zvkujdrqllutk.space^
 ||zvlsctfwctmhe.website^
 ||zvmxpklpnnenv.site^
 ||zvpmktldiqxdk.site^
@@ -205050,6 +205065,7 @@ gigafile.nu##.pr_area_sp
 ||yelp.*/eu_cookie_notice?
 ||yimg.com^*/guce.js
 ||zed.dev/docs/theme/c15t@2.0.0-rc.3.js
+||ztat.net/pnl/consent-ui/latest/zalando/consent.js
 ||hc.bonprix.hu^
 ||hc.bonprix.ro^
 ||hc.bonprix.sk^
@@ -205900,7 +205916,7 @@ ergonbike.com###tracking-modal
 stingray.com###tracking-popup
 privacy.org.nz###trackingmessage
 tracxn.com###tracxn-cookie-consent-banner-root
-visionworks.com###transcend-consent-manager
+clay.com,visionworks.com###transcend-consent-manager
 undercurrentnews.com###ucn-gdpr-overlay
 uconn.edu###uconn-c-notice
 strikermanager.com###ue
@@ -208159,6 +208175,7 @@ deepl.com##div[data-testid="dl-cookieBanner"]
 ici.radio-canada.ca##div[data-testid="legalDisclaimer"]
 xero.com##div[data-xero-component="nav/cookie-notification"]
 deepdivedubai.com,thenode.gg##div[fs-consent-element]
+bbc.com##div[id="consent-banner"]
 armbian.com,companyweb.be,fatalfans.com,smythstoys.com,zencreator.pro##div[role="dialog"]
 reddit.com##div[style*="--Toaster-indicatorColor"]
 autodude.dk,autodude.fi,autodude.no,autodude.se,valostore.fi,valostore.no,valostore.se##div[style="background-color: rgb(240, 240, 240);"]
