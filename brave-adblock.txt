@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260817172452
-! Last modified: 17 Aug 2026 17:24:52 UTC+7
+! Version: 20260817181914
+! Last modified: 17 Aug 2026 18:19:14 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26423,6 +26423,8 @@ anihq.cc##+js(rmnt, script, "'_blank'")
 anihq.cc##+js(rmnt, #text, /Adblock/i)
 
 ||pearos.xyz/assets/adblock-detector.js
+
+modelviewer.lol##+js(aeld, DOMContentLoaded, isBlocked)
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -65806,6 +65808,7 @@ browsershots.org#@#.advert_area
 ||dsehdh.com^
 ||dseiqr.com^
 ||dseisg.com^
+||dseivh.com^
 ||dsejee.com^
 ||dsejzd.com^
 ||dsekhf.com^
@@ -66753,6 +66756,7 @@ browsershots.org#@#.advert_area
 ||eildmfgalql.com^
 ||eiledstevermotorie.org^
 ||eiljtxtpaajoh.website^
+||eilkgqllsjgru.space^
 ||eilloupnjlzoj.site^
 ||eimbrxlb.com^
 ||eimesthanzogt.space^
@@ -67513,6 +67517,7 @@ browsershots.org#@#.advert_area
 ||etymaorpheuscotise.cyou^
 ||etymonsibycter.com^
 ||etzfcwsafuw.com^
+||etzuqprynhyfx.site^
 ||eu52jz9y1o2mju4rizc.cfd^
 ||eu8759jwcy6q6nw.rest^
 ||euchresgnarly.qpon^
@@ -71862,6 +71867,7 @@ browsershots.org#@#.advert_area
 ||hockeyhavoc.com^
 ||hockeysfooldom.cyou^
 ||hoctor-pharity.xyz^
+||hocusedasaphiccourter.cyou^
 ||hocusesfifer.qpon^
 ||hoddenaccinge.cyou^
 ||hoddernong.shop^
@@ -74164,6 +74170,7 @@ browsershots.org#@#.advert_area
 ||jinsoppidum.cyou^
 ||jiprgfzcpdjmp.online^
 ||jiptcrzamhujz.space^
+||jipvbuzyci.com^
 ||jirot.xyz^
 ||jirqrmfxaeoyr.site^
 ||jitanvlw.com^
@@ -84332,6 +84339,7 @@ browsershots.org#@#.advert_area
 ||qigkvucouqnjs.space^
 ||qihegkxiytaah.online^
 ||qihnajipjpmii.online^
+||qihtlrigu.com^
 ||qiix78.net^
 ||qilqccqefnppeh.com^
 ||qimqebsonbvvy.space^
@@ -96011,6 +96019,7 @@ browsershots.org#@#.advert_area
 ||xtoogcyzmwmvf.space^
 ||xtotmkmljtznt.website^
 ||xtpselfqfeeui.space^
+||xtqcxzztrjbsx.site^
 ||xtqwodezfpfbv.space^
 ||xtraserp.com^
 ||xtrbagcbjrabn.online^
@@ -110668,6 +110677,7 @@ hwcooling.net##.heureka-affiliate-category
 filecrypt.cc,filecrypt.co##.hghspd
 filecrypt.cc,filecrypt.co##.hghspd + *
 daijiworld.com##.hidden-xs > [href]
+modelviewer.lol##.hidden.mb-3.md\:block
 miragenews.com##.hide-in-mob
 moneycontrol.com,windowsreport.com##.hide-mobile
 gadgethacks.com##.hide-on-empty
@@ -112453,6 +112463,7 @@ thechinaproject.com##.sticky-spacer
 oilcity.news##.sticky-sponsors-large
 jpost.com##.sticky-top-banner
 litecoin-faucet.com##.sticky-top1
+modelviewer.lol##.sticky.top-5.p-3.min-h-0.mr-4
 economictimes.indiatimes.com##.stickyAd
 theblock.co##.stickyFooter
 everythingrf.com##.stickyRHSAds
