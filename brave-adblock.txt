@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260819162607
-! Last modified: 19 Aug 2026 16:26:07 UTC+7
+! Version: 20260819172132
+! Last modified: 19 Aug 2026 17:21:32 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -63033,6 +63033,7 @@ browsershots.org#@#.advert_area
 ||coazdbbxocvgi.site^
 ||coazoveekjecr.space^
 ||cobaltsanctionyodel.com^
+||cobbingcopier.cyou^
 ||cobbinpocked.cfd^
 ||cobnutscopsole.com^
 ||cobolgammed.com^
@@ -63660,6 +63661,7 @@ browsershots.org#@#.advert_area
 ||crabstuffs.cyou^
 ||crackingoptimistic.com^
 ||crackrapt.com^
+||cracksheck.cfd^
 ||cracksingularstopper.com^
 ||crackydetract.qpon^
 ||craftilypendantwhinny.com^
@@ -65605,6 +65607,7 @@ browsershots.org#@#.advert_area
 ||dosagepettytrust.com^
 ||dossalresteel.cfd^
 ||dossechites.shop^
+||dosselsalpieu.com^
 ||dossingxina.com^
 ||dossqsmvbabik.site^
 ||dosvaultgame.com^
@@ -68091,6 +68094,7 @@ browsershots.org#@#.advert_area
 ||faiverty-station.com^
 ||fajgsfxol.com^
 ||fajkyofaxhdvo.website^
+||fake-anything.com^
 ||fake-square.com^
 ||fakedaneuch.cyou^
 ||falcesemir.cyou^
@@ -70971,6 +70975,7 @@ browsershots.org#@#.advert_area
 ||gtbvzopahlyts.website^
 ||gtcpicnics.com^
 ||gtdwcttwvpxdn.online^
+||gtfzlpzgoydqv.site^
 ||gtgfmlwwvlgvk.online^
 ||gthehsjjdpsag.com^
 ||gthunviyyxh.com^
@@ -80528,6 +80533,7 @@ browsershots.org#@#.advert_area
 ||nutty-break.com^
 ||nuttylog.com^
 ||nuvjeisrkigpv.site^
+||nuvuhhjuqiuat.site^
 ||nuwkpoivmddho.online^
 ||nuwlgkoejgirn.online^
 ||nuwnvjcqknklq.space^
@@ -85264,6 +85270,7 @@ browsershots.org#@#.advert_area
 ||rabbitheedless.com^
 ||rabbledrawingacquit.com^
 ||rabidgeoff.com^
+||rabidlyrfree.cfd^
 ||rabinmakahfoambow.cfd^
 ||rabiousmythify.shop^
 ||raceamen.com^
@@ -93381,6 +93388,7 @@ browsershots.org#@#.advert_area
 ||vaccineverifyweaker.com^
 ||vaconaamercesksar.qpon^
 ||vacruwsug.com^
+||vacuistwhiten.qpon^
 ||vacuumcoconut.com^
 ||vacwrite.com^
 ||vaeokirhu.com^
@@ -95265,6 +95273,7 @@ browsershots.org#@#.advert_area
 ||wingssecrecyfailed.com^
 ||wingsshaggy.com^
 ||wingymallees.com^
+||winksieniteretired.qpon^
 ||winnedhetchel.qpon^
 ||winneradequateablebodied.com^
 ||winneradsmedia.com^
@@ -111637,6 +111646,7 @@ siberiantimes.com##.logoBanner
 shacknews.com##.lola-affirmation
 rpgsite.net##.long-block-footer
 topservers.com##.long_wrap
+fortnitetracker.com##.love-container__content
 netwerk24.com##.love2meet
 tigerdroppings.com##.lowLead
 bikeroar.com##.lower-panel
@@ -117725,6 +117735,7 @@ hentaimama.io##div[class^="in-between-ad"]
 pornwhite.com,sleazyneasy.com##div[data-banner]
 theyarehuge.com##div[data-nosnippet]
 xhamster.com##div[data-testid="right-banner-section"]
+gay.bingo##div[data-title="Advertisement"]
 hentai2read.com##div[data-type="leaderboard-top"]
 rule34.us##div[id^="__clb-spot_"]
 hentaistream.com##div[id^="adx_ad-"]
@@ -175719,25 +175730,15 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||huuto.net/js/analytic/
 ||ilcdn.fi^*/Bootstrap.js
 ||insights.mtv.a2d.tv^
-||io-tech.fi/io/www/delvr/lokiz.php
 ||is.fi/stats/
 ||logger.omio.com^
 ||logs.kaya.delfi.ee^
-||mha.fi/simple.gif?
-||mtv3.fi/remarketing.js
 ||nelonenmedia.fi/hitcounter$image
-||omataloyhtio.fi/ffsw-pushcrew.js
-||omataloyhtio.fi/kuvat/pi.gif$image
-||omataloyhtio.fi/statb.asp
-||puutarha.net/ffsw-pushcrew.js
-||puutarha.net/statb.asp
 ||rac.ruutu.fi^
-||rakentaja.fi/kuvat/pi.gif$image
 ||rantapallo.fi/s/redirect/tracking?
 ||stat.mtv3.fi^
 ||stats.fonecta.fi^
 ||teamtailor.com/pageview
-||tori.fi/img/none.gif$image
 ||ts.fi/Statistics/Log$image
 ||ts.fi^*/spring.js
 ||skroutz.gr/analytics/
@@ -214836,6 +214837,7 @@ fptshop.com.vn##[data-cookie-consent-modal="true"]
 ||belgee.by/js/vendor/js.cookie.min.js
 ||gemma.by/catalog/view/javascript/lightcookie/
 ||bajs.zagreb.hr/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js
+||cdn.consent.hr/delivery/customdata/$script,third-party,domain=konzum.hr
 ||katarina-line.hr^*/cookie-consent-$script,domain=katarina-line.com
 ||styria.hr^*/cookies.min.js
 ||vlada.gov.hr/Scripts/gd-cookie
@@ -219533,6 +219535,8 @@ offers-exchange.com##+js(trusted-set-local-storage-item, cookieConsent_1004, {"e
 duck.ai##+js(trusted-set-local-storage-item, duckaiRetentionBrowserPromo, '{"dismissed":true,"firstShown":true,"newChatsSinceShown":0,"learnMoreChatId":null}')
 
 groupsumi.fi##+js(trusted-set-local-storage-item, @sumi/consent, {"essential":true\,"performance":false\,"functional":true\,"advertising":false})
+
+nv-allesbestens.de##+js(trusted-click-element, '#BorlabsCookieBox input#checkbox-external-media,100,#BorlabsCookieBox a#CookieBoxSaveButton')
 
 
 
