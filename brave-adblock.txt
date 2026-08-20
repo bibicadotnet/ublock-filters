@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260820212902
-! Last modified: 20 Aug 2026 21:29:02 UTC+7
+! Version: 20260820222634
+! Last modified: 20 Aug 2026 22:26:34 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -66690,6 +66690,7 @@ browsershots.org#@#.advert_area
 ||ebaaabtwibf.com^
 ||ebannertraffic.com^
 ||ebatndolrzsxc.space^
+||ebbingarsinesyardarm.cfd^
 ||ebbscouture.cfd^
 ||ebd.cda-hd.co^
 ||ebdljicttjddk.store^
@@ -75201,6 +75202,7 @@ browsershots.org#@#.advert_area
 ||jztxtlsupbqcu.site^
 ||jzuivotw.com^
 ||jzvcicdogwrku.online^
+||jzvhiqmmfyrlq.site^
 ||jzvtfmnpdikdw.website^
 ||jzwghlxfjnwks.website^
 ||jzynmystixhy.in^
@@ -77129,6 +77131,7 @@ browsershots.org#@#.advert_area
 ||llxmbjgtshhd.com^
 ||llxqcrbjflbop.online^
 ||llykjmzkqvvqy.top^
+||llykjmzrjvrmy.top^
 ||lm1668.com^
 ||lm62z6ixx7opro5uug1xpbg1br2lm7.cfd^
 ||lmaowukrqnyiu.site^
@@ -80128,6 +80131,7 @@ browsershots.org#@#.advert_area
 ||nhzokhbzxbdqx.website^
 ||nhzylwcpmcchb.space^
 ||ni8b5yobfth1eebp.cfd^
+||ni8py19ozhrz4n.rest^
 ||niagaraswails.com^
 ||niatachang.shop^
 ||niaumxovmqpur.online^
@@ -84433,6 +84437,7 @@ browsershots.org#@#.advert_area
 ||pugmarktagua.com^
 ||pugreeakoleftish.qpon^
 ||puhtml.com^
+||puhvfc7n5t7gvf92t6vh.cfd^
 ||puhyjyf.com^
 ||puibjylihoygx.online^
 ||puinnjsexnlbo.space^
@@ -85577,6 +85582,7 @@ browsershots.org#@#.advert_area
 ||raibblzfnoctm.space^
 ||raidfrightbritain.com^
 ||raidingsoftie.qpon^
+||railbowyers.cfd^
 ||railroadignorant.com^
 ||rainbowwhereaccording.com^
 ||rainexceptionrabbit.com^
@@ -86467,6 +86473,7 @@ browsershots.org#@#.advert_area
 ||rhnoikbhtktjx.space^
 ||rhnrzqbydtuxc.space^
 ||rhnwjjffbdcra.site^
+||rhnyglwshzaya.website^
 ||rho3ihhlouug529z8eneu.rest^
 ||rhobqhafjhhwl.store^
 ||rhoditepoudretstipule.cyou^
@@ -89582,6 +89589,7 @@ browsershots.org#@#.advert_area
 ||srfqdoboesecb.site^
 ||srgkeyuenriyi.website^
 ||srgtwfqptfcxf.online^
+||srhmzkdwrasrb.online^
 ||srhwazpvlyxua.online^
 ||srirambiles.cfd^
 ||srjqcahmdvhuh.online^
@@ -91252,6 +91260,7 @@ browsershots.org#@#.advert_area
 ||tieluzdhmokbw.website^
 ||tiercedtargingphasm.cyou^
 ||tiercedthae.com^
+||tiesbcgfsmpwe.space^
 ||tiesprosos.qpon^
 ||tifptxvtraamu.store^
 ||tig1ttn3utk88xvcok.cfd^
@@ -97454,6 +97463,7 @@ browsershots.org#@#.advert_area
 ||ymnu5j7kptf716ch859rcon2wte.cfd^
 ||ymokzqilqggeh.space^
 ||ymovooiljamnc.space^
+||ympzhpbzkurpz.website^
 ||ymrghezhbhfie.website^
 ||ymtcthpn.com^
 ||ymufgwkbhzygn.online^
@@ -135876,9 +135886,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kwikmotion.com^*/videojs-kwikstat.min.js
 ||metrics.find.gr^
 ||stats-real-clients.zentech.gr^
+||api.whtvr.ai/api/sdk/analytics/
 ||callindex.co.il/campaign/send_analytics.js
+||colbass.com/Service/Analytics.asmx/
+||dxmcdn.com/dta/content-targeting.js
+||radar.wizzo.media^
 ||selectika.com/selectika-pixel.min.js
 ||tag.weezmo.com^
+||vi-serve.com/tagLoader.js
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
 ||heartbeat.pmd.444.hu^
@@ -176104,9 +176119,12 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||skroutz.gr/analytics/
 ||skroutza.skroutz.gr/skroutza.min.js
 ||vidads.gr/imp/
+||0404.co.il^$ping
+||bhol.co.il/system/js/analytics.js
 ||bravo.israelweather.co.il^
 ||cellstats.mako.co.il^
 ||ds.haaretz.co.il^
+||ext.bhol.co.il^$ping
 ||inn.co.il/Controls/HPJS.ashx?act=log
 ||services.haaretz.co.il^$ping
 ||stats.mako.co.il^
