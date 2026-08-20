@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260820204002
-! Last modified: 20 Aug 2026 20:40:02 UTC+7
+! Version: 20260820212902
+! Last modified: 20 Aug 2026 21:29:02 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -54464,6 +54464,7 @@ _800x80_
 ##[href^="https://charmingdatings.life/"]
 ##[href^="https://clicks.affstrack.com/"] > img
 ##[href^="https://glersakr.com/"]
+##[href^="https://go.mavrtracktor.com/"]
 ##[href^="https://go.xlrdr.com"]
 ##[href^="https://groorsoa.net/"]
 ##[href^="https://ilovemyfreedoms.com/landing-"]
@@ -65663,6 +65664,7 @@ browsershots.org#@#.advert_area
 ||dooleucgia.cyou^
 ||doomna.com^
 ||doorbawheats.qpon^
+||doorknockset.com^
 ||doormanarmilla.cyou^
 ||doormanracket.com^
 ||doormantdoormantderive.com^
@@ -75887,6 +75889,7 @@ browsershots.org#@#.advert_area
 ||kosanahtapwhm.site^
 ||kosher-expression.com^
 ||kosher-safety.com^
+||kosher-surprise.pro^
 ||kostprice.com^
 ||koszyxwufcqro.site^
 ||kotokot.com^
@@ -82419,6 +82422,7 @@ browsershots.org#@#.advert_area
 ||parcelconsists.com^
 ||parched-mail.com^
 ||parchedplay.com^
+||pardalretierlouther.qpon^
 ||pardeehabits.com^
 ||parejatoused.cyou^
 ||parentsjobquote.com^
@@ -86563,6 +86567,7 @@ browsershots.org#@#.advert_area
 ||rihbxnftttvlp.website^
 ||rihhfqeqwimni.website^
 ||rihurxgrxghfh.online^
+||rijayuafvocek.site^
 ||rikishatasajo.qpon^
 ||rillsgraeme.cfd^
 ||rilnkygbfbvru.site^
@@ -87253,6 +87258,7 @@ browsershots.org#@#.advert_area
 ||rwfcnxvxpxuxf.site^
 ||rwfqrjucxebbo.online^
 ||rwglmbgecjkom.space^
+||rwhhbbphligft.site^
 ||rwjbdrzrqgsrf.space^
 ||rwkkrljyuazhf.site^
 ||rwlkmstaerhrt.site^
@@ -93022,6 +93028,7 @@ browsershots.org#@#.advert_area
 ||unhealthystickevents.com^
 ||unholdgink.qpon^
 ||unhonedbarbels.shop^
+||unhonednorbert.cfd^
 ||unhonedpeinedconteck.qpon^
 ||unhoodsgamine.cyou^
 ||unhoodsgluily.cyou^
@@ -94957,6 +94964,7 @@ browsershots.org#@#.advert_area
 ||watchingthat.com^
 ||watchingthat.net^
 ||waterensignbelieving.com^
+||waterfallreluctant.com^
 ||waterlogged-boy.com^
 ||waterloggedkind.com^
 ||waterproofgranitegag.com^
@@ -107538,6 +107546,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||sextubebox.com/js/239eka836.js
 ||sextubebox.com/js/580eka426.js
 ||sextvx.com/*/ads/web/
+||sextvx.com/ads/
 ||sexvid.pro/knxx/
 ||sexvid.pro/rrt/
 ||sexvid.xxx/ghjk/
@@ -117058,6 +117067,7 @@ video.laxd.com##.ads-container
 kawai-jav.com##.ads-here-right
 cumlouder.com##.ads__block
 porn87.com##.ads_desktop
+sextvx.com##.ads_onpause_container
 tube8.com,tube8.es,tube8.fr##.adsbytrafficjunky
 pornpics.com,pornpics.de##.adss-rel
 androidadult.com##.adswait
@@ -117339,6 +117349,7 @@ pornburst.xxx##.footer-iframe
 cbhours.com##.footer-section
 pornhd.com##.footer-zone
 homo.xxx##.footer.spot
+3movs.com##.footer5spot
 gelbooru.com##.footerAd
 hdtube.porn##.footer__banners
 badjojo.com##.footera
@@ -117576,6 +117587,8 @@ gay.bingo##.player__inline
 sexu.com##.player__side
 pervclips.com##.player_adv
 xnxxvideoporn.com##.player_bn
+3movs.com##.playside
+3movs.com##.playside2
 txxx.com##.polumlluluoopp
 porntrex.com##.pop-fade
 fapnado.com,young-sexy.com##.popup
@@ -117605,6 +117618,7 @@ boy18tube.com,gaymovievids.com,me-gay.com,ts-tube.net,verygayboys.com##.random-t
 tnaflix.com##.rbsd
 pornhub.com,pornhub.org##.realsex
 vxxx.com##.recltiecrrllt
+3movs.com##.recommended
 xnxxvideos.rest##.refr
 svscomics.com##.regi
 mypornstarbook.net##.reklama-tablet2
@@ -117644,6 +117658,7 @@ thehentai.net##.showAd
 sankakucomplex.com##.side300xmlc
 pornhub.com##.sideAds
 video.laxd.com##.side_banner
+sextvx.com##.side_content
 familyporn.tv,mywebcamsluts.com,transhero.com##.side_spot
 queermenow.net##.sidebar > #text-2
 criollasx.com##.sidebar-ads
@@ -133378,6 +133393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infusionsoft.com^*/getTrackingCode?
 ||ingest.in.signoz.cloud^
 ||ingest.make.rvapps.io^
+||ingest.promptwatch.com^
 ||ingesteer.services-prod.nsvcs.net^
 ||ingress.rebelboost.com/_ingest-rbst-stats?
 ||ingress.trendii.com^
@@ -134430,6 +134446,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statsig.anthropic.com^
 ||statsjs.klevu.com^
 ||statt-collect.herokuapp.com^
+||statuspage.io/embed/frame
 ||stg-data-collector.playbuzz.com^
 ||stg.truvidplayer.com/*/v.php?st=
 ||stileproject.com/vhtk/
@@ -137054,6 +137071,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d401.dollartree.com^
 ||d712.theinformation.com^
 ||dabu.askmediagroup.com^
+||dailydevstatus.com/embed/script.js
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
@@ -208221,7 +208239,7 @@ agegeek.com,bit-tech.net,evanews.eu,pratt.edu,tedpella.com###GDPR
 flexiti.com##.z-999
 cote.co.uk,ennismore.com,gemini.pl,sallys-shop.de##.z-100
 1cbit.ru,talon.by,timeweb.com##.cookie-panel
-ansell.com.cn,bakkersonline.be,bierlinie-shop.de,bootstrapmade.com,bulupoint.de,bushido-shop.com,campusfesztival.hu,dadcrush.com,devonalds.co.uk,domgate.com,e-kiosk.pl,egazety.pl,epochtimes.kr,f6s.com,familystrokes.com,inovamar.pt,kb.cz,kirkusreviews.com,manilatimes.net,mastername.ru,meuhedet.co.il,mylf.com,nocibe.fr,nordicpond.shop,pervmom.com,pervz.com,proex2000.cz,schuhparadiso.de,shoplyfter.com,siamsport.co.th,smartocto.com,swappz.com,teamskeet.com,thenationalherald.com,triodos.co.uk,um.suwalki.pl,umbler.com,wohntextilien4you.de,zerounoweb.it##.cookie-bar
+ansell.com.cn,bakkersonline.be,bierlinie-shop.de,bootstrapmade.com,bulupoint.de,bushido-shop.com,campusfesztival.hu,dadcrush.com,devonalds.co.uk,domgate.com,e-kiosk.pl,egazety.pl,epochtimes.kr,f6s.com,familystrokes.com,inovamar.pt,kb.cz,kirkusreviews.com,manilatimes.net,mastername.ru,meuhedet.co.il,mylf.com,nocibe.fr,nordicpond.shop,pervmom.com,pervz.com,proex2000.cz,schuhparadiso.de,sextvx.com,shoplyfter.com,siamsport.co.th,smartocto.com,swappz.com,teamskeet.com,thenationalherald.com,triodos.co.uk,um.suwalki.pl,umbler.com,wohntextilien4you.de,zerounoweb.it##.cookie-bar
 tomtom.com##.cookie_bar
 absolut-canoe.de,adt-diamantwerkzeuge.de,aluscout.de,blasmusik-shop.de,deinsportsfreund.de,diekleinewerft.de,druckerpatronenexpress.de,duftfeeling.de,edesign24.de,ersatzteil-shop24.de,eurotabak.de,futterscheune.com,growland.fr,joergs-sportladen.de,julido.de,kabelschuhe-shop.de,kartons24.de,lanade.de,meine-hochzeitsdeko.de,nmav.de,pflanzen-mauk.de,sachsperformance.com,shop.cosch-edelstahl.de,watchband-berlin.com,wischmopps.de###ws_eu-cookie-container
 gessteel.com,institutrocafort.com,masllombart.com###banerRoot
