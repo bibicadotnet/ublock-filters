@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260821042107
-! Last modified: 21 Aug 2026 04:21:07 UTC+7
+! Version: 20260821051956
+! Last modified: 21 Aug 2026 05:19:56 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26239,6 +26239,7 @@ talksport.com##+js(nostif, ()=>, 1000)
 
 chzzk.naver.com##+js(spoof-css, .banner_ad_wrapper, display, block)
 chzzk.naver.com##+js(no-xhr-if, /(veta.naver.com\/vas|veta.naver.com\/gfp|veta.naver.com\/call)/ method:OPTIONS)
+chzzk.naver.com##+js(trusted-suppress-native-method, atob, c2V0UmVxdWVzdEhlYWRlcg==, prevent, isXhrTampered)
 
 greeksubsmovies.net##+js(rmnt, script, offsetHeight)
 
@@ -58467,6 +58468,7 @@ browsershots.org#@#.advert_area
 ||alumniheadfirstshamrock.com^
 ||alumnolbonelet.qpon^
 ||aluvhyxwjnqyo.site^
+||alvearysucre.cyou^
 ||alviavalerie.cyou^
 ||alvinazigzags.cfd^
 ||alvusdrift.qpon^
@@ -60214,6 +60216,7 @@ browsershots.org#@#.advert_area
 ||bellamyawardinfallible.com^
 ||bellamylavatory.com^
 ||belledemodins.shop^
+||belleunsheet.shop^
 ||bellmandrawbar.com^
 ||bellowbackyard.com^
 ||bellowschagrin.qpon^
@@ -61248,6 +61251,7 @@ browsershots.org#@#.advert_area
 ||braveryriftraining.com^
 ||bravotrk.com^
 ||brawexstill.shop^
+||brawnsprince.cyou^
 ||brayersxematitlike.qpon^
 ||brazerszapoteaxonia.qpon^
 ||brbmzvizpivki.site^
@@ -64757,6 +64761,7 @@ browsershots.org#@#.advert_area
 ||decoydeclaration.com^
 ||decpo.xyz^
 ||decreaselackadmit.com^
+||decreesbilic.shop^
 ||decrialteacher.cyou^
 ||ded198a06d.com^
 ||deddtalari.shop^
@@ -65676,6 +65681,7 @@ browsershots.org#@#.advert_area
 ||donicrowns.shop^
 ||doninjaskr.com^
 ||donnepilei.qpon^
+||donnertwronger.shop^
 ||donorstuffed.com^
 ||donthackery.qpon^
 ||donttbeevils.de^
@@ -66499,6 +66505,7 @@ browsershots.org#@#.advert_area
 ||dwvdofpcelstt.site^
 ||dwvohsgysgfrr.online^
 ||dwwpaoatfgjvo.space^
+||dwxlqmcwoyuub.space^
 ||dxbajwwqvdqrn.space^
 ||dxbzufvkoahib.space^
 ||dxcqdvrjbdaie.website^
@@ -67663,6 +67670,7 @@ browsershots.org#@#.advert_area
 ||ernogasiyqbip.space^
 ||ero-advertising.com^
 ||ero-cupid.com^
+||erodentromanes.cfd^
 ||eroidere.com^
 ||eromkfzhemkeo.space^
 ||erotemebewash.cyou^
@@ -70010,6 +70018,7 @@ browsershots.org#@#.advert_area
 ||gatrgoqldtooe.site^
 ||gaubcopouts.shop^
 ||gaugerightfully.com^
+||gaulishowl.cfd^
 ||gaulshbontee.cfd^
 ||gaulshupsteal.com^
 ||gauntersedent.cfd^
@@ -70490,6 +70499,7 @@ browsershots.org#@#.advert_area
 ||glandlabel.com^
 ||glandscountrush.com^
 ||glareoutgoingthey.com^
+||glaresnoting.cyou^
 ||glarilyacerb.shop^
 ||glaringregister.com^
 ||glashannerol.cfd^
@@ -76300,6 +76310,7 @@ browsershots.org#@#.advert_area
 ||lacquercheeky.com^
 ||lacrymrepointtorpex.cyou^
 ||lactaryabacfoetors.cyou^
+||lactaselasi.shop^
 ||lactoidmeasly.qpon^
 ||lacvzlcsxbsrz.website^
 ||lacytrinityhissed.com^
@@ -78028,6 +78039,7 @@ browsershots.org#@#.advert_area
 ||marblermatchy.shop^
 ||marchpublicationpiggy.com^
 ||marchshotgun.com^
+||marcischwa.cfd^
 ||mardyagleaf.cyou^
 ||marebeenewly.com^
 ||maredpt.com^
@@ -78519,6 +78531,7 @@ browsershots.org#@#.advert_area
 ||mhfkgumbiq49y66.rest^
 ||mhgulzhluhcvt.space^
 ||mhhauzjscaxjf.space^
+||mhhqwgjxnmmaz.space^
 ||mhiiafknctopm.site^
 ||mhiiopll.net^
 ||mhimgkliffsfy.website^
@@ -81611,6 +81624,7 @@ browsershots.org#@#.advert_area
 ||onxfqnzyfbmio.online^
 ||onxnzmhsvuimn.com^
 ||onxosrmu.in^
+||onychiapiety.cfd^
 ||onymitysangha.cyou^
 ||oobeapxokjyke.online^
 ||oobjgphwqy.com^
@@ -84785,6 +84799,7 @@ browsershots.org#@#.advert_area
 ||qakqvajmhdpzd.store^
 ||qaldatrxnjssm.site^
 ||qalizyiehylan.space^
+||qaltylntnghu.com^
 ||qamhngalamvbl.site^
 ||qamrajywditki.online^
 ||qamurtajzovce.site^
@@ -85431,6 +85446,7 @@ browsershots.org#@#.advert_area
 ||qvdcwnmcgwdrj.site^
 ||qvdmgzzgpgrei.website^
 ||qvducxfxslowu.store^
+||qvfm2ywfkoq3c75rxgvfx.rest^
 ||qvgmgjysbwpgb.website^
 ||qvguycxjhleob.online^
 ||qvhpekykxvzdx.site^
@@ -86630,6 +86646,7 @@ browsershots.org#@#.advert_area
 ||ringatumalheur.cyou^
 ||ringdisgustpostman.com^
 ||ringeddrama.com^
+||ringedpontacpenile.cyou^
 ||ringeyegair.qpon^
 ||ringtonepartner.com^
 ||rinqgwqhyxozh.website^
@@ -89953,6 +89970,7 @@ browsershots.org#@#.advert_area
 ||straightenedsleepyanalysis.com^
 ||straightenframe.com^
 ||straightforwardaudition.com^
+||straighthat.pro^
 ||straitassumer.com^
 ||straitrootbaron.com^
 ||straitsintentionsbedroom.com^
@@ -90957,6 +90975,7 @@ browsershots.org#@#.advert_area
 ||temporalsewingsphere.com^
 ||temporaryallusion.com^
 ||temtvlehkhrbmdi.com^
+||tenablenerite.qpon^
 ||tenadfpgwocuw.website^
 ||tenantrip.com^
 ||tenchchamma.qpon^
@@ -91013,6 +91032,7 @@ browsershots.org#@#.advert_area
 ||terrasbrazas.cyou^
 ||terrasdsdstd.com^
 ||terrasurg.shop^
+||terrenedawning.qpon^
 ||terretharmer.com^
 ||terribleroll.pro^
 ||terriblesource.com^
@@ -128831,6 +128851,7 @@ omni.soundestlink.com$image
 ||bungeesleeves.com^
 ||burgersalt.com^
 ||burnbubble.com^
+||burningclock.com^
 ||businessupdater.com^
 ||bustlingbook.com^
 ||busybabybee.com^
