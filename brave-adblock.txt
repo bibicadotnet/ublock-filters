@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260821113055
-! Last modified: 21 Aug 2026 11:30:55 UTC+7
+! Version: 20260821122538
+! Last modified: 21 Aug 2026 12:25:38 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -33293,6 +33293,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 ||usadeepseek.com^$all
 ||gg.deepseek.$doc,to=~deepseek.com
 ||deepseek.app^$all
+||deepseekk.com.cn^$all
 
 ||paytoll*.top/ezdrivema^$all
 
@@ -38808,6 +38809,8 @@ flipkart.com#@#div[data-id][style]:has([width][height][fill])
 pdftoshokan.com##+js(aeld, /click|load/, /document\.location|pop\.|exo|cookie|\.php/)
 pdftoshokan.com##+js(nowoif, ok_)
 pdftoshokan.com##^script:has-text(/ad.?Config|prepare.?Pop|\/popunder|ads_host/)
+
+archpropertygroup.com,sugarcreekcommons.com#@#.privacy-controls-banner
 
 
 @@*$ghide,domain=gplinks.*|qrixpe.com|powergam.online|sanadegreecollege.in
@@ -58590,6 +58593,7 @@ browsershots.org#@#.advert_area
 ||amusinghump.com^
 ||amveojmbffpma.online^
 ||amvntixh.in^
+||amvrpwuuqgfiq.site^
 ||amwgisnagixqe.store^
 ||amxrtb.com^
 ||amxsmiamwgh.com^
@@ -60603,6 +60607,7 @@ browsershots.org#@#.advert_area
 ||bisetsoliped.com^
 ||biskkonak.cyou^
 ||bismerbaskish.qpon^
+||bisporegunja.qpon^
 ||bistanasa.qpon^
 ||bistrosunsawed.cyou^
 ||bit-ad.com^
@@ -61605,6 +61610,7 @@ browsershots.org#@#.advert_area
 ||buoyant-most.pro^
 ||bupatp.com^
 ||buqkrzbrucz.com^
+||buraisologybegaud.cyou^
 ||buram.xyz^
 ||burbarkholpen.com^
 ||burblycatted.com^
@@ -61916,6 +61922,7 @@ browsershots.org#@#.advert_area
 ||calligraphyanatomy.com^
 ||calligraphyscoldsparrow.com^
 ||callosebraggleseorita.cyou^
+||callousboxty.cfd^
 ||callyourinformer.com^
 ||calm-hell.pro^
 ||calmbytedishwater.com^
@@ -62729,6 +62736,7 @@ browsershots.org#@#.advert_area
 ||circularcarry.com^
 ||circulardraft.com^
 ||circulartrash.pro^
+||circuligrotzen.shop^
 ||circumferenceabdicateredhead.com^
 ||circumscribecarriagelimited.com^
 ||circumscribeswear.com^
@@ -63267,6 +63275,7 @@ browsershots.org#@#.advert_area
 ||comihon.com^
 ||comilar-efferiff.icu^
 ||comitiaruins.cfd^
+||comityauriga.cyou^
 ||comlquina.com^
 ||commandslikeable.com^
 ||commemoratewisdomcontemn.com^
@@ -63921,6 +63930,7 @@ browsershots.org#@#.advert_area
 ||crosswindoutnetworks.com^
 ||crottalcontoid.cfd^
 ||crouchedmonarch.com^
+||crowbarrinds.com^
 ||crowded-you.pro^
 ||crowdsubsequentadmire.com^
 ||crowdsuitcaseuntwist.com^
@@ -67255,6 +67265,7 @@ browsershots.org#@#.advert_area
 ||embrowncaches.cyou^
 ||embusqumultics.cfd^
 ||embwmpt.com^
+||emceevicilin.cyou^
 ||emddsbycvshdd.space^
 ||emdnriustcngd.website^
 ||emduboiem.com^
@@ -67957,6 +67968,7 @@ browsershots.org#@#.advert_area
 ||excellentpartialarm.com^
 ||excellingvista.com^
 ||exceptingpealstipulate.com^
+||excerpnebbuk.shop^
 ||excidedpothook.cfd^
 ||excidekombu.com^
 ||excitableminor.com^
@@ -69491,6 +69503,7 @@ browsershots.org#@#.advert_area
 ||frhcqkaqcqldu.space^
 ||frhwwzlgzqpxt.com^
 ||fridayrefractscorer.com^
+||friendalba.shop^
 ||friendlyraise.com^
 ||friendsfrozen.com^
 ||friendshipclumsy.com^
@@ -77763,6 +77776,7 @@ browsershots.org#@#.advert_area
 ||lxockgcdbobzl.online^
 ||lxrffyqkackjhg.com^
 ||lxrhymhpiycum.online^
+||lxsdmrzbpnymx.online^
 ||lxstat.com^
 ||lxtacluhwhcfy.site^
 ||lxuphaawbyktp.space^
@@ -78153,6 +78167,7 @@ browsershots.org#@#.advert_area
 ||matalanprating.cyou^
 ||matcaogeujmco.website^
 ||matchclamourallot.com^
+||matchersuccise.qpon^
 ||matcheshonoraryunderwater.com^
 ||matchesproductionsinteract.com^
 ||matchingrelationspint.com^
@@ -80926,6 +80941,7 @@ browsershots.org#@#.advert_area
 ||nyhhwhokdnibh.online^
 ||nyhopgjjlgmyo.space^
 ||nykaarlzmsmpo.site^
+||nylastmangy.com^
 ||nylftbtumucee.website^
 ||nylgisxwvgxdp.site^
 ||nylonhighlyculture.com^
@@ -82581,6 +82597,7 @@ browsershots.org#@#.advert_area
 ||paschalbrahma.shop^
 ||paseoalberta.qpon^
 ||paservices.tech^
+||pasgerenuk.cyou^
 ||pasheszoril.cfd^
 ||pasilloungodbases.qpon^
 ||paslrdcizpgdw.online^
@@ -83874,6 +83891,7 @@ browsershots.org#@#.advert_area
 ||poweradblocker.com^
 ||powerain.biz^
 ||powerfulsensitive.pro^
+||powerintruso.cyou^
 ||poweriworth.shop^
 ||powferads.com^
 ||powsnbzvggnpk.site^
@@ -84133,6 +84151,7 @@ browsershots.org#@#.advert_area
 ||prioritylotantagonize.com^
 ||prism-assets.online^
 ||prism-cdn.online^
+||prisonsupstick.qpon^
 ||pristine-creative.com^
 ||pristine-station.com^
 ||priustrigla.qpon^
@@ -88718,6 +88737,7 @@ browsershots.org#@#.advert_area
 ||sinkintervalscozy.com^
 ||sinmufar.com^
 ||sinnerhealthypoured.com^
+||sinningzimmi.com^
 ||sinologtrumph.shop^
 ||sinproductors.org^
 ||sintudruses.cyou^
@@ -90261,6 +90281,7 @@ browsershots.org#@#.advert_area
 ||sulkweapon.com^
 ||sultrymomentarily.com^
 ||sumatradanizeagonize.cfd^
+||summaspence.cyou^
 ||summeanwhile.com^
 ||summerleftover.com^
 ||summit2processors.com^
@@ -91586,6 +91607,7 @@ browsershots.org#@#.advert_area
 ||tlucfqhtavxyx.space^
 ||tluhigpbrybww.space^
 ||tluihoeadocjs.store^
+||tlvzalazmbwhq.online^
 ||tlwkfwnww.com^
 ||tlymkoakdd.com^
 ||tlzwfptcxztnx.space^
@@ -216304,6 +216326,7 @@ willi-food.co.il##.scm-banner
 91fm.co.il##.dkd-banner
 checkid.co.il###approval-popup
 beitberl.ac.il,shimur.org###MavilixCookiesBox
+archpropertygroup.com,sugarcreekcommons.com##.privacy-controls-banner:style(visibility: collapse !important;)
 
 
 
