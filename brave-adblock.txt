@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260822231536
-! Last modified: 22 Aug 2026 23:15:36 UTC+7
+! Version: 20260823001417
+! Last modified: 23 Aug 2026 00:14:17 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26437,6 +26437,8 @@ javplayer.com##+js(aeld, /click|pointerup/, handleUserAction)
 /^https:\/\/engine\.[a-z]+\.[a-z]+\/\?[0-9]+$/$xhr,3p
 
 ||youtubetoolkit.com/js/adblock-
+
+||antiadblockcore.com^
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -66497,6 +66499,7 @@ browsershots.org#@#.advert_area
 ||dullardalbinal.cfd^
 ||dullmilacredolmans.cyou^
 ||dullstowards.shop^
+||dullylogoi.cfd^
 ||duloessal.cfd^
 ||dulojet.com^
 ||dulycuriouslysenses.com^
@@ -68371,6 +68374,7 @@ browsershots.org#@#.advert_area
 ||fallingtumbly.shop^
 ||fallinmatches-paradises.com^
 ||falloffnailbin.cyou^
+||fallowshuile.cfd^
 ||fallwaycorban.cfd^
 ||falseopening.pro^
 ||falsepileata.cfd^
@@ -68808,6 +68812,7 @@ browsershots.org#@#.advert_area
 ||fibclrdoopiuv.online^
 ||fibendlesslydecoction.com^
 ||fibredelivery.com^
+||fibrinjulius.cfd^
 ||fibroidbubalis.qpon^
 ||fibromasycee.cfd^
 ||ficaoutbow.cyou^
@@ -75380,6 +75385,7 @@ browsershots.org#@#.advert_area
 ||jxrpgzkpcipau.site^
 ||jxryswulqobyu.space^
 ||jxtzwthmfqppv.website^
+||jxuzflgefqjmc.space^
 ||jxvhcvhdeaadf.site^
 ||jxvwyr4l.xyz^
 ||jxwaghvsdx.com^
@@ -75542,6 +75548,7 @@ browsershots.org#@#.advert_area
 ||kbfizeskyyfkt.store^
 ||kbfsrlnmhtgas.space^
 ||kbhnhrkenrxcw.website^
+||kbhnrffzpucjq.site^
 ||kbhskcsiawspn.store^
 ||kbimwfgxmmefa.site^
 ||kbjgwaixnlrel.online^
@@ -81484,6 +81491,7 @@ browsershots.org#@#.advert_area
 ||official-dimension.pro^
 ||official-permit.com^
 ||officialvillage.pro^
+||offlineentheal.qpon^
 ||offoonguser.com^
 ||offsetgobetween.com^
 ||offspringresolveddiminution.com^
@@ -83091,6 +83099,7 @@ browsershots.org#@#.advert_area
 ||pelonhoppledmists.cfd^
 ||peltmalecheering.com^
 ||peltryrecurl.cyou^
+||pembinastrype.shop^
 ||pemmhrrqksncr.space^
 ||pemsrv.com^
 ||penancyvinetta.shop^
@@ -83942,6 +83951,7 @@ browsershots.org#@#.advert_area
 ||pondov.cfd^
 ||pondusdeicide.cfd^
 ||ponebrandon.com^
+||ponitrsudizaq.online^
 ||pontilsseaworn.cfd^
 ||pontoonmanumit.shop^
 ||poodlefairly.com^
@@ -83959,6 +83969,7 @@ browsershots.org#@#.advert_area
 ||poolsmusketocoroll.cfd^
 ||poonahimpers.com^
 ||poonahwagoned.com^
+||poopedhowel.cfd^
 ||poopsgiblet.cyou^
 ||poorcommiserateexists.com^
 ||poorersamp.qpon^
@@ -87811,6 +87822,7 @@ browsershots.org#@#.advert_area
 ||saintcapacityyolk.com^
 ||saintemouthed.cyou^
 ||saintjealous.com^
+||saiphgnusfeuage.cyou^
 ||saipsoan.net^
 ||saithpersicoathwart.qpon^
 ||saixcbzjrieif.site^
@@ -89650,6 +89662,7 @@ browsershots.org#@#.advert_area
 ||souszhi.com^
 ||soutanethwaite.cyou^
 ||soutawnily.cyou^
+||soutenusperminexpends.qpon^
 ||southbrief.com^
 ||southefface.com^
 ||southflannelclassic.com^
@@ -92120,6 +92133,7 @@ browsershots.org#@#.advert_area
 ||totemicmetisse.cyou^
 ||totlnkbn.com^
 ||totlnkcl.com^
+||totoabaspliced.cyou^
 ||totterstyrax.cfd^
 ||totymandanes.cyou^
 ||totymanglave.com^
@@ -97459,6 +97473,7 @@ browsershots.org#@#.advert_area
 ||xwwnlmicmcmly.website^
 ||xwxgjtxsrnkrh.space^
 ||xwxkorepqjcnt.site^
+||xwxohumtqyziy.space^
 ||xwxtztqyihcrk.space^
 ||xwykyqfj.com^
 ||xwzbpkku-i.site^
