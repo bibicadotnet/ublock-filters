@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260822091209
-! Last modified: 22 Aug 2026 09:12:09 UTC+7
+! Version: 20260822103603
+! Last modified: 22 Aug 2026 10:36:03 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -208,7 +208,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###wa
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] span[class] > a[aria-label="広告"]:upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] [class] > a[href*="utm_source=facebook"] span[class] > span[class][style*="-webkit-line-clamp"]:has-text(広告):upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:matches-path(/search/) div[role="article"] span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{265,}/"):upward([role="article"]):style(height: 0 !important; overflow: hidden !important;)
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] > div[data-virtualized][style]:has(div[style^="border-radius:"] a[href^="?__cft__"]:matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"))
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset] > div[data-virtualized]:has(div[style^="border-radius:"] a[href^="?__cft__"]:matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###right_rail_container div[data-visualcompletion]:has(div[data-visualcompletion] a[target="rhcad2"])
 web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].relay_rendering_strategy.view_model.story.sponsored_data.ad_id)
 ||facebook.com/api/graphql/$xhr,replace=/\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/{}/g,domain=web.facebook.com|www.facebook.com
@@ -57167,6 +57167,7 @@ browsershots.org#@#.advert_area
 ||abyssclued.qpon^
 ||abyssfar.com^
 ||abzkyjleooqja.top^
+||abzkyjlkzabwb.top^
 ||ac173c41a1.com^
 ||ac674aa453.com^
 ||ac6c7fdc34.com^
@@ -81425,6 +81426,7 @@ browsershots.org#@#.advert_area
 ||ofpodconnmtyd.space^
 ||ofppahlkiz.com^
 ||ofptzgmiiyeod.website^
+||ofpwwzlrf5l7wqbn1if7.cfd^
 ||ofqlvcujykanc.site^
 ||ofrstjhhkbfsk.space^
 ||ofsndgbyicvns.com^
@@ -81478,6 +81480,7 @@ browsershots.org#@#.advert_area
 ||oguaumtdjyqoe.online^
 ||ogvadixmxosiq.online^
 ||ogvnjrogfmglm.website^
+||ogvpztzhpq74nfyu3ttvo7m12.rest^
 ||ogwjcrwlwacxrny.com^
 ||ogwsktwhfwlky.space^
 ||ogxrnlidijwxg.website^
@@ -95575,6 +95578,7 @@ browsershots.org#@#.advert_area
 ||wekeahzucvmgn.website^
 ||wekimonodic.shop^
 ||wel-wel-fie.com^
+||welchedcamletairflow.qpon^
 ||welcomeneat.pro^
 ||welcomingexpulsion.com^
 ||welcomingwaterfall.com^
@@ -95839,6 +95843,7 @@ browsershots.org#@#.advert_area
 ||whqpeeiwrex.com^
 ||whqtuypvdxzdk.website^
 ||whriwifnxuvmg.website^
+||whsealfirk.shop^
 ||whshorsing.com^
 ||whswprjesbewv.site^
 ||whsyfigscmbif.space^
@@ -132424,7 +132429,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/ki.js/
 ||amazonaws.com/lp/js/tag.js?
 ||amazonaws.com/new.cetrk.com/
-||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/nobot
 ||amazonaws.com/prod/report-only
@@ -136523,6 +136527,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||userdive.com^$third-party
 ||x.t-idr.com/api/v1/identify
 ||x9.shinobi.jp^
+||xn--pckua2a7gp15o89zb.com/api/am/v1/t
 ||yahoo.co.jp/js/retargeting.js
 ||acelogger.heraldcorp.com^
 ||ad.aceplanet.co.kr^
