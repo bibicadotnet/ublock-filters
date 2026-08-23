@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260823211626
-! Last modified: 23 Aug 2026 21:16:26 UTC+7
+! Version: 20260823221503
+! Last modified: 23 Aug 2026 22:15:03 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -24252,6 +24252,7 @@ condorsoft.co##+js(no-xhr-if, googlesyndication)
 /\.gsmarena\.com\/[0-9]+\.php3/$xhr,1p,domain=gsmarena.com
 /\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xhr,1p,domain=gsmarena.com
 @@||gsmarena.com^$ghide
+gsmarena.com##div.align-center.justify-center.flex-column.d-flex:has(.ad-c-label)
 gsmarena.com##+js(aeld, DOMContentLoaded, /doubleclick|atob|return new Promise/)
 gsmarena.com##+js(remove-cookie, /DeviceID|lpe/)
 gsmarena.com##+js(no-fetch-if, doubleclick)
@@ -59470,6 +59471,7 @@ browsershots.org#@#.advert_area
 ||authorizedimmediate.com^
 ||authorizedmorning.com^
 ||authorizevanquishcovering.com^
+||autismfido.qpon^
 ||autismspassers.cyou^
 ||auto-deploy.pages.dev^
 ||autographmarquisbuffet.com^
@@ -64102,6 +64104,7 @@ browsershots.org#@#.advert_area
 ||crutterlaughychulpa.cfd^
 ||cruxgpnyrvvur.website^
 ||crwdcntrl.net^
+||crwflkxzpcrmq.site^
 ||crwlmdpzabosr.online^
 ||crwthpong.com^
 ||crxcr2.com^
@@ -65674,6 +65677,7 @@ browsershots.org#@#.advert_area
 ||dktjigphteqdi.site^
 ||dkvesauf.com^
 ||dkyzxjlvlfjae.store^
+||dkzfwhvpezgkk.space^
 ||dkzkxfcv.com^
 ||dl-rms.com^
 ||dlbamllhgjhdx.online^
@@ -72840,6 +72844,7 @@ browsershots.org#@#.advert_area
 ||htneakzcupxkt.space^
 ||htnykujbhbmeu.site^
 ||htqaumcmsqrtl.com^
+||httaybjfiob.com^
 ||htufkxrviozxm.space^
 ||htukmobukvkdi.website^
 ||htuyvpnaurqxn.website^
@@ -73318,6 +73323,7 @@ browsershots.org#@#.advert_area
 ||iggcszxljlchr.website^
 ||iggfwsbqonyyw.online^
 ||iginimhtppjum.website^
+||igkhupjtzyaaa.space^
 ||iglhinccp.com^
 ||iglinptrmtzff.site^
 ||igloohq.com^
@@ -81269,6 +81275,7 @@ browsershots.org#@#.advert_area
 ||nxxoxununzefm.website^
 ||nxxpgruglnfha.online^
 ||nxxxpmyejmudz.space^
+||nxzartzlbwoid.space^
 ||nya2.com^
 ||nybjwktlrcwca.site^
 ||nybkctzmldnye.space^
@@ -81858,6 +81865,7 @@ browsershots.org#@#.advert_area
 ||okyytrasubnjx.online^
 ||olarodwood.com^
 ||olayomad.com^
+||olbvzoebyc.com^
 ||olchibegum.cyou^
 ||olcrdqatcewmf.online^
 ||olderdisciplinary.com^
@@ -89039,6 +89047,7 @@ browsershots.org#@#.advert_area
 ||shubadubadlskjfkf.com^
 ||shudderviolence.com^
 ||shudogdoms.cyou^
+||shufdgapqiekr.space^
 ||shuffleentrust.com^
 ||shuhvohkdzjfm.site^
 ||shukriya90.com^
@@ -91896,6 +91905,7 @@ browsershots.org#@#.advert_area
 ||tidedaybreakdiverge.com^
 ||tidilylattensnetters.qpon^
 ||tidilypeho.shop^
+||tidiosewanzeantaiva.qpon^
 ||tidjufquvobvr.space^
 ||tidleylungan.shop^
 ||tidy-idea.com^
@@ -92803,6 +92813,7 @@ browsershots.org#@#.advert_area
 ||tsshern.shop^
 ||tstdhmtyf.com^
 ||tstgotkendna.qpon^
+||tstsoe.com^
 ||tstwomzhxzkhf.site^
 ||tsuccwavchpvh.website^
 ||tsuutrmpeop.com^
@@ -93749,6 +93760,7 @@ browsershots.org#@#.advert_area
 ||unjustsubmerge.com^
 ||unkefcmhoyycz.online^
 ||unkemptbirth.com^
+||unkeptheisted.cyou^
 ||unkeyedstoped.shop^
 ||unkfrqeoymzbw.online^
 ||unkindpendulum.com^
