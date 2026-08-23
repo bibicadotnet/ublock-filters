@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260823171618
-! Last modified: 23 Aug 2026 17:16:18 UTC+7
+! Version: 20260823181444
+! Last modified: 23 Aug 2026 18:14:44 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -24251,8 +24251,10 @@ condorsoft.co##+js(no-xhr-if, googlesyndication)
 
 /\.gsmarena\.com\/[0-9]+\.php3/$xhr,1p,domain=gsmarena.com
 /\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xhr,1p,domain=gsmarena.com
-gsmarena.com##+js(aeld, DOMContentLoaded, /doubleclick|atob|offfsetHeight/)
+@@||gsmarena.com^$ghide
+gsmarena.com##+js(aeld, DOMContentLoaded, /doubleclick|atob|return new Promise/)
 gsmarena.com##+js(remove-cookie, /DeviceID|lpe/)
+gsmarena.com##+js(no-fetch-if, doubleclick)
 
 remotejobzone.online##+js(no-fetch-if, adsbygoogle)
 
@@ -60992,6 +60994,7 @@ browsershots.org#@#.advert_area
 ||bnikrjpiirjth.website^
 ||bniojznwonvfk.com^
 ||bnkofmbmxc.com^
+||bnnzagacsirgz.website^
 ||bnp3.com^
 ||bnpubjzodmhew.site^
 ||bnr.sys.lv^
@@ -65925,6 +65928,7 @@ browsershots.org#@#.advert_area
 ||downyfoghorn.cfd^
 ||dowryhandgripballot.com^
 ||dowrysprinkle.com^
+||dowsetknotterestrepe.cfd^
 ||dowsettombs.cyou^
 ||doxakuwbtiaum.online^
 ||doyeelwcwlunu.space^
@@ -70483,6 +70487,7 @@ browsershots.org#@#.advert_area
 ||gfkffnyncyicj.space^
 ||gfkfqilsulylx.website^
 ||gfkgmbwjfoem.com^
+||gfktnumuy.com^
 ||gfoqmtwpoodsy.space^
 ||gforthemoonheap.org^
 ||gfpxw.com^
@@ -75453,6 +75458,7 @@ browsershots.org#@#.advert_area
 ||jxiiwldewtdql.online^
 ||jxiqoaszcfxve.website^
 ||jxjlbgxxov.com^
+||jxkbtzprnlmyr.website^
 ||jxkfydhfaeyf.com^
 ||jxlichhgbkxmo.website^
 ||jxljlmikdnsfb.store^
@@ -75885,6 +75891,7 @@ browsershots.org#@#.advert_area
 ||khyfmsnsisblx.website^
 ||kiackgold.cyou^
 ||kiakialen.qpon^
+||kiaughsapair.shop^
 ||kiblahmafia.com^
 ||kibxgtjvdfuw.com^
 ||kickhoistsuccess.com^
@@ -77037,6 +77044,7 @@ browsershots.org#@#.advert_area
 ||letterrecoveryunplanted.com^
 ||letterwolves.com^
 ||lettileroute.com^
+||lettishtottyitel.qpon^
 ||letunseenprivacy.com^
 ||leugfzx93651kuht.rest^
 ||leuksestian.shop^
@@ -98808,6 +98816,7 @@ browsershots.org#@#.advert_area
 ||zgufsietwrteo.website^
 ||zgvaicjdorgqa.website^
 ||zgvyjrzusfonn.site^
+||zgwhzkuntffa.com^
 ||zgwoziiwdhuhi.online^
 ||zgxzeicunptms.store^
 ||zgyrvygvthohy.site^
