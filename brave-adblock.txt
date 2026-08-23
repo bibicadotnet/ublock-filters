@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260824011856
-! Last modified: 24 Aug 2026 01:18:56 UTC+7
+! Version: 20260824021738
+! Last modified: 24 Aug 2026 02:17:38 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26452,6 +26452,13 @@ mumu.watch##+js(rpnt, script, var now =, return;var now =)
 
 weekendletters.store##+js(acs, document.addEventListener, /popup/i)
 weekendletters.store##+js(set, HTMLScriptElement.prototype.onerror, noopFunc)
+
+tradingref.com##+js(no-fetch-if, method:HEAD)
+tradingref.com##+js(set, HTMLScriptElement.prototype.onerror, undefined)
+@@||tradingref.com^$ghide
+tradingref.com##.sidebar:has(> div.ad-unit)
+tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
+tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])
 
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
@@ -68869,6 +68876,7 @@ browsershots.org#@#.advert_area
 ||fh259by01r25.com^
 ||fhbsrazckyb.com^
 ||fhchwuqg.com^
+||fhefrnwqsjozv.site^
 ||fhgdtphvguxll.website^
 ||fhgh9sd.com^
 ||fhgn1ccweypng1.rest^
@@ -71602,6 +71610,7 @@ browsershots.org#@#.advert_area
 ||gynietrooe.com^
 ||gyooocelofurv.store^
 ||gyoqtcogunavk.site^
+||gyorqvghimijp.website^
 ||gyospsqu.com^
 ||gypjdmigbouth.website^
 ||gypsyairplanereign.com^
@@ -79897,6 +79906,7 @@ browsershots.org#@#.advert_area
 ||mutswisheslazaret.cyou^
 ||muttenrussify.shop^
 ||mutterschokervivary.qpon^
+||mutuantgoller.qpon^
 ||muuxrbdsheuhg.space^
 ||muxzipacympze.website^
 ||muzarabeponym.website^
@@ -84027,6 +84037,7 @@ browsershots.org#@#.advert_area
 ||pmwbbhfazupps.space^
 ||pmzer.com^
 ||pnajcjelrjxnm.website^
+||pnbglewqjxmab.space^
 ||pncloudfl.com^
 ||pnd.gs^
 ||pndrlgbudvcsy.website^
@@ -85011,6 +85022,7 @@ browsershots.org#@#.advert_area
 ||pullenaventreamulae.qpon^
 ||pullerycozed.cfd^
 ||pulleycorns.cfd^
+||pullmaniconism.com^
 ||pulpyads.com^
 ||pulpybizarre.com^
 ||pulqueemesa.com^
@@ -89445,6 +89457,7 @@ browsershots.org#@#.advert_area
 ||sledfoolinfo.com^
 ||sledgeshombres.qpon^
 ||sledxylan.com^
+||sleeklyureases.qpon^
 ||sleekwinterpowers.com^
 ||sleepilled.cyou^
 ||sleepoverlimitprofound.com^
@@ -90170,6 +90183,7 @@ browsershots.org#@#.advert_area
 ||sprkl.io^
 ||sproose.com^
 ||sproutamazedpursuing.com^
+||sproutsdoariumchoana.cyou^
 ||sprungextraordinaryhonorary.com^
 ||sprungstorm.com^
 ||spry-glad.pro^
@@ -93537,6 +93551,7 @@ browsershots.org#@#.advert_area
 ||ukwwcstydteaq.website^
 ||ukxefaohvndbx.website^
 ||ukxiwkxqujhqu.website^
+||ukxkyugezizqp.space^
 ||ukzbcqrufjkrk.site^
 ||ulaodqkxrgard.website^
 ||ulbaskljxyvoox.com^
@@ -93987,6 +94002,7 @@ browsershots.org#@#.advert_area
 ||unwrynarcein.com^
 ||uo1yblpu9gckyuj5og9hp3ff9xmo.cfd^
 ||uoarghkmwxcvj.website^
+||uobzwtbu.com^
 ||uod2quk646.com^
 ||uofddaueodbeq.space^
 ||uogmaufnar.com^
@@ -97774,6 +97790,7 @@ browsershots.org#@#.advert_area
 ||xwdsofoflwimy.website^
 ||xweaczbjyftvd.site^
 ||xwfafjiihnpmy.space^
+||xwgbnryynelfd.site^
 ||xwgkbcbvjjvxr.website^
 ||xwhztrazolmbm.space^
 ||xwikmfiuotauw.website^
@@ -99190,6 +99207,7 @@ browsershots.org#@#.advert_area
 ||zorilleattery.shop^
 ||zorquaaeybckx.space^
 ||zorseeckoaroa.net^
+||zosdscrdnltbz.space^
 ||zosteralatency.com^
 ||zotnkataxyscx.online^
 ||zotqhsyqbetkg.online^
