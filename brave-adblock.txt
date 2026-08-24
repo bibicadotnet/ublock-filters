@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260824104753
-! Last modified: 24 Aug 2026 10:47:53 UTC+7
+! Version: 20260824113743
+! Last modified: 24 Aug 2026 11:37:43 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26460,6 +26460,8 @@ tradingref.com##.sidebar:has(> div.ad-unit)
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])
 
+moviesdl.cc##+js(rmnt, script, .offsetHeight)
+
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.com|vjav.tube
@@ -27312,6 +27314,7 @@ pictoa.com###tab-footer
 ||applzr.com^
 ||obitube.com^$frame,1p
 ||redtub3xxx.com^$frame,1p
+||a.pur.agency^
 
 ##.bloc-pub
 ##.bloc-pub2
@@ -64712,6 +64715,7 @@ browsershots.org#@#.advert_area
 ||dash58wl.com^
 ||dashbida.com^
 ||dashboardmortal.com^
+||dashersclong.com^
 ||dasperdolus.com^
 ||dasturgrote.qpon^
 ||data-px.services^
@@ -78165,6 +78169,7 @@ browsershots.org#@#.advert_area
 ||lxndpxudyrqyy.online^
 ||lxnxlhvunpqik.site^
 ||lxockgcdbobzl.online^
+||lxphlvzklqtsb.space^
 ||lxrffyqkackjhg.com^
 ||lxrhymhpiycum.online^
 ||lxsdmrzbpnymx.online^
@@ -87669,6 +87674,7 @@ browsershots.org#@#.advert_area
 ||rpyztjadsbonh.store^
 ||rpzlvdgceixjx.online^
 ||rqagtrdebfbpp.site^
+||rqahnvtzojeas.site^
 ||rqapahxncfrik.website^
 ||rqappiaoyoldd.website^
 ||rqchqfbmhefis.space^
@@ -93205,6 +93211,7 @@ browsershots.org#@#.advert_area
 ||twilitwolfdomfalcer.qpon^
 ||twinabonnementoutburst.com^
 ||twinelandlord.com^
+||twinepaliliafils.cfd^
 ||twinersmaint.shop^
 ||twinfill.com^
 ||twingedtherms.cyou^
@@ -98425,6 +98432,7 @@ browsershots.org#@#.advert_area
 ||yncsudpwwfklq.online^
 ||ynemqgebtqzkc.site^
 ||ynfailhhiur.com^
+||yngujrewkitbd.space^
 ||ynhafvxotzgyw.online^
 ||ynjryqkgtlixu.space^
 ||ynlodkuuacugx.site^
