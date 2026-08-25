@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260826022523
-! Last modified: 26 Aug 2026 02:25:23 UTC+7
+! Version: 20260826032041
+! Last modified: 26 Aug 2026 03:20:41 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -60217,6 +60217,7 @@ browsershots.org#@#.advert_area
 ||becomeraoulia.cfd^
 ||becorsolaom.com^
 ||becostbastes.cfd^
+||becostozonousfratch.qpon^
 ||becrybotonnysyriac.cyou^
 ||becuibabrooks.cyou^
 ||becurryscaring.shop^
@@ -78643,6 +78644,7 @@ browsershots.org#@#.advert_area
 ||mfadsrvr.com^
 ||mfafexwjjgcxt.website^
 ||mfamazona.cyou^
+||mfbkiztixbtdj.online^
 ||mfcewkrob.com^
 ||mfdagitsgxwqx.site^
 ||mfdgzjlhrvtnw.space^
@@ -79738,6 +79740,7 @@ browsershots.org#@#.advert_area
 ||mxdjvguezddmf.site^
 ||mxfglajkqrwsv.online^
 ||mxfuwvrxudpkr.website^
+||mxgeppnjtbyig.site^
 ||mxgjuoycnxfgn.website^
 ||mxhplnujqwmoj.website^
 ||mxhybnnilsini.site^
@@ -80566,6 +80569,7 @@ browsershots.org#@#.advert_area
 ||nmgdxeuophsqo.website^
 ||nmgkyfvgvlrsp.com^
 ||nmgneqqnnbtac.site^
+||nmgqlsbblxonf.online^
 ||nmhcxlyyjginl.online^
 ||nmkli.com^
 ||nmlsdfybzuqta.space^
@@ -87401,6 +87405,7 @@ browsershots.org#@#.advert_area
 ||rtrakeulmbahb.site^
 ||rtrhit.com^
 ||rtrqqfssgypjj.site^
+||rtrtuwcqnjvzi.online^
 ||rtsesvdoiddxi.site^
 ||rtslxo3a.xyz^
 ||rtszviczeldr.com^
@@ -91521,6 +91526,7 @@ browsershots.org#@#.advert_area
 ||thirdinhabit.com^
 ||thirstybiologytells.com^
 ||thirstybunch.pro^
+||thirstyoxidic.com^
 ||thirstyquiet.com^
 ||thirteenpun.com^
 ||thiscdn.com^
@@ -96285,6 +96291,7 @@ browsershots.org#@#.advert_area
 ||wojanpkkxcntg.website^
 ||wokecrocodilebane.com^
 ||wokeshootdisreputable.com^
+||wokowicapons.com^
 ||woldesgummy.shop^
 ||wolf-327b.com^
 ||wolfeighteen.com^
@@ -97692,6 +97699,7 @@ browsershots.org#@#.advert_area
 ||yfsisdewaeush.site^
 ||yfskbgbjqfxgf.online^
 ||yfswcwcrmslwb.website^
+||yftqgqghetlts.online^
 ||yfuc6bv1hiqc4g5krw.rest^
 ||yfvwtbufnwrmm.online^
 ||yfwfmvofiyemc.space^
@@ -216937,7 +216945,6 @@ preisjaeger.at,mydealz.de,pepper.pl,dealabs.com,hotukdeals.com,chollometro.com##
 kleinanzeigen.de##+js(trusted-click-element, #gdpr-banner-cmp-button,, 1000)
 kleinanzeigen.de##+js(trusted-click-element, button[aria-label="Datenschutzbestimmungen und Einstellungen ablehnen"],, 1200)
 alehinta.fi##+js(trusted-set-cookie, cookie-consent, '{"categories":["analytics"],"level":["analytics"],"revision":0,"data":null,"rfc_cookie":false,"consent_date":"$currentISODate$","consent_uuid":"738928d9-c950-46d2-a732-700c986cf81a","last_consent_update":"$currentISODate$"}', 1year)
-fyndiq.dk,fyndiq.fi,fyndiq.no,fyndiq.se##+js(trusted-set-cookie, euconsent-v2, CQXekwAQcAnQAAHABBENCHFgAAAAAAAAACQgAAAAAAAA.YAAAAAAAAAAA)
 ai.google.dev##+js(trusted-set-local-storage-item, glue.CookieNotificationBar, '[{"category":"2A","date":"$currentISODate$","eea":true,"siteId":"ai.google.dev","status":"ACCEPTED"}]')
 16100.fi##+js(trusted-set-cookie, cookie_consent, eyJpdiI6ImwwWXVzYitiUmpWSDJmMWtkdHMvanc9PSIsInZhbHVlIjoicERPYnN6akRVbCttQVBaSHhMTzd3TW4xZGJTVWxqK2JwTlNYWjhlZ29JanVXOWdQU2x5RVhaRVpuR0l3QjBYOSIsIm1hYyI6ImM4YmU4OTYzZjYwODEyMmRlMmFmZjU1ZmE0YjcyZDA0ZmQ2MmEyOWZhNjA5NzA4ZGQwOWY2NzgyNjEwOTBhMDAiLCJ0YWciOiIifQ%3D%3D, 1year, , reload, 1)
 pcgamer.com>>,~facebook.com,~twitter.com,~youtube.com##+js(trusted-click-element, button.message-button[aria-label="More Options"])
