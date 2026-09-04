@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20260905032306
-! Last modified: 05 Sep 2026 03:23:06 UTC+7
+! Version: 20260905054208
+! Last modified: 05 Sep 2026 05:42:08 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -26469,8 +26469,8 @@ puzzleship.com##+js(no-fetch-if, client=ca-pub-)
 puzzleship.com##+js(no-fetch-if, adsbygoogle.js)
 puzzleship.com##.ad_banner.adsbox970x90:style(display: block !important)
 
-wykop.pl##.pub-slot-wrapper:style(position: absolute !important; left: -4000px !important; visibility: hidden !important; pointer-events: none !important;)
-wykop.pl##+js(spoof-css, .pub-slot-wrapper, left, 0px, visibility, visible)
+wykop.pl##.pub-slot-wrapper:remove()
+wykop.pl##.stream-home:has(.recommend-label a[href^="/reklama"])
 
 play.mercadolivre.com.br##+js(trusted-json-edit-fetch-response, $..durationInSeconds=0, propsToMatch, -ssai-vod-)
 play.mercadolivre.com.br##+js(mpegdash-prune, Period:has(> EventStream[schemeIdUri="urn:sva:advertising-wg:ad-id-signaling"]), /dash)
@@ -38705,6 +38705,7 @@ aternos.org##.header-center:style(margin-top:-5000px !important;)
 aternos.org##.sidebar:style(width: 1.745px !important; padding: 1px !important)
 aternos.org##.ad-dfp:style(min-height: 0.1485mm !important; height: 0.1485mm !important;)
 aternos.org###placement-takeover
+aternos.org##+js(trusted-rpnt, script, /U1gLsd=rc8nRpC\[0x21\]/g, U1gLsd=!0x1, sedCount, 1)
 
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant)
 www.youtube.com##+js(rpnt, script, (function serverContract(), (()=>{if("YOUTUBE_PREMIUM_LOGO"===ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType||location.href.startsWith("https://www.youtube.com/tv#/")||location.href.startsWith("https://www.youtube.com/embed/"))return;const e=ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent\,t=t=>{ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent=t?e.replace?.(/(Mozilla\/5\.0 \([^)]+)/\,"$1; "+t):e}\,o=["channel"\,"lactmilli"];let r=!1\,n=o;document.addEventListener("DOMContentLoaded"\,(function(){const e=()=>{const e=document.getElementById("movie_player");if(!e||!window.location.href.includes("/watch?"))return void(n=o);const a=e.getPlayerResponse?.()\,i=e.getProgressState?.()\,s=e.getStatsForNerds?.();let l\,d;if(i&&i.duration>0&&(i.loaded<i.duration||i.duration-i.current>1)||a?.videoDetails?.isLive){if(!s?.debug_info?.startsWith?.("SSAP\, AD")){const o=a.videoDetails?.videoId\,c=a.playerConfig?.playbackStartConfig?.startSeconds??0\,u=e.getPlayerStateObject?.()?.isBuffering\,y=a.playabilityStatus?.errorScreen\,p=JSON.stringify(y?.playerErrorMessageRenderer?.subreason?.runs||y?.playerInterstitialRenderer?.content?.interstitialViewModel?.description?.commandRuns);return void("UNPLAYABLE"===a?.playabilityStatus?.status&&!y?.playerErrorMessageRenderer?.playerCaptchaViewModel&&p?.includes?.("WEB_PAGE_TYPE_UNKNOWN")&&p?.includes?.("https://support.google.com/youtube/answer/3037019")?(n=n.slice(1)\,n.length>0?t(n[0]):t("")\,r=!1\,e.loadVideoById(o\,c)):0===n.length?(r=!1\,t("")):u&&"0.00 s"===s?.buffer_health_seconds&&"0x0"===s?.resolution&&r?(t(n[0])\,r=!1\,e.loadVideoById(o\,c)):!r&&i.current-c<5&&location.href.includes("&list=")&&null===e.getPlaylistId?.()&&(l=document.querySelector("yt-playlist-manager")\,d=l?.getPlaylistData?.()\,d&&(l.setPlaylistData?.(d)\,l.setPlayerPlaybackControlData?.({playlistPanelRenderer:d}))))}i.duration>0&&e.seekTo?.(i.duration)}};e()\,new MutationObserver((()=>{e()})).observe(document\,{childList:!0\,subtree:!0})}))\,window.Map.prototype.has=new Proxy(window.Map.prototype.has\,{apply:(e\,t\,o)=>{if("onSnackbarMessage"===o?.[0]&&!r){const e=document.getElementById("movie_player");if(!e)return;const t=e.getStatsForNerds?.()\,o=e.getPlayerStateObject?.()?.isBuffering\,a=e.getPlayerResponse?.()?.playbackTracking?.videostatsPlaybackUrl?.baseUrl;o&&"0.00 s"===t?.buffer_health_seconds&&"0x0"===t?.resolution&&n.length>0&&(a.includes("reloadxhr")&&(n=n.slice(1))\,r=!0)}return Reflect.apply(e\,t\,o)}});const a={apply:(e\,t\,o)=>{const r=o[0];return"function"==typeof r&&r.toString().includes("onAbnormalityDetected")&&(o[0]=function(){})\,Reflect.apply(e\,t\,o)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then\,a)})();(function serverContract(), sedCount, 1, excludes, MutationObserver)
@@ -56133,6 +56134,7 @@ browsershots.org#@#.advert_area
 ||1ts24.top^
 ||1tyt5qgk9ygxfjoe.rest^
 ||1ufztt6mkpt1p1krt3.cfd^
+||1v63he57umq4zkji44.rest^
 ||1w1yhg23m2kzp4v.cfd^
 ||1web.me^
 ||1wlg1691l49wnu.rest^
@@ -59171,6 +59173,7 @@ browsershots.org#@#.advert_area
 ||aotewsxzxbnzj.space^
 ||aouuldqzry.com^
 ||aouvvblbuvhuo.online^
+||aovzlzvlfrane.online^
 ||aoxvlbejkrvvh.online^
 ||aoyptpffgxcjy.website^
 ||aoyzivvtxwzev.online^
@@ -60418,6 +60421,7 @@ browsershots.org#@#.advert_area
 ||batfowlbuna.cyou^
 ||bathepoliteness.com^
 ||batheunits.com^
+||bathtubdriblet.shop^
 ||batilevwwijjj.online^
 ||batismarkhor.shop^
 ||batoktor.in^
@@ -61698,6 +61702,7 @@ browsershots.org#@#.advert_area
 ||bowlingprosperhalfbrother.com^
 ||bowlingwapp.cfd^
 ||bowooaoydmbvo.site^
+||bowpinainoi.cfd^
 ||bowserions.qpon^
 ||bowsguaka.cfd^
 ||bowshotnonego.shop^
@@ -64621,6 +64626,7 @@ browsershots.org#@#.advert_area
 ||criticalaeroplanepleat.com^
 ||criticaltriggerweather.com^
 ||crittereasilyhangover.com^
+||crizzelpirl.com^
 ||crjjqhvbktqc.com^
 ||crjpgate.com^
 ||crjpingate.com^
@@ -67358,6 +67364,7 @@ browsershots.org#@#.advert_area
 ||dwightcontributor.com^
 ||dwiiugjfzvsgj.site^
 ||dwinerosttra.cyou^
+||dwinescohob.shop^
 ||dwjmmeepcsyut.website^
 ||dwkfdahogaipo.website^
 ||dwkgpxohcasvp.site^
@@ -69005,6 +69012,7 @@ browsershots.org#@#.advert_area
 ||extinguishsufferingsalty.com^
 ||extortionbudnumerous.com^
 ||extracloyingcyano.cfd^
+||extractfirmer.qpon^
 ||extraitjejunum.qpon^
 ||extrasmall-permission.pro^
 ||extremereach.io^
@@ -70059,6 +70067,7 @@ browsershots.org#@#.advert_area
 ||fluteparental.com^
 ||flutinablayne.cyou^
 ||flutterstumpbullet.com^
+||fluvionongray.cyou^
 ||fluvioshoer.cyou^
 ||fluxads.com^
 ||fluxivelatebra.qpon^
@@ -71404,6 +71413,7 @@ browsershots.org#@#.advert_area
 ||ggreatstuff.com^
 ||ggrymktmbbauf.online^
 ||ggsfq.com^
+||ggshpkxtbwxth.space^
 ||ggtydxcv.com^
 ||ggvfcdgssrppa.store^
 ||ggw4g8nev68pg6fyq9k.cfd^
@@ -72355,6 +72365,7 @@ browsershots.org#@#.advert_area
 ||gunont.xyz^
 ||gunselscyan.shop^
 ||gunshopreclasp.cyou^
+||gunungpyramus.cfd^
 ||gunzblazingpromo.com^
 ||guoiriawxkaew.website^
 ||gupbokzqszbvn.store^
@@ -73097,6 +73108,7 @@ browsershots.org#@#.advert_area
 ||hffxfbuartqzw.online^
 ||hfgvzpatnjoti.website^
 ||hfhmqcggyjcne.online^
+||hfkamhcbicmqe.space^
 ||hflpchbqhobkg.website^
 ||hflxmfjkugjeh.site^
 ||hfnfoupaytndf.space^
@@ -73816,6 +73828,7 @@ browsershots.org#@#.advert_area
 ||htxvelrehecjm.site^
 ||hu2e7z5x.xyz^
 ||huanacoheard.cyou^
+||huastectauten.shop^
 ||hubailinks.com^
 ||hubbingquelea.qpon^
 ||hubbubsjellies.qpon^
@@ -74825,6 +74838,7 @@ browsershots.org#@#.advert_area
 ||inhaledaru.shop^
 ||inhaledrew.com^
 ||inherefullom.com^
+||inheresgeckos.qpon^
 ||inheritedgeneralrailroad.com^
 ||inheritedunstable.com^
 ||inhibitalertnesstouch.com^
@@ -75627,6 +75641,7 @@ browsershots.org#@#.advert_area
 ||jasmonebubas.cyou^
 ||jaspecalyces.qpon^
 ||jasperybarmie.qpon^
+||jasslionne.cyou^
 ||jatbute.qpon^
 ||jatnifenian.qpon^
 ||jaukedhowfs.qpon^
@@ -76477,6 +76492,7 @@ browsershots.org#@#.advert_area
 ||jvkapzajyuhnh.online^
 ||jvlcfyawvsrlt.site^
 ||jvlrcbfxijxgk.store^
+||jvlzoyhlfqzqd.space^
 ||jvpmjxgfphoqp.online^
 ||jvprzktnmemku.space^
 ||jvqijvdhihczy.online^
@@ -79118,6 +79134,7 @@ browsershots.org#@#.advert_area
 ||lust-goddess-game.online^
 ||lustp.com^
 ||lustreperspiration.com^
+||lustrumamaroid.cyou^
 ||lustrumearned.cfd^
 ||lustslate.com^
 ||luststeelie.qpon^
@@ -79680,6 +79697,7 @@ browsershots.org#@#.advert_area
 ||mavrtracktor.com^
 ||mawedmufflesceboid.cfd^
 ||mawlaybob.com^
+||mawnexopt.shop^
 ||mawrremur.in^
 ||maxbounty.com^
 ||maxconvtrk.com^
@@ -87405,6 +87423,7 @@ browsershots.org#@#.advert_area
 ||qwfmqkysepqin.online^
 ||qwgghbdehc.com^
 ||qwgruwrtcyxft.store^
+||qwhyxqyutgoba.space^
 ||qwikln.com^
 ||qwiqbppovqbpq.com^
 ||qwlbvlyylzeob.top^
@@ -88547,6 +88566,7 @@ browsershots.org#@#.advert_area
 ||rhoditepoudretstipule.cyou^
 ||rhofedtj.com^
 ||rhombicsomeday.com^
+||rhoqhmvihokji.online^
 ||rhousoasopersb.org^
 ||rhoytfteww.com^
 ||rhploidy.com^
@@ -91118,6 +91138,7 @@ browsershots.org#@#.advert_area
 ||sloto.live^
 ||slotsmiling.com^
 ||slottensuccah.cyou^
+||slourslicers.com^
 ||slow-attitude.com^
 ||slow-bunch.com^
 ||slowdn.net^
@@ -91581,6 +91602,7 @@ browsershots.org#@#.advert_area
 ||spahisennetmabolo.cfd^
 ||spailsobvious.cfd^
 ||spajgnyzbreeu.space^
+||spakeired.cfd^
 ||spanegeums.cfd^
 ||spaniardinformationbookworm.com^
 ||spaninghidel.cfd^
@@ -91645,6 +91667,7 @@ browsershots.org#@#.advert_area
 ||speedycomediandecember.com^
 ||speeledabantespauses.qpon^
 ||speersgeigerrhebok.cfd^
+||speiredtussors.cfd^
 ||speisetao.qpon^
 ||speissmedishcarobs.cfd^
 ||spektparoli.cfd^
@@ -92955,6 +92978,7 @@ browsershots.org#@#.advert_area
 ||tahgookrefalls.qpon^
 ||tahrqfbavxmxf.site^
 ||tahwox.com^
+||tahzorvqioqjy.space^
 ||taiiljyndvpii.website^
 ||taildisturbing.com^
 ||tailfoolproof.com^
@@ -93484,6 +93508,7 @@ browsershots.org#@#.advert_area
 ||theirpeninsula.com^
 ||theirscarpenter.com^
 ||theirsneedful.com^
+||theirwrabbebandie.cyou^
 ||theme2statistics.com^
 ||themselvespresentationfavourable.com^
 ||thenpreservationticket.com^
@@ -93879,6 +93904,7 @@ browsershots.org#@#.advert_area
 ||tlrkcj17.de^
 ||tlrzavbrosrsv.space^
 ||tltftozhercmx.website^
+||tltlsbyrpdyen.site^
 ||tltqqcmakfpap.com^
 ||tltsbsp.com^
 ||tlucfqhtavxyx.space^
@@ -95083,6 +95109,7 @@ browsershots.org#@#.advert_area
 ||ucuqtxhmdgvfr.website^
 ||ucuumhsxenzwq.online^
 ||ucvqpbfhvtreh.com^
+||ucwgcdebxchns.website^
 ||ucwypnemwclwd.online^
 ||ucyierazwsrpa.store^
 ||ucymngnbsdc.com^
@@ -95684,6 +95711,7 @@ browsershots.org#@#.advert_area
 ||unseweduppuff.cfd^
 ||unshapeclaval.qpon^
 ||unshaveparaphs.com^
+||unshippealingsibbs.cfd^
 ||unshoeyoghs.cfd^
 ||unshowyclyssus.com^
 ||unshutcaitiff.com^
@@ -97133,6 +97161,7 @@ browsershots.org#@#.advert_area
 ||vpvtuudixdilp.online^
 ||vpvyiarljvpbu.space^
 ||vpzdnfciapiux.online^
+||vqb7ckfnn9pzjqklx6n.cfd^
 ||vqdqbloehwafw.online^
 ||vqdxejiolkutu.website^
 ||vqelkqlaavjmm.top^
@@ -97628,6 +97657,7 @@ browsershots.org#@#.advert_area
 ||waterymenace.com^
 ||watknbtkwkspy.website^
 ||wattagemesail.shop^
+||wattleshulver.qpon^
 ||wattolympic.cfd^
 ||watwait.com^
 ||wauchtsatarasscun.qpon^
@@ -98438,6 +98468,7 @@ browsershots.org#@#.advert_area
 ||wlvkzwqzejaqz.top^
 ||wlvrbtcscckvp.space^
 ||wlwxefpldfxoi.website^
+||wlytwxupsdver.online^
 ||wlzhmngyhuebs.space^
 ||wlzzwzeevbyak.top^
 ||wlzzwzeyrbbyk.top^
@@ -101131,6 +101162,7 @@ browsershots.org#@#.advert_area
 ||zoiyjzhhjty.com^
 ||zokapwppblsly.website^
 ||zokfgnvzcdimh.website^
+||zokqlomqkmwqw.top^
 ||zomdufobhmfmm.space^
 ||zomhfzodazcnz.space^
 ||zomueulqbfpre.space^
@@ -101418,6 +101450,7 @@ browsershots.org#@#.advert_area
 ||zyblzrevmklzw.top^
 ||zybrdr.com^
 ||zydecowarren.qpon^
+||zygionexodoi.cyou^
 ||zygoojpfbiqdi.online^
 ||zygotebuffi.cyou^
 ||zyguhojdymzqx.site^
