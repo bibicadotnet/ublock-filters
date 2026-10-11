@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20261011082727
-! Last modified: 11 Oct 2026 08:27:27 UTC+7
+! Version: 20261011150700
+! Last modified: 11 Oct 2026 15:07:00 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -15272,6 +15272,7 @@ kpopjams.com##+js(acs, dataLayer, detectAdBlock)
 @@||emailnator.com^$ghide
 emailnator.com##+js(nostif, adsbygoogle)
 emailnator.com##.position-relative tr:has(a[href="https://tools-ai.online"])
+emailnator.com##ins.adsbygoogle
 
 bluedollar.net##+js(acs, jQuery, adblock)
 bluedollar.net##div[id^="aub"]
@@ -26682,6 +26683,9 @@ gowatchseries.net###gw-ad-root
 
 sudinfo.be##.pane-partenaires-outbrain-sidebar
 
+partner.nonamejose.sx##+js(set-local-storage-item, removeAdv, true)
+partner.nonamejose.sx##+js(nostif, , 15000)
+
 
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.*
 *$script,xhr,3p,denyallow=ahcdn.com|ampproject.org|arc.io|b-cdn.net|blogger.com|bootstrapcdn.com|bunnycdn.ru|bytecdntp.com|cackle.me|chatango.com|cloudflare.com|cloudflare.net|cloudflarestorage.com|consentframework.com|disqus.com|disquscdn.com|dmca.com|doodcdn.io|ebacdn.com|embedstreams.top|facebook.com|facebook.net|fastcomments.com|fastly.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|graphcomment.com|gstatic.com|h-cdn.com|hcaptcha.com|hwcdn.net|ilfcdn.li|instagram.com|intensedebate.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|jwpsrv.com|linkvertise.com|media-amazon.com|media-imdb.com|pinterest.com|plyr.io|rabbitstream.net|recaptcha.net|rsc.cdn77.org|sharecast.ws|sharethis.com|shrink.pe|statically.io|staticfile.org|tawk.to|twimg.com|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vidembed.re|vixcloud.co|vk.com|vuukle.com|wp.com|x.com|yastatic.net|youaresoselfish.online|youtube.com|ytimg.com|zdassets.com|zencdn.net,domain=everia.club|files.im|filmpornofrancais.fr|gamesmountain.com|mangaplus.shueisha.tv|moredesi.com|nkiri.com|onlyfullporn.video|shueisharaw.tv|vjav.com|vjav.tube
@@ -33927,7 +33931,7 @@ rapidkil.com.au##+js(aost, XMLHttpRequest, /wp-content)
 
 /^https:\/\/(?:[a-z]{3,5}|[ej][ac])\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|qpon|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 /^https:\/\/(?:[a-z]{4,5}|[ej][ac])\.[a-z]{4,10}\.[a-z]{2,6}\/item-(?:[0-9A-Za-z]{10}|\d{8}|[0-9a-f]{32})\.html$/$doc,match-case,to=biz|blog|cc|cloud|club|info|life|live|me|one|online|shop|site|space|store
-/^https:\/\/([a-vx-z][a-z]{2,}\.)?[0-9a-z-]{3,}\.(com|net|org)\/index\.php\?main_page=product_info(&stl=\d)?&(cPath|products_id)=/$doc
+/^https:\/\/([a-vx-z][a-z]{2,}\.)?[0-9a-z-]{3,}\.(com|net|org)\/index\.php\?main_page=product_info&/$doc
 
 ||zoom.us*web.us^$doc
 
@@ -39562,6 +39566,7 @@ genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(json-
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(prevent-innerHTML)
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(trusted-suppress-native-method, DOMParser.prototype.parseFromString, '"/<[Aa]/"')
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(no-fetch-if, method:POST)
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##+js(rmnt, script, adsbygoogle)
 
 ligainsider.de##+js(trusted-replace-argument, document.getElementById, 0, '', condition, /^wall-backdrop$/)
 ligainsider.de##+js(nostif, /unknown|BLOCKED/i)
@@ -57423,6 +57428,7 @@ browsershots.org#@#.advert_area
 ||750040424c.com^
 ||7550f3b810.com^
 ||759d3cc22a.com^
+||75bg8nhzf4kngjg.cfd^
 ||75c9773718.com^
 ||762dd8340d.com^
 ||7642cfa09a.com^
@@ -57637,6 +57643,7 @@ browsershots.org#@#.advert_area
 ||91ljv4581ut5hbgq1zlkn63m.cfd^
 ||922f5b94e5.com^
 ||92a98a2163.com^
+||92b94jt6icqlrxmoipg.cfd^
 ||92kvgl8w8vc1gxl1fiw3thhxww235ri8cl5wm.rest^
 ||92orb.com^
 ||92yp.com^
@@ -57726,6 +57733,7 @@ browsershots.org#@#.advert_area
 ||9kcut8werch6hbker1yub.cfd^
 ||9l3s3fnhl.com^
 ||9l5ss9l.de^
+||9l7uxfwrfx4quhptz1nbixqekl32i.rest^
 ||9lwl6rsk.xyz^
 ||9ojmoy453qqpoz6x83ve7.rest^
 ||9pix81z88zgwz5x4vgybngofjlhzq2rvu92.cfd^
@@ -57921,6 +57929,7 @@ browsershots.org#@#.advert_area
 ||abqnmgbyxyias.site^
 ||abraserbrosseriper.cyou^
 ||abrasiveslayerrequires.com^
+||abraumwracks.cfd^
 ||abrazossiloed.shop^
 ||abreedhokan.com^
 ||abreidcokes.cfd^
@@ -59930,6 +59939,7 @@ browsershots.org#@#.advert_area
 ||arracekambou.shop^
 ||arracksoapsud.shop^
 ||arrangedateslocally.com^
+||arranthijacks.qpon^
 ||arraydepressinginnocence.com^
 ||arrethumps.cfd^
 ||arridedskinked.cfd^
@@ -60270,6 +60280,7 @@ browsershots.org#@#.advert_area
 ||aujdthygqargx.space^
 ||aukgiecbioahe.website^
 ||aukjylvsljien.site^
+||auktrnxlletwx.online^
 ||aunehofyojgfq.space^
 ||aunnnuvegyzfm.website^
 ||auntiesurfeatable.com^
@@ -60403,6 +60414,7 @@ browsershots.org#@#.advert_area
 ||avzmhurdchosj.space^
 ||avzwgvitrfmsbg.com^
 ||avzwkkmaqlbbj.top^
+||avzxcwkpckxyz.space^
 ||awaaalxhkqivc.site^
 ||awaitingcoordinatelassitude.com^
 ||awaitsrereel.qpon^
@@ -61618,6 +61630,7 @@ browsershots.org#@#.advert_area
 ||bjkp1vrip25blnj.rest^
 ||bjlsvzikxpjxq.space^
 ||bjlwmgypnxmwr.space^
+||bjnlpuyppgfvp.space^
 ||bjnstrujhqmna.space^
 ||bjoblfbaldpzj.site^
 ||bjquhxvicujcc.online^
@@ -61699,6 +61712,7 @@ browsershots.org#@#.advert_area
 ||blandinvestment.pro^
 ||blanksolderreed.com^
 ||blarcamxooysi.store^
+||blaredbewend.qpon^
 ||blaredproblem.qpon^
 ||blarinahiate.com^
 ||blaring-chocolate.com^
@@ -62013,6 +62027,7 @@ browsershots.org#@#.advert_area
 ||bonkedpungled.cyou^
 ||bonnetssunfall.qpon^
 ||bonnettaking.com^
+||bonnneranli.qpon^
 ||bonosbevvy.com^
 ||bonsferkinpatting.cfd^
 ||bonusgew.com^
@@ -62190,6 +62205,7 @@ browsershots.org#@#.advert_area
 ||bpdqwixnyxoxy.site^
 ||bpdudejimdmdf.online^
 ||bpgritsnivsgk.space^
+||bphekomorrvvx.site^
 ||bphgwntdzzyxs.space^
 ||bpifosgceukau.space^
 ||bpigydbzlrszz.online^
@@ -62415,6 +62431,7 @@ browsershots.org#@#.advert_area
 ||bruceleadx1.com^
 ||bruetcohen.cyou^
 ||brugesgarner.com^
+||bruinsabby.com^
 ||bruisedpaperworkmetre.com^
 ||brukejuang.com^
 ||brumbyfavours.cfd^
@@ -62542,6 +62559,7 @@ browsershots.org#@#.advert_area
 ||bucabjnocfjgu.website^
 ||bucarezend.cfd^
 ||buccpzuekpckj.site^
+||bucketsnumine.qpon^
 ||bucklechemistdensity.com^
 ||buckoneendoral.cyou^
 ||buckumoore.com^
@@ -63622,6 +63640,7 @@ browsershots.org#@#.advert_area
 ||chawanunfast.qpon^
 ||chbyjdkjxowgss.com^
 ||chcgwqlrforbz.space^
+||chcknmhlovpoc.site^
 ||chdelbdljersf.online^
 ||chdnenjtyssmn.online^
 ||chdrircbditlp.online^
@@ -64329,6 +64348,7 @@ browsershots.org#@#.advert_area
 ||coinagedraftee.com^
 ||coinersdisring.shop^
 ||coinunspedkartel.cyou^
+||cokedalk.com^
 ||cokedpariti.com^
 ||colafaultsruns.com^
 ||colanbalkily.com^
@@ -65007,6 +65027,7 @@ browsershots.org#@#.advert_area
 ||crickleleangle.qpon^
 ||cricoidcharact.cfd^
 ||criesspiceclack.com^
+||crieyambriesribands.cyou^
 ||crieycuber.com^
 ||crihbeppscadw.site^
 ||crimeagc.com^
@@ -65699,6 +65720,7 @@ browsershots.org#@#.advert_area
 ||daphnews.com^
 ||daphosted.qpon^
 ||dapper.net^
+||dapperskyward.cyou^
 ||dappingpardie.cyou^
 ||dapplesaggy.shop^
 ||dardanijerezpatched.cfd^
@@ -65861,6 +65883,7 @@ browsershots.org#@#.advert_area
 ||dcgfjjawtjxte.website^
 ||dcgpsjmcytukn.website^
 ||dciiucnhyyffr.online^
+||dcithakovinru.online^
 ||dcjgqlosvpdaiq.com^
 ||dcjvnjnkhanpk.space^
 ||dcjxowgfytohp.space^
@@ -65880,6 +65903,7 @@ browsershots.org#@#.advert_area
 ||dcvssaited.com^
 ||dcwnhlzrvnlnj.website^
 ||dcwxbgqsmyvsn.site^
+||dcybsokqmcmzu.site^
 ||dczgbeexjsfyb.space^
 ||dczicllonbfre.site^
 ||dd133.com^
@@ -66740,6 +66764,7 @@ browsershots.org#@#.advert_area
 ||dkjtppgsfoiqd.site^
 ||dkkqqhonowers.site^
 ||dklbwqjzpscsj.space^
+||dkniiqebuamow.online^
 ||dkogasrysffmn.space^
 ||dkrbus.com^
 ||dkrcknnrtmiqv.site^
@@ -67593,6 +67618,7 @@ browsershots.org#@#.advert_area
 ||dubiousneedleaccounts.com^
 ||dubvacasept.com^
 ||dubwife.com^
+||ducdameoxalato.com^
 ||ducheryhoopoos.cyou^
 ||duchesscakeresumed.com^
 ||duchesspleasurelollipop.com^
@@ -67634,6 +67660,7 @@ browsershots.org#@#.advert_area
 ||dulygeeksyrup.com^
 ||dulytink.qpon^
 ||dumbesttaunted.qpon^
+||dumblysemel.cfd^
 ||dumbsdombeyaisotony.qpon^
 ||dumfegs.cfd^
 ||dumkrizshgtse.website^
@@ -68436,6 +68463,7 @@ browsershots.org#@#.advert_area
 ||elkscyton.cfd^
 ||elkunbalanceunfounded.com^
 ||ellipticaltrack.com^
+||elmierbevy.cyou^
 ||elmmmgfvzerqt.space^
 ||elmolkyqhjfwn.online^
 ||elntlrutxdavp.online^
@@ -69918,6 +69946,7 @@ browsershots.org#@#.advert_area
 ||fgsuxvboquxjg.website^
 ||fgtpvheoxosfk.site^
 ||fgxaqjwljvqbf.online^
+||fgxdrflxrhfgx.online^
 ||fgxllefnphgtu.site^
 ||fgxsmuyzcrshu.space^
 ||fgxuxjsfbhhnd.space^
@@ -71322,6 +71351,7 @@ browsershots.org#@#.advert_area
 ||gauntedgroszy.cfd^
 ||gaupingeyewink.com^
 ||gaupsaur.xyz^
+||gautastershikra.cfd^
 ||gautdower.cfd^
 ||gauvaiho.net^
 ||gaveastound.com^
@@ -71462,6 +71492,7 @@ browsershots.org#@#.advert_area
 ||genavizors.cyou^
 ||genbalar.com^
 ||gendbkamiggxs.site^
+||geneatcatalog.com^
 ||genecorpannel.cfd^
 ||generalizationhazel.com^
 ||generationdissolvedplease.com^
@@ -71796,6 +71827,7 @@ browsershots.org#@#.advert_area
 ||gkrycdtueicc.com^
 ||gkskdrikvrelx.website^
 ||gkszvanzrueuf.space^
+||gkvfndkdzavrv.online^
 ||gkxixncsphfli.online^
 ||gkxuifkljnmet.online^
 ||gkyaggtewwucj.online^
@@ -72965,6 +72997,7 @@ browsershots.org#@#.advert_area
 ||haslockvayuunsing.cyou^
 ||hasntsheila.cfd^
 ||hassarrespeak.qpon^
+||hastatesimnel.com^
 ||hastatiformer.shop^
 ||hastediminutiondoes.com^
 ||hastenassume.com^
@@ -73662,6 +73695,7 @@ browsershots.org#@#.advert_area
 ||hogmanezincid.cfd^
 ||hogpastebruise.com^
 ||hogpenhusting.qpon^
+||hogpenmoorhen.com^
 ||hogtiedhalawi.com^
 ||hohuwpdeefdgp.website^
 ||hohxhoennu.com^
@@ -75635,6 +75669,7 @@ browsershots.org#@#.advert_area
 ||iynzotcghpkur.space^
 ||iypjlalrerrki.online^
 ||iypxxhjdiwggg.website^
+||iyqhjmyqogdvf.website^
 ||iyqnahkspthlb.site^
 ||iyqtpifqeoavq.site^
 ||iyresfhhvgqex.site^
@@ -75656,6 +75691,7 @@ browsershots.org#@#.advert_area
 ||izfogaydloceo.site^
 ||izirjftafazzm.website^
 ||izjbgrgowopaz.space^
+||izjecsrmlxtpu.website^
 ||izjvndjendqdv.website^
 ||izkivydhiqfjx.store^
 ||izngibxwtlvqg.site^
@@ -76834,6 +76870,7 @@ browsershots.org#@#.advert_area
 ||kadmkyie.com^
 ||kaejflvkdzfje.space^
 ||kafiribulkin.com^
+||kafutxcmsyrae.website^
 ||kagocvncavfqi.store^
 ||kagonst.com^
 ||kahblkqxbjscd.website^
@@ -77745,6 +77782,7 @@ browsershots.org#@#.advert_area
 ||kujifkvgkygii.site^
 ||kukupareceder.cyou^
 ||kukyzzgcbrwdl.online^
+||kulaitekronos.com^
 ||kulekbfzgldzw.space^
 ||kulqdzhpmvokp.online^
 ||kulroakonsu.net^
@@ -77993,6 +78031,7 @@ browsershots.org#@#.advert_area
 ||lairpurposelyremainder.com^
 ||laiserrumorer.cfd^
 ||laivue.com^
+||lajedckqssgpa.online^
 ||lajiewpihlybh.site^
 ||lajytnrioiaqy.website^
 ||lajziqeakcuqp.online^
@@ -79199,6 +79238,7 @@ browsershots.org#@#.advert_area
 ||lpvrblrtdgmke.space^
 ||lpwtbsfgamivm.space^
 ||lpwxjjoxopqrq.space^
+||lpyidhrhhklsp.space^
 ||lqbvjmkewzwjk.top^
 ||lqbvjmkoozmry.top^
 ||lqbzvmvwjyor.top^
@@ -79364,6 +79404,7 @@ browsershots.org#@#.advert_area
 ||lunlyqvavjkfc.website^
 ||lunulesgnashed.qpon^
 ||lunygdgezgtnh.site^
+||lunyietruancyroxane.qpon^
 ||lupecloyed.cfd^
 ||lupeosemangeaoroamage.qpon^
 ||lupousdecrialflyback.cyou^
@@ -80109,6 +80150,7 @@ browsershots.org#@#.advert_area
 ||meikleshankies.qpon^
 ||meilevinyl.cfd^
 ||meioseshoaxer.cfd^
+||meiqyyqplzkya.site^
 ||meirwmkeslfri.space^
 ||mejewusodovuca.com^
 ||mekzmrnqmpftx.online^
@@ -80222,6 +80264,7 @@ browsershots.org#@#.advert_area
 ||mfadsrvr.com^
 ||mfafexwjjgcxt.website^
 ||mfatvdikutgoo.space^
+||mfbcsvztkfenq.online^
 ||mfbkiztixbtdj.online^
 ||mfbvstxfenjrh.site^
 ||mfceixqmtysce.online^
@@ -80235,6 +80278,7 @@ browsershots.org#@#.advert_area
 ||mfgnbdjfavsgf.website^
 ||mfgoxtdrxupes.website^
 ||mfgvhabnnlwkd.online^
+||mfifgbwxafrbq.site^
 ||mfiomoaa.com^
 ||mfiyumsqrojut.site^
 ||mfjhkyeptwiop.site^
@@ -81266,6 +81310,7 @@ browsershots.org#@#.advert_area
 ||muzzlesdynastmidmain.qpon^
 ||mvaokhsgiwer.com^
 ||mvasuhdpfivqh.online^
+||mvb46hlp9r7kph.rest^
 ||mvbcsloqebjfv.site^
 ||mvcfkpklzjhoc.site^
 ||mvctfbwtxjtar.site^
@@ -81442,6 +81487,7 @@ browsershots.org#@#.advert_area
 ||mythad.com^
 ||mythings.com^
 ||mytsyoisjverr.space^
+||myupbbotesmna.website^
 ||myvppmgositlb.website^
 ||mywatchtones.com^
 ||mywondertrip.com^
@@ -81554,6 +81600,7 @@ browsershots.org#@#.advert_area
 ||nakooarsenal.com^
 ||nakqsplmrmcig.website^
 ||nalwrqcaigdgu.website^
+||namdableed.com^
 ||nameads.com^
 ||nameaphrabagwig.qpon^
 ||namel.net^
@@ -82001,6 +82048,7 @@ browsershots.org#@#.advert_area
 ||nhtkdwffnlgvl.store^
 ||nhtosawxpqjxu.site^
 ||nhubwikasji.in^
+||nhwfqtzcftqxi.site^
 ||nhwlkqoodhlar.online^
 ||nhzczuzvmmcfh.website^
 ||nhzokhbzxbdqx.website^
@@ -82707,6 +82755,7 @@ browsershots.org#@#.advert_area
 ||nwiedbowafasz.online^
 ||nwjunrzhppxvd.space^
 ||nwjvnehkuieyo.website^
+||nwlenexohjiomt.com^
 ||nwlogtgbemzts.site^
 ||nwlwodnzybpnq.space^
 ||nwmlglasjxvgx.space^
@@ -83818,6 +83867,7 @@ browsershots.org#@#.advert_area
 ||orqnwehagogn.in^
 ||orquideassp.com^
 ||orrfphxldambu.site^
+||orricescalmy.cfd^
 ||orrxhawuffypn.site^
 ||orsqgxiuhkitm.website^
 ||orthronpageful.qpon^
@@ -84254,6 +84304,7 @@ browsershots.org#@#.advert_area
 ||ozmwpmwfujjmv.site^
 ||ozonemedia.com^
 ||ozoodywxvkwyx.site^
+||ozpcyftgmeetf.website^
 ||ozpflhpfhkvgt.space^
 ||ozpifymthfser.space^
 ||ozpnmwkzyvazx.store^
@@ -84465,6 +84516,7 @@ browsershots.org#@#.advert_area
 ||pardalretierlouther.qpon^
 ||pardnerinlacedcachrys.cyou^
 ||pardonfidleys.qpon^
+||parenenvine.cfd^
 ||parentsjobquote.com^
 ||pargerectory.qpon^
 ||pargingloculi.qpon^
@@ -87068,6 +87120,7 @@ browsershots.org#@#.advert_area
 ||qjuyaxbrnhxgm.online^
 ||qjvubfxbdaxbs.space^
 ||qjvyvtffjirwg.website^
+||qjwmihzmadpsm.space^
 ||qjxotsmkitqdt.site^
 ||qkacjgqdpvilp.website^
 ||qkamvwtwqpxox.space^
@@ -87371,6 +87424,7 @@ browsershots.org#@#.advert_area
 ||qualitymortify.com^
 ||quamashsaltest.cyou^
 ||quanta-wave.com^
+||quantedmesquin.qpon^
 ||quanticcoterie.cyou^
 ||quarlyachan.cyou^
 ||quarreljaggedloathe.com^
@@ -87385,6 +87439,7 @@ browsershots.org#@#.advert_area
 ||quashescardol.cfd^
 ||quasicurrant.com^
 ||quasiph.qpon^
+||quaskydogear.qpon^
 ||quasly.net^
 ||quasor.net^
 ||quatarambonglabella.qpon^
@@ -89143,6 +89198,8 @@ browsershots.org#@#.advert_area
 ||royaltystimulatepen.com^
 ||rozzeroffices.qpon^
 ||rpazdjrpnyycu.online^
+||rpeylufgxcrsq.online^
+||rpfvpudcczcwu.site^
 ||rpgirls.com^
 ||rpgmdabaehxco.online^
 ||rphbklsatxguq.site^
@@ -89451,6 +89508,7 @@ browsershots.org#@#.advert_area
 ||rvericwazosuy.website^
 ||rvetreyu.net^
 ||rvgeptxytttwg.site^
+||rvgnjgwynivil.site^
 ||rvguayebpxpiv.website^
 ||rvguihiplfscu.website^
 ||rvhbufmwvafov.site^
@@ -89471,6 +89529,7 @@ browsershots.org#@#.advert_area
 ||rwbibzahcpiep.site^
 ||rwckymejgcrkd.store^
 ||rwdzotgusgjjk.site^
+||rwemepyfibwvu.space^
 ||rwfcnxvxpxuxf.site^
 ||rwfqrjucxebbo.online^
 ||rwglmbgecjkom.space^
@@ -90933,6 +90992,7 @@ browsershots.org#@#.advert_area
 ||sjxctpzzjoxdw.website^
 ||sjxhfptdoqkvo.site^
 ||skaiqedhgm.com^
+||skairsordini.cyou^
 ||skaldicmismetstrude.cfd^
 ||skaldsgils.com^
 ||skanceharshly.com^
@@ -91079,6 +91139,7 @@ browsershots.org#@#.advert_area
 ||slfhtrkjbsnbh.space^
 ||slfsmf.com^
 ||slfxhhmapzrtu.space^
+||slfyfumksdbar.site^
 ||slgvvqttcjcgp.store^
 ||slhemrnxzsmgg.online^
 ||slhwzjtaxnvay.website^
@@ -93367,6 +93428,7 @@ browsershots.org#@#.advert_area
 ||tgjonodnifuxu.online^
 ||tgldaqlqeltbt.site^
 ||tgmbxplmlsclp.space^
+||tgosjheihxbdm.site^
 ||tgqykrsjo.com^
 ||tgtrjjlpjntes.space^
 ||tguyxzkrxgzqt.online^
@@ -94072,6 +94134,7 @@ browsershots.org#@#.advert_area
 ||toughtgyrator.cfd^
 ||toughtvictor.qpon^
 ||touldjosip.com^
+||tourbebaryerigor.cfd^
 ||tourismwea.shop^
 ||touristbaconwrath.com^
 ||tournamentnoble.com^
@@ -94434,6 +94497,7 @@ browsershots.org#@#.advert_area
 ||trslgffwxnkjq.site^
 ||trtxdgieawlao.space^
 ||truanet.com^
+||trucciqipfz.in^
 ||trucklairage.cfd^
 ||trucklowest.com^
 ||trudgerexcused.com^
@@ -94510,6 +94574,7 @@ browsershots.org#@#.advert_area
 ||tsrhscoypwewv.site^
 ||tsrrygodropvq.space^
 ||tsshern.shop^
+||tstncdlspmvbc.space^
 ||tstwomzhxzkhf.site^
 ||tsuccwavchpvh.website^
 ||tsvnpwfr.com^
@@ -95922,6 +95987,7 @@ browsershots.org#@#.advert_area
 ||uscahcjmcjyuj.space^
 ||uscu-defender.pro^
 ||usdatehub.com^
+||usdktempufdjy.online^
 ||useablyseiner.qpon^
 ||used-association.com^
 ||usedflora.com^
@@ -95931,6 +95997,7 @@ browsershots.org#@#.advert_area
 ||usefullyvirginity.com^
 ||usefulspeak.com^
 ||useholdpalpsnitpick.qpon^
+||useifayrvgwlj.online^
 ||uselessbackstage.com^
 ||uselessfleetingexclude.com^
 ||uselessmigraine.com^
@@ -96823,6 +96890,7 @@ browsershots.org#@#.advert_area
 ||visitweb.com^
 ||vitalbreak.pro^
 ||vitaminendedclearing.com^
+||vitrialennui.cyou^
 ||vitrinamoonieralces.cyou^
 ||vitting.org^
 ||viuniabbfpy.com^
@@ -97415,6 +97483,7 @@ browsershots.org#@#.advert_area
 ||wagaundint.cyou^
 ||wagedomschlep.qpon^
 ||wagejustifieddoze.com^
+||wagenerastiancanters.cfd^
 ||wagepicturesque.com^
 ||wagerjoint.com^
 ||wagershare.com^
@@ -97848,6 +97917,7 @@ browsershots.org#@#.advert_area
 ||wellworn-lead.com^
 ||wellworn-phrase.com^
 ||wemddgeyqungo.website^
+||wemgbfegt.com^
 ||wemtagoowhoohiz.net^
 ||wenazgwspojzi.online^
 ||wendbangystroker.cyou^
@@ -97922,6 +97992,7 @@ browsershots.org#@#.advert_area
 ||wftoukfy.net^
 ||wfuabryu.com^
 ||wfziejxpcywxy.online^
+||wfzpcinaqpg.com^
 ||wg-aff.com^
 ||wgaesioplofoq.site^
 ||wgbdkphdnh.com^
@@ -98372,6 +98443,7 @@ browsershots.org#@#.advert_area
 ||wlvrbtcscckvp.space^
 ||wlwxefpldfxoi.website^
 ||wlxcjkmqc.com^
+||wlyzvscpimkxvl.com^
 ||wlzhmngyhuebs.space^
 ||wlzzwzeyrbbrw.top^
 ||wlzzwzeyrbbyk.top^
@@ -98823,6 +98895,7 @@ browsershots.org#@#.advert_area
 ||wuqxugxuh.in^
 ||wurldcergpkri.site^
 ||wurqaz.com^
+||wurvulned.cyou^
 ||wuscedrktaxsh.online^
 ||wusefjjxcqhwc.site^
 ||wusvbivefsvez.site^
@@ -99602,6 +99675,7 @@ browsershots.org#@#.advert_area
 ||xtlixnkiasbrs.space^
 ||xtmhzidqppsit.online^
 ||xtmwxdibqcgzh.site^
+||xtnfisgljrkrd.online^
 ||xtomralxdgoof.space^
 ||xtoogcyzmwmvf.space^
 ||xtotmkmljtznt.website^
@@ -100374,6 +100448,7 @@ browsershots.org#@#.advert_area
 ||yorztipdkeksq.site^
 ||yoshatia.com^
 ||yosoofpjzhigr.space^
+||youdenparuras.com^
 ||youexpectation.org^
 ||yougetwhatyoupayfor.net^
 ||yougottet.com^
@@ -100493,6 +100568,7 @@ browsershots.org#@#.advert_area
 ||ysaohbqahvvyq.online^
 ||ysarhyrgeanij.site^
 ||ysauimgfmbhg.com^
+||yscorqzbhudtw.space^
 ||yscuspceqmprq.site^
 ||ysdvkaxb.com^
 ||yseemjov.com^
@@ -101308,6 +101384,7 @@ browsershots.org#@#.advert_area
 ||zoysiasgavagewoolie.cyou^
 ||zp0o8pii.xyz^
 ||zpabpuzuktwo.in^
+||zpddpeansivca.space^
 ||zpdsdwcfb.com^
 ||zpejmevtv5hpfpuyw7k86eq3mc6ui2jux97.cfd^
 ||zpfdalzphoumr.online^
@@ -124154,8 +124231,6 @@ youtube.com##+js(brave-video-bg-play)
 www.youtube.com###toast:has(> #text-container > yt-formatted-string#text.yt-notification-action-renderer)
 
 
-www.youtube.com#@#+js(rpnt, script, /(\(function serverContract\(\)|^if \(window\.ytcsi)/, (()=>{if("YOUTUBE_PREMIUM_LOGO"===window.ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType||"YOUTUBE_PREMIUM_LOGO"===document.getElementById("masthead").attributes["logo-type"].value||location.href.startsWith("https://www.youtube.com/tv#/")||location.href.startsWith("https://www.youtube.com/embed/"))return;const e=window.ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent\,t=["channel"\,"lactmilli"\,"instream"\,"yahi"];let r=!1\,o=t;const a=t=>{if(t){let r=e?.match?.(/Mozilla\/5\.0 \([^)]+/)?.[0];window.ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent=r?e.replace?.(r\,r+"; "+t):e}else window.ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent=e}\,n=()=>{let e=document.getElementById("movie_player");return{player:e\,response:e?.getPlayerResponse?.()\,stats:e?.getStatsForNerds?.()\,progress:e?.getProgressState?.()\,buffer:e?.getPlayerStateObject?.()?.isBuffering}}\,s=(e\,t\,r)=>e&&"0.00 s"===t?.buffer_health_seconds&&"0x0"===t?.resolution&&r.length>0\,l=()=>{let{player:e\,response:t\,stats:a\,buffer:l}=n();e&&s(l\,a\,o)&&(t?.playbackTracking?.videostatsPlaybackUrl?.baseUrl?.includes?.("reloadxhr")&&(o=o.slice(1))\,r=!0)};document.addEventListener("DOMContentLoaded"\,(function(){const e=()=>{let e\,l\,{player:i\,response:d\,stats:c\,progress:p\,buffer:y}=n();if(i&&window.location.href.includes("/watch?")){if(p&&p.duration>0&&(p.loaded<p.duration||p.duration-p.current>1)||d?.videoDetails?.isLive){if(!c?.debug_info?.startsWith?.("SSAP\, AD")){const t=new URLSearchParams(window.location.search)\,n=d.videoDetails?.videoId\,u=d.playerConfig?.playbackStartConfig?.startSeconds||parseInt(t.get("t")\,10)||0\,g=d.playabilityStatus?.errorScreen\,w=JSON.stringify(g?.playerErrorMessageRenderer?.subreason?.runs||g?.playerInterstitialRenderer?.content?.interstitialViewModel?.description?.commandRuns);return void("UNPLAYABLE"===d?.playabilityStatus?.status&&!g?.playerErrorMessageRenderer?.playerCaptchaViewModel&&w?.includes?.("WEB_PAGE_TYPE_UNKNOWN")&&w?.includes?.("https://support.google.com/youtube/answer/3037019")?(o=o.slice(1)\,o.length>0?a(o[0]):a("")\,r=!1\,i.loadVideoById(n\,u)):0===o.length?(r=!1\,a("")):s(y\,c\,o)&&r?(a(o[0])\,r=!1\,i.loadVideoById(n\,u)):!r&&p.current-u<5&&location.href.includes("&list=")&&null===i.getPlaylistId?.()&&(e=document.querySelector("yt-playlist-manager")\,l=e?.getPlaylistData?.()\,l&&(e.setPlaylistData?.(l)\,e.setPlayerPlaybackControlData?.({playlistPanelRenderer:l}))))}p.duration>0&&i.seekTo?.(p.duration)}}else o=t};e()\,new MutationObserver((()=>{e()})).observe(document\,{childList:!0\,subtree:!0})}))\,window.Map.prototype.has=new Proxy(window.Map.prototype.has\,{apply:(e\,t\,o)=>("onSnackbarMessage"!==o?.[0]||r||l()\,Reflect.apply(e\,t\,o))})\,window.Array.prototype.push=new Proxy(window.Array.prototype.push\,{apply:(e\,t\,r)=>{let o=r?.[0];return!o||"object"!=typeof o||"Uint8Array"!==o.constructor.name||o.buffer?.byteLength!==o.length||105!==o.length&&104!==o.length||l()\,Reflect.apply(e\,t\,r)}});const i={apply:(e\,t\,r)=>{const o=r[0];return"function"==typeof o&&o.toString().includes("onAbnormalityDetected")&&(r[0]=function(){})\,Reflect.apply(e\,t\,r)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then\,i)})();$1, sedCount, 1, excludes, MutationObserver, condition, /serverContract|js_ld/)
-www.youtube.com##+js(rpnt, script, /(\(function serverContract\(\)|^if \(window\.ytcsi)/, (()=>{if("YOUTUBE_PREMIUM_LOGO"===window.ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType||"YOUTUBE_PREMIUM_LOGO"===document.getElementById("masthead").attributes["logo-type"].value||location.href.startsWith("https://www.youtube.com/tv#/")||location.href.startsWith("https://www.youtube.com/embed/"))return;for(let e of document.querySelectorAll("script"))if(e!==document.currentScript&&e.textContent.includes("MutationObserver"))return;const e=window.ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent\,t=["channel"\,"lactmilli"\,"instream"\,"yahi"];let r=!1\,o=t;const n=t=>{if(t){let r=e?.match?.(/Mozilla\/5\.0 \([^)]+/)?.[0];window.ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent=r?e.replace?.(r\,r+"; "+t):e}else window.ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent=e}\,a=()=>{let e=document.getElementById("movie_player");return{player:e\,response:e?.getPlayerResponse?.()\,stats:e?.getStatsForNerds?.()\,progress:e?.getProgressState?.()\,buffer:e?.getPlayerStateObject?.()?.isBuffering}}\,l=(e\,t\,r)=>e&&"0.00 s"===t?.buffer_health_seconds&&"0x0"===t?.resolution&&r.length>0\,s=()=>{let{player:e\,response:t\,stats:n\,buffer:s}=a();e&&l(s\,n\,o)&&(t?.playbackTracking?.videostatsPlaybackUrl?.baseUrl?.includes?.("reloadxhr")&&(o=o.slice(1))\,r=!0)};document.addEventListener("DOMContentLoaded"\,(function(){const e=()=>{let e\,s\,{player:i\,response:c\,stats:d\,progress:p\,buffer:u}=a();if(i&&window.location.href.includes("/watch?")){if(p&&p.duration>0&&(p.loaded<p.duration||p.duration-p.current>1)||c?.videoDetails?.isLive){if(!d?.debug_info?.startsWith?.("SSAP\, AD")){const t=c.videoDetails?.videoId\,a=c.playerConfig?.playbackStartConfig?.startSeconds??(i.getCurrentTime?.()||parseFloat(new URLSearchParams(location.search).get("t"))||0)\,y=c.playabilityStatus?.errorScreen\,g=JSON.stringify(y?.playerErrorMessageRenderer?.subreason?.runs||y?.playerInterstitialRenderer?.content?.interstitialViewModel?.description?.commandRuns);return void("UNPLAYABLE"===c?.playabilityStatus?.status&&!y?.playerErrorMessageRenderer?.playerCaptchaViewModel&&g?.includes?.("WEB_PAGE_TYPE_UNKNOWN")&&g?.includes?.("https://support.google.com/youtube/answer/3037019")?(o=o.slice(1)\,o.length>0?n(o[0]):n("")\,r=!1\,i.loadVideoById(t\,a)):0===o.length?(r=!1\,n("")):l(u\,d\,o)&&r?(n(o[0])\,r=!1\,i.loadVideoById(t\,a)):!r&&p.current-a<5&&location.href.includes("&list=")&&null===i.getPlaylistId?.()&&(e=document.querySelector("yt-playlist-manager")\,s=e?.getPlaylistData?.()\,s&&(e.setPlaylistData?.(s)\,e.setPlayerPlaybackControlData?.({playlistPanelRenderer:s}))))}p.duration>0&&i.seekTo?.(p.duration)}}else o=t};e()\,new MutationObserver((()=>{e()})).observe(document\,{childList:!0\,subtree:!0})}))\,window.Map.prototype.has=new Proxy(window.Map.prototype.has\,{apply:(e\,t\,o)=>("onSnackbarMessage"!==o?.[0]||r||s()\,Reflect.apply(e\,t\,o))})\,window.Array.prototype.push=new Proxy(window.Array.prototype.push\,{apply:(e\,t\,r)=>{let o=r?.[0];return!o||"object"!=typeof o||"Uint8Array"!==o.constructor.name||o.buffer?.byteLength!==o.length||105!==o.length&&104!==o.length||s()\,Reflect.apply(e\,t\,r)}});const i={apply:(e\,t\,r)=>{const o=r[0];return"function"==typeof o&&o.toString().includes("onAbnormalityDetected")&&(r[0]=function(){})\,Reflect.apply(e\,t\,r)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then\,i)})();$1, sedCount, 1, excludes, MutationObserver, condition, /serverContract|js_ld/)
 
 
 www.google.*#@#+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyNTA2MDQtMF9SQzEaAnJvIAEaBgiAgo7CBg, 1year)
@@ -182621,6 +182696,9 @@ $removeparam=igshid,domain=instagram.com|threads.net
 ||sonar.viously.com^$removeparam=c
 ||sonar.viously.com^$removeparam=r
 @@||web.archive.org/*/http$removeparam
+@@||archive.*/http$removeparam,doc,to=archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.vn
+@@||wayback.archive-it.org/*/http$removeparam
+@@||megalodon.jp/*/http$removeparam
 @@||urldefense.com^$removeparam
 @@||shop.pilotinstitute.com/*^cls=*&cls=$doc,removeparam
 
@@ -192114,6 +192192,7 @@ beitberl.ac.il,shimur.org###MavilixCookiesBox
 ||cdn.privacy-mgmt.com/consent/$domain=support.theguardian.com,important
 metro-cc.hr##.consent-disclaimer
 metro-cc.hr##body:style(overflow: auto !important;)
+||trk.cultura.com/privacy/
 
 
 
@@ -193114,9 +193193,9 @@ redbullracing.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0
 redbullracing.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, , , domain, www.redbullracing.com)
 
 idnes.cz##+js(trusted-click-element, a[href="javascript:Didomi.setUserAgreeToAll();"], , 1000)
-barometern.se,st.nu,20minutes.fr,20minutos.es,24sata.hr,abc.es,actu.fr,androidplanet.nl,antena3.com,antena3internacional.com,atresmedia.com,atresmediapublicidad.com,atresmediastudios.com,atresplayer.com,autopista.es,beleggersbelangen.nl,belfasttelegraph.co.uk,bemad.es,bonduelle.it,bonniernews.se,bt.se,cadenadial.com,caracol.com.co,cas.sk,charentelibre.fr,ciclismoafondo.es,cnews.fr,cope.es,correryfitness.com,courrier-picard.fr,cuatro.com,decathlon.nl,decathlon.pl,diariocordoba.com,diariodenavarra.es,diariovasco.com,diepresse.com,distrifood.nl,divinity.es,dnevnik.hr,dumpert.nl,dvhn.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elcorreo.com,eldesmarque.com,eldiario.es,eldiariomontanes.es,elespanol.com,elle.fr,elpais.com,elperiodico.com,elperiodicodearagon.com,elplural.com,energytv.es,engadget.com,es.ara.cat,euronews.com,europafm.com,expressen.se,factoriadeficcion.com,filmstarts.de,flooxernow.com,folkbladet.nu,footmercato.net,france24.com,francetvinfo.fr,ghacks.net,gooieneemlander.nl,gva.be,haarlemsdagblad.nl,hbvl.be,heraldo.es,hoy.es,ideal.es,idealista.pt,krone.at,kurier.at,lacoste.com,ladepeche.fr,lalibre.be,lanouvellerepublique.fr,larazon.es,lasexta.com,lasprovincias.es,latribune.fr,lavanguardia.com,laverdad.es,lavoixdunord.fr,lavozdegalicia.es,lc.nl,leboncoin.fr,lecturas.com,ledauphine.com,leidschdagblad.nl,lejdd.fr,lejsl.com,leparisien.fr,lesoir.be,letelegramme.fr,lexpress.fr,libremercado.com,limburger.nl,localeyes.dk,los40.com,lotoquebec.com,lunion.fr,marianne.cz,marmiton.org,mediaset.es,melodia-fm.com,metronieuws.nl,moviepilot.de,mtmad.es,multilife.com.pl,mundodeportivo.com,nationalgeographic.com.es,nicematin.com,nieuwsblad.be,noordhollandsdagblad.nl,notretemps.com,numerama.com,ondacero.es,podiumpodcast.com,portail.lotoquebec.com,profil.at,public.fr,publico.es,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,science-et-vie.com,sensacine.com,sfgame.net,shure.com,silicon.es,sncf-connect.com,sport.es,standaard.be,techcrunch.com,telegraaf.nl,telequebec.tv,tijd.be,tradingsat.com,trailrun.es,video-streaming.orange.fr###didomi-host:style(visibility: hidden !important;)
-barometern.se,st.nu,20minutes.fr,20minutos.es,24sata.hr,abc.es,actu.fr,androidplanet.nl,antena3.com,antena3internacional.com,atresmedia.com,atresmediapublicidad.com,atresmediastudios.com,atresplayer.com,autopista.es,beleggersbelangen.nl,belfasttelegraph.co.uk,bemad.es,bonduelle.it,bonniernews.se,bt.se,cadenadial.com,caracol.com.co,cas.sk,challenges.fr,charentelibre.fr,ciclismoafondo.es,cnews.fr,cope.es,correryfitness.com,courrier-picard.fr,cuatro.com,decathlon.nl,decathlon.pl,di.se,diariocordoba.com,diariodenavarra.es,diariosur.es,diariovasco.com,diepresse.com,distrifood.nl,divinity.es,dn.se,dnevnik.hr,dumpert.nl,dvhn.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elcorreo.com,eldesmarque.com,eldiario.es,eldiariomontanes.es,elespanol.com,elle.fr,elpais.com,elperiodico.com,elperiodicodearagon.com,elplural.com,energytv.es,engadget.com,es.ara.cat,euronews.com,europafm.com,expressen.se,factoriadeficcion.com,filmstarts.de,flooxernow.com,folkbladet.nu,footmercato.net,france.tv,france24.com,fussballtransfers.com,ghacks.net,gooieneemlander.nl,gva.be,haarlemsdagblad.nl,hbvl.be,heraldo.es,hoy.es,ideal.es,idealista.pt,krone.at,kurier.at,lacoste.com,ladepeche.fr,lalibre.be,lanouvellerepublique.fr,larazon.es,lasexta.com,lasprovincias.es,latribune.fr,lavanguardia.com,laverdad.es,lavozdegalicia.es,lc.nl,leboncoin.fr,lecturas.com,ledauphine.com,leidschdagblad.nl,lejdd.fr,lejsl.com,leparisien.fr,lesoir.be,letelegramme.fr,libremercado.com,limburger.nl,localeyes.dk,los40.com,lotoquebec.com,lunion.fr,m6.fr,marianne.cz,marmiton.org,mediaset.es,melodia-fm.com,metronieuws.nl,moviepilot.de,mtmad.es,multilife.com.pl,mundodeportivo.com,naszemiasto.pl,nationalgeographic.com.es,nicematin.com,nieuwsblad.be,noordhollandsdagblad.nl,notretemps.com,numerama.com,okdiario.com,ondacero.es,podiumpodcast.com,portail.lotoquebec.com,profil.at,public.fr,publico.es,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,science-et-vie.com,sensacine.com,sfgame.net,shure.com,silicon.es,sncf-connect.com,sport.es,standaard.be,sydsvenskan.se,techcrunch.com,telegraaf.nl,telequebec.tv,tf1.fr,tijd.be,tradingsat.com,trailrun.es,video-streaming.orange.fr,xpress.fr##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
-barometern.se,st.nu,20minutes.fr,20minutos.es,24sata.hr,abc.es,actu.fr,androidplanet.nl,antena3.com,antena3internacional.com,atresmedia.com,atresmediapublicidad.com,atresmediastudios.com,atresplayer.com,autopista.es,beleggersbelangen.nl,belfasttelegraph.co.uk,bemad.es,bonduelle.it,bonniernews.se,bt.se,cadenadial.com,caracol.com.co,cas.sk,charentelibre.fr,ciclismoafondo.es,cnews.fr,cope.es,correryfitness.com,courrier-picard.fr,cuatro.com,decathlon.nl,decathlon.pl,diariocordoba.com,diariodenavarra.es,diariosur.es,diariovasco.com,diepresse.com,distrifood.nl,divinity.es,dnevnik.hr,dumpert.nl,dvhn.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elcorreo.com,eldesmarque.com,eldiario.es,eldiariomontanes.es,elespanol.com,elle.fr,elpais.com,elperiodico.com,elperiodicodearagon.com,elplural.com,energytv.es,engadget.com,es.ara.cat,euronews.com,europafm.com,expressen.se,factoriadeficcion.com,filmstarts.de,flooxernow.com,folkbladet.nu,footmercato.net,france24.com,francetvinfo.fr,ghacks.net,gooieneemlander.nl,gva.be,haarlemsdagblad.nl,hbvl.be,heraldo.es,hoy.es,ideal.es,idealista.pt,krone.at,kurier.at,lacoste.com,ladepeche.fr,lalibre.be,lanouvellerepublique.fr,larazon.es,lasexta.com,lasprovincias.es,latribune.fr,lavanguardia.com,laverdad.es,lavoixdunord.fr,lavozdegalicia.es,lc.nl,leboncoin.fr,lecturas.com,ledauphine.com,leidschdagblad.nl,lejdd.fr,lejsl.com,leparisien.fr,lesoir.be,letelegramme.fr,lexpress.fr,libremercado.com,limburger.nl,localeyes.dk,los40.com,lotoquebec.com,lunion.fr,marianne.cz,marmiton.org,mediaset.es,melodia-fm.com,metronieuws.nl,moviepilot.de,mtmad.es,multilife.com.pl,mundodeportivo.com,nationalgeographic.com.es,nicematin.com,nieuwsblad.be,noordhollandsdagblad.nl,notretemps.com,numerama.com,ondacero.es,podiumpodcast.com,portail.lotoquebec.com,profil.at,public.fr,publico.es,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,science-et-vie.com,sensacine.com,sfgame.net,shure.com,silicon.es,sncf-connect.com,sport.es,standaard.be,techcrunch.com,telegraaf.nl,telequebec.tv,tijd.be,tradingsat.com,trailrun.es,video-streaming.orange.fr##body.didomi-popup-open:style(overflow: auto !important;)
+ibellud.com,barometern.se,st.nu,20minutes.fr,20minutos.es,24sata.hr,abc.es,actu.fr,androidplanet.nl,antena3.com,antena3internacional.com,atresmedia.com,atresmediapublicidad.com,atresmediastudios.com,atresplayer.com,autopista.es,beleggersbelangen.nl,belfasttelegraph.co.uk,bemad.es,bonduelle.it,bonniernews.se,bt.se,cadenadial.com,caracol.com.co,cas.sk,charentelibre.fr,ciclismoafondo.es,cnews.fr,cope.es,correryfitness.com,courrier-picard.fr,cuatro.com,decathlon.nl,decathlon.pl,diariocordoba.com,diariodenavarra.es,diariovasco.com,diepresse.com,distrifood.nl,divinity.es,dnevnik.hr,dumpert.nl,dvhn.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elcorreo.com,eldesmarque.com,eldiario.es,eldiariomontanes.es,elespanol.com,elle.fr,elpais.com,elperiodico.com,elperiodicodearagon.com,elplural.com,energytv.es,engadget.com,es.ara.cat,euronews.com,europafm.com,expressen.se,factoriadeficcion.com,filmstarts.de,flooxernow.com,folkbladet.nu,footmercato.net,france24.com,francetvinfo.fr,ghacks.net,gooieneemlander.nl,gva.be,haarlemsdagblad.nl,hbvl.be,heraldo.es,hoy.es,ideal.es,idealista.pt,krone.at,kurier.at,lacoste.com,ladepeche.fr,lalibre.be,lanouvellerepublique.fr,larazon.es,lasexta.com,lasprovincias.es,latribune.fr,lavanguardia.com,laverdad.es,lavoixdunord.fr,lavozdegalicia.es,lc.nl,leboncoin.fr,lecturas.com,ledauphine.com,leidschdagblad.nl,lejdd.fr,lejsl.com,leparisien.fr,lesoir.be,letelegramme.fr,lexpress.fr,libremercado.com,limburger.nl,localeyes.dk,los40.com,lotoquebec.com,lunion.fr,marianne.cz,marmiton.org,mediaset.es,melodia-fm.com,metronieuws.nl,moviepilot.de,mtmad.es,multilife.com.pl,mundodeportivo.com,nationalgeographic.com.es,nicematin.com,nieuwsblad.be,noordhollandsdagblad.nl,notretemps.com,numerama.com,ondacero.es,podiumpodcast.com,portail.lotoquebec.com,profil.at,public.fr,publico.es,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,science-et-vie.com,sensacine.com,sfgame.net,shure.com,silicon.es,sncf-connect.com,sport.es,standaard.be,techcrunch.com,telegraaf.nl,telequebec.tv,tijd.be,tradingsat.com,trailrun.es,video-streaming.orange.fr###didomi-host:style(visibility: hidden !important;)
+ibellud.com,barometern.se,st.nu,20minutes.fr,20minutos.es,24sata.hr,abc.es,actu.fr,androidplanet.nl,antena3.com,antena3internacional.com,atresmedia.com,atresmediapublicidad.com,atresmediastudios.com,atresplayer.com,autopista.es,beleggersbelangen.nl,belfasttelegraph.co.uk,bemad.es,bonduelle.it,bonniernews.se,bt.se,cadenadial.com,caracol.com.co,cas.sk,challenges.fr,charentelibre.fr,ciclismoafondo.es,cnews.fr,cope.es,correryfitness.com,courrier-picard.fr,cuatro.com,decathlon.nl,decathlon.pl,di.se,diariocordoba.com,diariodenavarra.es,diariosur.es,diariovasco.com,diepresse.com,distrifood.nl,divinity.es,dn.se,dnevnik.hr,dumpert.nl,dvhn.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elcorreo.com,eldesmarque.com,eldiario.es,eldiariomontanes.es,elespanol.com,elle.fr,elpais.com,elperiodico.com,elperiodicodearagon.com,elplural.com,energytv.es,engadget.com,es.ara.cat,euronews.com,europafm.com,expressen.se,factoriadeficcion.com,filmstarts.de,flooxernow.com,folkbladet.nu,footmercato.net,france.tv,france24.com,fussballtransfers.com,ghacks.net,gooieneemlander.nl,gva.be,haarlemsdagblad.nl,hbvl.be,heraldo.es,hoy.es,ideal.es,idealista.pt,krone.at,kurier.at,lacoste.com,ladepeche.fr,lalibre.be,lanouvellerepublique.fr,larazon.es,lasexta.com,lasprovincias.es,latribune.fr,lavanguardia.com,laverdad.es,lavozdegalicia.es,lc.nl,leboncoin.fr,lecturas.com,ledauphine.com,leidschdagblad.nl,lejdd.fr,lejsl.com,leparisien.fr,lesoir.be,letelegramme.fr,libremercado.com,limburger.nl,localeyes.dk,los40.com,lotoquebec.com,lunion.fr,m6.fr,marianne.cz,marmiton.org,mediaset.es,melodia-fm.com,metronieuws.nl,moviepilot.de,mtmad.es,multilife.com.pl,mundodeportivo.com,naszemiasto.pl,nationalgeographic.com.es,nicematin.com,nieuwsblad.be,noordhollandsdagblad.nl,notretemps.com,numerama.com,okdiario.com,ondacero.es,podiumpodcast.com,portail.lotoquebec.com,profil.at,public.fr,publico.es,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,science-et-vie.com,sensacine.com,sfgame.net,shure.com,silicon.es,sncf-connect.com,sport.es,standaard.be,sydsvenskan.se,techcrunch.com,telegraaf.nl,telequebec.tv,tf1.fr,tijd.be,tradingsat.com,trailrun.es,video-streaming.orange.fr,xpress.fr##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
+ibellud.com,barometern.se,st.nu,20minutes.fr,20minutos.es,24sata.hr,abc.es,actu.fr,androidplanet.nl,antena3.com,antena3internacional.com,atresmedia.com,atresmediapublicidad.com,atresmediastudios.com,atresplayer.com,autopista.es,beleggersbelangen.nl,belfasttelegraph.co.uk,bemad.es,bonduelle.it,bonniernews.se,bt.se,cadenadial.com,caracol.com.co,cas.sk,charentelibre.fr,ciclismoafondo.es,cnews.fr,cope.es,correryfitness.com,courrier-picard.fr,cuatro.com,decathlon.nl,decathlon.pl,diariocordoba.com,diariodenavarra.es,diariosur.es,diariovasco.com,diepresse.com,distrifood.nl,divinity.es,dnevnik.hr,dumpert.nl,dvhn.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elcorreo.com,eldesmarque.com,eldiario.es,eldiariomontanes.es,elespanol.com,elle.fr,elpais.com,elperiodico.com,elperiodicodearagon.com,elplural.com,energytv.es,engadget.com,es.ara.cat,euronews.com,europafm.com,expressen.se,factoriadeficcion.com,filmstarts.de,flooxernow.com,folkbladet.nu,footmercato.net,france24.com,francetvinfo.fr,ghacks.net,gooieneemlander.nl,gva.be,haarlemsdagblad.nl,hbvl.be,heraldo.es,hoy.es,ideal.es,idealista.pt,krone.at,kurier.at,lacoste.com,ladepeche.fr,lalibre.be,lanouvellerepublique.fr,larazon.es,lasexta.com,lasprovincias.es,latribune.fr,lavanguardia.com,laverdad.es,lavoixdunord.fr,lavozdegalicia.es,lc.nl,leboncoin.fr,lecturas.com,ledauphine.com,leidschdagblad.nl,lejdd.fr,lejsl.com,leparisien.fr,lesoir.be,letelegramme.fr,lexpress.fr,libremercado.com,limburger.nl,localeyes.dk,los40.com,lotoquebec.com,lunion.fr,marianne.cz,marmiton.org,mediaset.es,melodia-fm.com,metronieuws.nl,moviepilot.de,mtmad.es,multilife.com.pl,mundodeportivo.com,nationalgeographic.com.es,nicematin.com,nieuwsblad.be,noordhollandsdagblad.nl,notretemps.com,numerama.com,ondacero.es,podiumpodcast.com,portail.lotoquebec.com,profil.at,public.fr,publico.es,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,science-et-vie.com,sensacine.com,sfgame.net,shure.com,silicon.es,sncf-connect.com,sport.es,standaard.be,techcrunch.com,telegraaf.nl,telequebec.tv,tijd.be,tradingsat.com,trailrun.es,video-streaming.orange.fr##body.didomi-popup-open:style(overflow: auto !important;)
 @@||sdk.privacy-center.org^$script,domain=actu.fr|elpais.com|franceinfo.fr|informacion.es|laprovincia.es|ledauphine.com|diariosur.es
 laprovincia.es,informacion.es,tportal.hr,ivoox.com,as.com,slam.nl,rmcbfmplay.com,bienpublic.com,funradio.fr,gamepro.de,lemon.fr,elmundo.es,lexpress.fr,shadow.tech,letemps.ch,mein-mmo.de,heureka.sk,film.at,dhnet.be,lesechos.fr,programme-television.org,boursorama.com,marianne.net,ouest-france.fr,jeanmarcmorandini.com,publicsenat.fr,dna.fr,bfmtv.com,sudinfo.be,europe1.fr,rtl.be,reviewingthebrew.com,jaysjournal.com,reignoftroy.com##+js(trusted-click-element, #didomi-notice-agree-button)
 elpais.com##+js(trusted-click-element, #pmConsentWall .pmConsentWall-button:not([href]), '', 1000, reloadAfterClick:200)
