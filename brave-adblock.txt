@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Brave Shields Adblock filters
-! Version: 20261017021043
-! Last modified: 17 Oct 2026 02:10:43 UTC+7
+! Version: 20261017052306
+! Last modified: 17 Oct 2026 05:23:06 UTC+7
 ! Expires: 12 hours (update frequency)
 ! Description: Compiled from the 31 default filters of Brave Shields.
 ! GitHub: https://github.com/bibicadotnet/ublock-filters
@@ -17179,6 +17179,8 @@ wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblo
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl##body:style(overflow: auto !important;)
 ||v.wpimg.pl/*.html$frame
 @@||kobieta.wp.pl^$ehide,badfilter
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wp.pl|money.pl|parenting.pl|abczdrowie.pl|autocentrum.pl|dobreprogramy.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=wp.pl|money.pl|parenting.pl|abczdrowie.pl|autocentrum.pl|dobreprogramy.pl
 pudelek.pl#@#style + div[class]
 wp.pl#@#[class^="css-"]
 wp.pl,money.pl,komorkomania.pl,autokult.pl,o2.pl,parenting.pl,abczdrowie.pl,pudelek.pl#@#body [class]:style(filter: none !important)
@@ -17198,9 +17200,8 @@ sportowefakty.wp.pl#@#+js(set, Object.prototype.loadBunch, noopFunc)
 sportowefakty.wp.pl#@#+js(aopr, Object.prototype.bodyCode)
 abczdrowie.pl#@#.article__textbox
 abczdrowie.pl#@#[class^="content-aside__"], div[class^="article "], div[class^="article__textbox "]
-pogoda.wp.pl#@#.desktop > div[class*=" "]:has(div)
-money.pl#@#div:has(> [src^="https://v.wpimg.pl/"]:not([alt], [loading]))
 ~wideo.wp.pl,~www.wp.pl,wp.pl#@#A[href*=".wp.pl/"] > DIV > IMG[class][src^="https://v.wpimg.pl/"]
+tv.wp.pl#@#div[height="auto"]:upward(1)
 ~przegladsportowy.pl,~fakt.pl,~forbes.pl,~auto-swiat.pl,~noizz.pl,~plejada.pl,~businessinsider.com.pl,~komputerswiat.pl,~onet.pl,pl#@#[id^="crt-"]
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,deliciousmagazine.pl,forum.kardiolo.pl##body > div[class]:has(> div:first-child:empty + div:last-child > svg[width="95"][height="95"]:only-child > path)
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,open.fm,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl##div[style="position: relative; top: 0px;"]:has(> a[target="_blank"])
@@ -17268,12 +17269,15 @@ wiadomosci.wp.pl,sportowefakty.wp.pl,pudelek.pl,abczdrowie.pl,kafeteria.pl##div[
 jastrzabpost.pl##div:only-child:has(> div:first-child > div:first-child > a:only-child > img):has(> div:first-child > div:first-child + div:last-child:empty)
 wp.pl,pudelek.pl,benchmark.pl##div[class]:has(> div:first-child > a[class]:only-child > img[src^="https://v.wpimg.pl/"]:only-child):has(> div:first-child + div:last-child:empty)
 kobietyhistorii.pl,przezwieki.pl###bottom-sticky-container > #stickyEl
-~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
-~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl##[class]:has(> [class]:only-child > img[role="presentation"].absolute:first-child + div):has(> [class] > .h-0:empty + script:last-child)
+~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> img[role="presentation"].absolute:first-child + div):has(> .h-0:empty + script:last-child)
+~www.wp.pl,wp.pl,pudelek.pl,kobietyhistorii.pl,przezwieki.pl,kobietypro.pl##[class]:has(> [class]:only-child > img[role="presentation"].absolute:first-child + div):has(> [class] > .h-0:empty + script:last-child)
 pudelek.pl##.gallery-body-grid > aside[role="complementary"]:has(> .w-full > div > .h-0:empty)
 pudelek.pl##.wp-stream-box:has(> div > .h-0:empty)
 wp.pl,~www.wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,polygamia.pl,abczdrowie.pl,benchmark.pl,kafeteria.pl,pysznosci.pl,dobreprogramy.pl,genialne.pl,autocentrum.pl,jastrzabpost.pl,kobietypro.pl##.wp-cockroach-teaser:has(> .size-full > [data-position] > a[data-before="REKLAMA"])
 przezwieki.pl##.wp-main-home > a:first-child[target="_blank"][rel="noopener noreferrer"]:has(> picture > img.wp-media-image)
+prod-tv.wp.pl,tv.wp.pl##div:has(> div:first-child > div:first-child > div:first-child > div:first-child + div:last-child > span > span:only-child:has-text(/^REKLAMA$/))
+prod-tv.wp.pl,tv.wp.pl##div[height="auto"]:has(> div:only-child > div:first-child > script:only-child):has(> div:first-child > div:first-child + div:last-child)
+prod-tv.wp.pl,tv.wp.pl##+js(set-local-storage-item, WPadbd, $remove$)
 wp.pl#@#div:matches-css-after(content:/R.*E.*K.*L.*A.*M.*A/):upward(1)
 wp.pl,money.pl##div:has(> a:first-child:has(> div:empty:only-child) + div:empty:last-child):remove()
 wp.pl##div:has(> div:first-child:has(> div:only-child > a > div:empty:only-child) + div:last-child:empty)
@@ -17284,7 +17288,6 @@ wp.pl,o2.pl,benchmark.pl,autokult.pl,pudelek.pl,money.pl##.wp-comments-adv-wrapp
 kurierostrowiecki.pl,ostrowiec24.info,panoramaplock.pl,7dni.pila.pl###bottom-sticky-ads-container
 gamingmode.pl,kociakolyska.pl,metropoliatorunska.pl,spotbox.pl,terazwloclawek.pl,xcook.pl,przezwieki.pl,kobietyhistorii.pl##div[class]:has(> div > a + a[href^="https://adinfo.wp.pl/"])
 @@||googletagmanager.com/gtm.js$script,domain=abczdrowie.pl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dobreprogramy.pl
 ||ssp.wp.pl^
 tv.wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 tv.wp.pl#@#html, html > body:style(overflow: auto !important;)
@@ -17300,7 +17303,6 @@ wirtualnemedia.pl##.wm-categoryteasersection-ad-large
 wirtualnemedia.pl##.wp-screening-placeholder-container
 wirtualnemedia.pl##body div[class]:not([id]):has(> img[src="/staticfiles/wm-placeholder.png"])
 wirtualnemedia.pl##.py-12:not([data-testid="screening-main"]):has(img[src="/staticfiles/wm-placeholder.png"])
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dobreprogramy.pl,redirect=noopjs
 dobreprogramy.pl##+js(trusted-edit-inbound-object, Object.keys, 0, [?.context.bidRequestId].*)
 dobreprogramy.pl##+js(trusted-replace-argument, RegExp.prototype.test, 0, json:"wirtualnemedia", condition, /^dobreprogramy$/)
 dobreprogramy.pl##div[class*=" "]:not([class*="-"], [id]):has(> img[src^="https://v.wpimg.pl/"])
@@ -38119,7 +38121,7 @@ neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 @@||go.ezodn.com^$css,image,3p,domain=neurotray.com
 @@||go.ezodn.com/tardisrocinante/$script,3p,domain=neurotray.com
 
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=abczdrowie.pl|animezone.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|money.pl|national-geographic.pl|parenting.pl|partner.redefine.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wp.pl|wtk.pl|interia.pl|www.polsatnews.pl|autocentrum.pl|~wiadomosci.wp.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=animezone.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|national-geographic.pl|partner.redefine.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wtk.pl|interia.pl|www.polsatnews.pl
 
 virginmediatelevision.ie##+js(set, google.ima.dai, {})
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=virginmediatelevision.ie
@@ -56751,6 +56753,7 @@ browsershots.org#@#.advert_area
 ||1pqfa71mc.de^
 ||1push.io^
 ||1q86qcyjnhtwvq866p583b2n22ql1x.cfd^
+||1qggpwzly2i55519nnb1b9r.cfd^
 ||1qgxtxd2n.com^
 ||1r3vwgu3wofhymygetop97rf.rest^
 ||1r4g65b63.de^
@@ -58075,6 +58078,7 @@ browsershots.org#@#.advert_area
 ||abscissirbis.qpon^
 ||abscisssashaysoculina.cfd^
 ||abscloud.org^
+||abseilick.com^
 ||absentlylaserlardy.com^
 ||absentwhimdesired.com^
 ||absffwsnfqxjk.site^
@@ -60740,6 +60744,7 @@ browsershots.org#@#.advert_area
 ||aybocrepirfch.space^
 ||ayctbhlndyarx.space^
 ||ayghoddmrzret.space^
+||ayhfjurkrfdcr.online^
 ||ayhleywwvdply.space^
 ||ayhnnonnjqgkb.space^
 ||ayhnnqidbjxep.online^
@@ -61167,6 +61172,7 @@ browsershots.org#@#.advert_area
 ||bawixi.xyz^
 ||bawosdwu.com^
 ||bawqpynu.com^
+||bawrelcuttail.com^
 ||bawtielucidly.qpon^
 ||baxtoneloppet.cfd^
 ||baysbunkie.cyou^
@@ -62396,6 +62402,7 @@ browsershots.org#@#.advert_area
 ||bothairport.com^
 ||bothererune.com^
 ||bothnicfarofftahami.cfd^
+||bothnichardtop.cfd^
 ||bothstill.com^
 ||botkdllphxivv.space^
 ||botoneeexaminemourned.cyou^
@@ -63716,6 +63723,7 @@ browsershots.org#@#.advert_area
 ||cdrhialzwntyu.store^
 ||cdrsways.cfd^
 ||cdrvrs.com^
+||cdsbemoxacfuk.site^
 ||cdsbnrs.com^
 ||cdtbox.rocks^
 ||cdvscuvnxnlqx.website^
@@ -64718,6 +64726,7 @@ browsershots.org#@#.advert_area
 ||coinad.media^
 ||coinadster.com^
 ||coinagedraftee.com^
+||coinavtxfsbin.site^
 ||coinersdisring.shop^
 ||coinunspedkartel.cyou^
 ||cokedalk.com^
@@ -66081,6 +66090,7 @@ browsershots.org#@#.advert_area
 ||dahomancalx.cyou^
 ||dahracppb.com^
 ||daicoaky.net^
+||daidledtwibill.cfd^
 ||daidledwrothestonily.cfd^
 ||daikonpiety.qpon^
 ||dailieswelshesbeent.cyou^
@@ -66229,6 +66239,7 @@ browsershots.org#@#.advert_area
 ||dativesyapon.qpon^
 ||datumdionaea.cfd^
 ||daturasthurgi.cfd^
+||daturicrosoli.cfd^
 ||daubeswhereerregatta.cfd^
 ||daubingcyan.qpon^
 ||daubwhereupon.com^
@@ -66573,6 +66584,7 @@ browsershots.org#@#.advert_area
 ||delusionalrevolt.com^
 ||delutza.com^
 ||delvefencescrewdriver.com^
+||demainayieldhiking.qpon^
 ||demand.supply^$script
 ||demandedrucksackprivate.com^
 ||demanding-flight.com^
@@ -67406,6 +67418,7 @@ browsershots.org#@#.advert_area
 ||domslc.com^
 ||domzpbsymwbtf.online^
 ||donagggfdfgzd.space^
+||donalhumpier.cfd^
 ||donalpapmeat.com^
 ||donaterefuel.com^
 ||donecalory.qpon^
@@ -67564,6 +67577,7 @@ browsershots.org#@#.advert_area
 ||dqnkporjwiwrr.space^
 ||dqourjlvhmduo.space^
 ||dqqlkywzqpvoz.store^
+||dqqmfckpmfvkk.space^
 ||dqtdcafksbnzb.website^
 ||dqusiseemfefw.online^
 ||dqwnpdlgzpjni.space^
@@ -68242,6 +68256,7 @@ browsershots.org#@#.advert_area
 ||dwarfershrendchamped.qpon^
 ||dwarfsbufagin.qpon^
 ||dwarfscriptsfurnished.com^
+||dwaunfajuxghn.online^
 ||dwbhepiqyzihi.space^
 ||dwdy7xir.xyz^
 ||dwetwdstom1020.com^
@@ -68565,6 +68580,7 @@ browsershots.org#@#.advert_area
 ||echoicalfaje.cfd^
 ||echoicoutgnaw.qpon^
 ||echoistrajahplanish.cfd^
+||ecibozbmucror.space^
 ||ecidjfjtiyxmg.website^
 ||ecjhgxpqqpuzu.website^
 ||ecjrzisfqedcu.space^
@@ -71788,6 +71804,7 @@ browsershots.org#@#.advert_area
 ||fzibfuaw.in^
 ||fzioggf.com^
 ||fzjzttppcyaij.space^
+||fzkyvdqnttdqg.website^
 ||fzlpixsrxtixp.site^
 ||fzltkaptycrlv.website^
 ||fznonartdndab.site^
@@ -72904,6 +72921,7 @@ browsershots.org#@#.advert_area
 ||gpegidmhiofd.in^
 ||gpfihqkvbcifz.space^
 ||gpfrmhkgcruue.online^
+||gpgglpnhyzaot.site^
 ||gphljspaprvsl.online^
 ||gphnmtjcyivjc.site^
 ||gpiebbxurugod.online^
@@ -73348,6 +73366,7 @@ browsershots.org#@#.advert_area
 ||gvhraetkfdf.com^
 ||gvhyaeykmubxs.space^
 ||gvintwtnastmd.space^
+||gvixyvsnwozsr.online^
 ||gvjhwvhmvidfh.website^
 ||gvmwjancrvduk.site^
 ||gvokwoqawlwym.space^
@@ -73427,6 +73446,7 @@ browsershots.org#@#.advert_area
 ||gybmppuezjtqe.space^
 ||gycqxkwnheidq.space^
 ||gycrrespjfqwk.store^
+||gydxiiazuevrd.online^
 ||gyfgwpqnkitsd.website^
 ||gygkxnbxdigylb.com^
 ||gygplfimptkaj.website^
@@ -75246,6 +75266,7 @@ browsershots.org#@#.advert_area
 ||idnzhexoymrlc.space^
 ||idoldhjhxbjis.site^
 ||idolinflectiongentlemen.com^
+||idolisearamid.qpon^
 ||idolized-share.pro^
 ||idorgangullies.cfd^
 ||idpgakrenkmki.store^
@@ -76140,6 +76161,7 @@ browsershots.org#@#.advert_area
 ||ipncbqbnuwtol.site^
 ||ipnrcyyftxerbx.com^
 ||ipo9ltx9l1ypyr2imqm9onrbhgw.rest^
+||ipomeatiptop.qpon^
 ||iporallfnlarv.website^
 ||ipouucslkqmra.site^
 ||ipredictive.com^
@@ -76840,6 +76862,7 @@ browsershots.org#@#.advert_area
 ||jeuxfeu.qpon^
 ||jevybnmrhousp.site^
 ||jewacgufesztu.space^
+||jewbirdcaninal.cyou^
 ||jewbirdcombite.shop^
 ||jewellerybroadlyisabella.com^
 ||jewelryidyllsgarbles.cyou^
@@ -77096,6 +77119,7 @@ browsershots.org#@#.advert_area
 ||jlmgzsrxtmuce.online^
 ||jlmzyefsoheod.online^
 ||jlnyjmnwobsck.website^
+||jlonnleolrdnb.site^
 ||jlonte.xyz^
 ||jloymapbukmdc.space^
 ||jlpbymrzollix.space^
@@ -77437,6 +77461,7 @@ browsershots.org#@#.advert_area
 ||jsztngyfycmtm.website^
 ||jszwcvutrlpcr.site^
 ||jtarfendijmmo.online^
+||jtbwncoobdwdy.space^
 ||jtdkmjuiogidh.site^
 ||jtemxykefwgmw.online^
 ||jtexktcmlh.com^
@@ -77483,6 +77508,7 @@ browsershots.org#@#.advert_area
 ||juggingfeinter.qpon^
 ||jugglingoverfedparalyze.com^
 ||jugloubhtiluv.website^
+||jugpcucieexed.site^
 ||jugularesell.com^
 ||jugurslrrneem.space^
 ||juhwscwhvxmhs.site^
@@ -78566,6 +78592,7 @@ browsershots.org#@#.advert_area
 ||kpwvntvpoksyw.website^
 ||kpzfnvlpfnugl.site^
 ||kq4uzt8nx9ewll6olc9q6yp.rest^
+||kq9or5blq92zq1.rest^
 ||kqauptdrdiyyp.space^
 ||kqawipdwetqqd.space^
 ||kqbdwsglqapzu.com^
@@ -80888,6 +80915,7 @@ browsershots.org#@#.advert_area
 ||martletcobbles.cfd^
 ||martpleadescended.com^
 ||martted.com^
+||martyrspitifulnatick.qpon^
 ||marvywaled.qpon^
 ||marysbrickly.cfd^
 ||marzaent.com^
@@ -82161,6 +82189,7 @@ browsershots.org#@#.advert_area
 ||mrtnsvr.com^
 ||mrufifvitzuf.in^
 ||mrvoudqrmyuzh.online^
+||mrxpzuoogsndl.space^
 ||mrycibqutoz.com^
 ||mrzncayrlbjop.website^
 ||mrztdovmzrkdp.space^
@@ -82449,6 +82478,7 @@ browsershots.org#@#.advert_area
 ||mxdchoose.qpon^
 ||mxehpzensjvcd.website^
 ||mxfglajkqrwsv.online^
+||mxfqemzyjkwz.com^
 ||mxfuwvrxudpkr.website^
 ||mxgeppnjtbyig.site^
 ||mxgjuoycnxfgn.website^
@@ -82691,6 +82721,7 @@ browsershots.org#@#.advert_area
 ||nanbmxkvqrmjm.online^
 ||nandinslends.cyou^
 ||nanesbewail.com^
+||nangasynaxis.cyou^
 ||nangkaegma.shop^
 ||nannyirrationalacquainted.com^
 ||naocpuzajwlgt.space^
@@ -83770,6 +83801,7 @@ browsershots.org#@#.advert_area
 ||nuggetyloggia.qpon^
 ||nughaitsoudri.xyz^
 ||nui.media^
+||nuipkxzeuebdc.space^
 ||nuisancesequence.com^
 ||nuisomesofane.cfd^
 ||nulb6z6ph5qlyqpizjh5yjuz.rest^
@@ -83951,6 +83983,7 @@ browsershots.org#@#.advert_area
 ||nylastmangy.com^
 ||nylftbtumucee.website^
 ||nylgisxwvgxdp.site^
+||nylokwmbmcngs.space^
 ||nymllqnuvxbsz.online^
 ||nymphadustbox.qpon^
 ||nymphetcongeed.cyou^
@@ -84285,6 +84318,7 @@ browsershots.org#@#.advert_area
 ||oelctjbbdajev.site^
 ||oelhofejacqod.website^
 ||oellwlqdb.com^
+||oelnecwuxszrf.website^
 ||oempafnyfiexpe.com^
 ||oepdduabkjtda.site^
 ||oepkdmcujxace.space^
@@ -84444,6 +84478,7 @@ browsershots.org#@#.advert_area
 ||oheplxkctxtdw.online^
 ||oheyffpqepntj.store^
 ||ohffs.com^
+||ohfhskertddbm.space^
 ||ohfuuzzotyffr.online^
 ||ohgbefqegvejj.store^
 ||ohgdobrsxkwcj.site^
@@ -86223,6 +86258,7 @@ browsershots.org#@#.advert_area
 ||pfedhnufaills.site^
 ||pffmpgvrc.com^
 ||pffueglkyydya.online^
+||pfhlxegcrfdvx.website^
 ||pfhnrxinmndvx.site^
 ||pfivvdqcuvmig.space^
 ||pfivwhdsliscy.online^
@@ -87224,6 +87260,7 @@ browsershots.org#@#.advert_area
 ||pqtvnbhgj.com^
 ||pqudfrhrve.com^
 ||pqudnqrlwleqr.site^
+||pquhzqarpigmo.online^
 ||pqvkgjvxmpgtj.site^
 ||pqwdiwikgevnn.site^
 ||pqzplntcvsxvm.store^
@@ -90297,6 +90334,7 @@ browsershots.org#@#.advert_area
 ||rlmtpmsnojdaa.online^
 ||rlnvbmsxrreot.store^
 ||rlogscbdafnjf.site^
+||rlpdivzvapakb.website^
 ||rlqaepldbfpar.site^
 ||rlsnntgffqnli.online^
 ||rltkjzzgfsjyq.space^
@@ -93056,6 +93094,7 @@ browsershots.org#@#.advert_area
 ||sortswoopmarrying.com^
 ||sortuneven.com^
 ||sosoishaetites.cfd^
+||sospirochan.cyou^
 ||sosslereratehanse.cyou^
 ||sottageprimostgawkies.cyou^
 ||sotzfabkmdzwt.space^
@@ -95584,6 +95623,7 @@ browsershots.org#@#.advert_area
 ||topdisplaycontent.com^
 ||topdisplayformat.com^
 ||topdisplaynetwork.com^
+||topdodfijtaex.website^
 ||toperscutchs.cyou^
 ||topgroz3cqmkpov1lkn1z2c.rest^
 ||tophaw.com^
@@ -96501,6 +96541,7 @@ browsershots.org#@#.advert_area
 ||tyxlrwhvkpmbz.space^
 ||tyywkxynwfkoj.site^
 ||tyzlfqeonycol.online^
+||tzaecjjieymet.online^
 ||tzahvkqybkdrx.store^
 ||tzarismpythons.shop^
 ||tzarpeltish.qpon^
@@ -97069,6 +97110,7 @@ browsershots.org#@#.advert_area
 ||underwearcrackerprison.com^
 ||undesirablemountain.com^
 ||undesirableratificationprograms.com^
+||undguhukzjjpe.site^
 ||undhertouchingth.org^
 ||undocksweirdie.com^
 ||undomedharlemmnesic.cfd^
@@ -98781,6 +98823,7 @@ browsershots.org#@#.advert_area
 ||vozpublic.com^
 ||vpbfmyunuzfzm.online^
 ||vpbhuddvufxvb.space^
+||vpbhxdrcyorss.online^
 ||vpbjuracackcm.online^
 ||vpcjijijkzhjv.space^
 ||vpfjruhgzfjy.com^
@@ -98993,6 +99036,7 @@ browsershots.org#@#.advert_area
 ||vvvshlnaxlbyp.website^
 ||vvwrajbckvfng.website^
 ||vvxzbmwfztkdl.online^
+||vvyobqorfubyi.website^
 ||vw8xm2oteburhtq2mf88.cfd^
 ||vwbjalrunlqrl.site^
 ||vwbjzcgvlydxf.online^
@@ -99726,6 +99770,7 @@ browsershots.org#@#.advert_area
 ||whalpacceded.com^
 ||whamiqbjdzzcj.space^
 ||whammoaslake.com^
+||whammywombierusuries.qpon^
 ||whangamarundo.com^
 ||whangeedimming.cyou^
 ||whangsparrierunglaze.qpon^
@@ -101019,6 +101064,7 @@ browsershots.org#@#.advert_area
 ||xgbmuxkupngbn.website^
 ||xgbwvfzmfgcx.com^
 ||xgbzhyoeitomd.website^
+||xgclhfzmyvqrr.website^
 ||xgefwokzxvuzx.space^
 ||xghklnjmyljlc.site^
 ||xghtpnuiekuuz.site^
@@ -101715,6 +101761,7 @@ browsershots.org#@#.advert_area
 ||yagcntwmijjcs.online^
 ||yagjugaevqdek.space^
 ||yagtyjaefiecu.online^
+||yahgansprugslisa.cfd^
 ||yahoosupdart.cyou^
 ||yahvehpetaled.cfd^
 ||yahxcarxmnp.com^
@@ -102664,6 +102711,7 @@ browsershots.org#@#.advert_area
 ||zakuskananda.cyou^
 ||zakuskaorlopsaweto.qpon^
 ||zakuskityauve.qpon^
+||zalfgqmrmjlhs.website^
 ||zalrurtauba.net^
 ||zamabholqonh.in^
 ||zamangsambuca.qpon^
@@ -103579,6 +103627,7 @@ browsershots.org#@#.advert_area
 ||zzbkcfkcglkhm.online^
 ||zzdvsgnxamcmq.website^
 ||zzfikyawmqtmw.website^
+||zzhjvadgjjjwu.online^
 ||zzhlssowvzfds.online^
 ||zzivkui2th7li7iw7i8n9m93.rest^
 ||zziywstqfbxbk.website^
